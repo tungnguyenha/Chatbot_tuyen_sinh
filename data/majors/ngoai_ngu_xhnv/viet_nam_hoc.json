@@ -1,0 +1,78 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7310630",
+  "major_name": "Việt Nam học",
+  "major_id": "LANG_VN_STUDIES",
+  "school_id": "LANG",
+  "school_name": "Trường Ngoại ngữ & Khoa học Xã hội Nhân văn",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo cử nhân có kiến thức toàn diện về văn hóa, lịch sử và con người Việt Nam.",
+    "van_de_thuc_te": "Phục vụ du lịch, đối ngoại và nghiên cứu văn hóa Việt Nam.",
+    "hoc_gi": "Sinh viên học văn hóa, lịch sử, xã hội và con người Việt Nam."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Tin học",
+      "Kỹ năng mềm"
+    ],
+    "mon_co_so_nganh": [
+      "Văn hóa Việt Nam",
+      "Lịch sử Việt Nam",
+      "Xã hội Việt Nam"
+    ],
+    "mon_chuyen_nganh": [
+      "Việt Nam học ứng dụng",
+      "Việt Nam trong hội nhập",
+      "Du lịch văn hóa"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Văn hóa Việt Nam",
+        "mo_ta": "Nghiên cứu các giá trị văn hóa truyền thống và hiện đại."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "NGOAI_NGU_XHNV",
+    "per_year_estimate": "16 – 20 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["C00", "D01"],
+    "diem_chuan": "15 – 18 (tham khảo)",
+    "dieu_kien_dac_biet": []
+  },
+
+  "career": {
+    "positions": [
+      "Chuyên viên văn hóa",
+      "Hướng dẫn viên",
+      "Cán bộ đối ngoại"
+    ],
+    "workplace": [
+      "Cơ quan văn hóa",
+      "Doanh nghiệp du lịch",
+      "Tổ chức quốc tế"
+    ],
+    "salary": {
+      "junior": "6 – 9 triệu VNĐ / tháng",
+      "mid": "10 – 18 triệu VNĐ / tháng",
+      "senior": "25 – 40+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "NGOAI_NGU_XHNV",
+    "school_id": "LANG",
+    "school_group": "Ngoại ngữ – Xã hội – Nhân văn",
+    "language": "vi",
+    "version": "2025"
+  }
+}

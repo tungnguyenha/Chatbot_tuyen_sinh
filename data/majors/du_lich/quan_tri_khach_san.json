@@ -1,0 +1,85 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7810201",
+  "major_name": "Quản trị Khách sạn",
+  "major_id": "TOUR_HOTEL",
+  "school_id": "TOUR",
+  "school_name": "Trường Du lịch",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo cử nhân có khả năng quản lý và vận hành khách sạn theo tiêu chuẩn quốc tế.",
+    "van_de_thuc_te": "Đáp ứng nhu cầu nhân lực cho ngành khách sạn và lưu trú.",
+    "hoc_gi": "Sinh viên học nghiệp vụ khách sạn, lễ tân, buồng phòng và quản trị dịch vụ."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Kinh tế",
+      "Tin học",
+      "Tiếng Anh",
+      "Kỹ năng giao tiếp",
+      "Văn hóa du lịch"
+    ],
+    "mon_co_so_nganh": [
+      "Tổng quan khách sạn",
+      "Quản trị dịch vụ",
+      "Marketing du lịch",
+      "Hành vi khách hàng"
+    ],
+    "mon_chuyen_nganh": [
+      "Quản trị khách sạn",
+      "Nghiệp vụ lễ tân",
+      "Quản lý buồng phòng",
+      "Quản trị chất lượng dịch vụ"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Nghiệp vụ lễ tân",
+        "mo_ta": "Tiếp đón và chăm sóc khách hàng tại khách sạn."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "DU_LICH",
+    "per_year_estimate": "18 – 22 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["D01", "C00"],
+    "diem_chuan": "16 – 19 (tham khảo)",
+    "dieu_kien_dac_biet": [
+      "Ngoại hình và giao tiếp tốt là lợi thế"
+    ]
+  },
+
+  "career": {
+    "positions": [
+      "Quản lý khách sạn",
+      "Lễ tân",
+      "Giám sát dịch vụ"
+    ],
+    "workplace": [
+      "Khách sạn",
+      "Resort",
+      "Doanh nghiệp lưu trú"
+    ],
+    "salary": {
+      "junior": "7 – 10 triệu VNĐ / tháng",
+      "mid": "12 – 22 triệu VNĐ / tháng",
+      "senior": "30 – 45+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "DU_LICH",
+    "school_id": "TOUR",
+    "school_group": "Du lịch – Dịch vụ",
+    "language": "vi",
+    "version": "2025"
+  }
+}

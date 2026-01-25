@@ -1,0 +1,85 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7810103",
+  "major_name": "Quản lý Dịch vụ Du lịch và Lữ hành",
+  "major_id": "TOUR_TRAVEL",
+  "school_id": "TOUR",
+  "school_name": "Trường Du lịch",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo cử nhân có khả năng tổ chức, quản lý và điều hành hoạt động du lịch và lữ hành.",
+    "van_de_thuc_te": "Đáp ứng nhu cầu phát triển du lịch, tour tuyến và dịch vụ lữ hành chuyên nghiệp.",
+    "hoc_gi": "Sinh viên học nghiệp vụ lữ hành, điều hành tour, hướng dẫn du lịch và quản trị dịch vụ."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Kinh tế du lịch",
+      "Tin học",
+      "Tiếng Anh",
+      "Kỹ năng giao tiếp",
+      "Văn hóa du lịch"
+    ],
+    "mon_co_so_nganh": [
+      "Tổng quan du lịch",
+      "Địa lý du lịch",
+      "Marketing du lịch",
+      "Tâm lý du khách"
+    ],
+    "mon_chuyen_nganh": [
+      "Điều hành tour",
+      "Nghiệp vụ hướng dẫn",
+      "Thiết kế chương trình du lịch",
+      "Quản trị lữ hành"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Điều hành tour",
+        "mo_ta": "Tổ chức và quản lý chương trình du lịch."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "DU_LICH",
+    "per_year_estimate": "18 – 22 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["D01", "C00", "A01"],
+    "diem_chuan": "16 – 19 (tham khảo)",
+    "dieu_kien_dac_biet": [
+      "Yêu thích du lịch, giao tiếp tốt"
+    ]
+  },
+
+  "career": {
+    "positions": [
+      "Điều hành tour",
+      "Hướng dẫn viên du lịch",
+      "Nhân viên lữ hành"
+    ],
+    "workplace": [
+      "Công ty du lịch",
+      "Doanh nghiệp lữ hành",
+      "Khu du lịch"
+    ],
+    "salary": {
+      "junior": "7 – 10 triệu VNĐ / tháng",
+      "mid": "12 – 20 triệu VNĐ / tháng",
+      "senior": "25 – 40+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "DU_LICH",
+    "school_id": "TOUR",
+    "school_group": "Du lịch – Dịch vụ",
+    "language": "vi",
+    "version": "2025"
+  }
+}

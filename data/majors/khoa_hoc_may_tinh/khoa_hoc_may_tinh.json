@@ -1,0 +1,98 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7480101",
+  "major_name": "Khoa học Máy tính - Computer Science",
+  "major_id": "CS_CS",
+  "school_id": "CS",
+  "school_name": "Trường Khoa học Máy tính",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo kỹ sư Khoa học Máy tính có nền tảng vững chắc về toán học, khoa học máy tính và lập trình; có khả năng nghiên cứu, phát triển và ứng dụng các hệ thống phần mềm và công nghệ thông tin.",
+    "van_de_thuc_te": "Ngành Khoa học Máy tính giải quyết các bài toán xây dựng phần mềm, hệ thống thông tin, hệ thống thông minh, tối ưu hóa thuật toán và xử lý dữ liệu trong nhiều lĩnh vực như công nghệ, tài chính, giáo dục và y tế.",
+    "hoc_gi": "Sinh viên được học lập trình, cấu trúc dữ liệu và giải thuật, hệ điều hành, cơ sở dữ liệu, mạng máy tính, trí tuệ nhân tạo cơ bản và các hệ thống máy tính hiện đại."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Toán cao cấp",
+      "Xác suất – Thống kê",
+      "Tin học đại cương",
+      "Kỹ năng mềm",
+      "Tiếng Anh"
+    ],
+    "mon_co_so_nganh": [
+      "Lập trình C/C++",
+      "Cấu trúc dữ liệu và Giải thuật",
+      "Cơ sở dữ liệu",
+      "Hệ điều hành",
+      "Mạng máy tính"
+    ],
+    "mon_chuyen_nganh": [
+      "Trí tuệ nhân tạo",
+      "Khoa học dữ liệu",
+      "Kỹ thuật phần mềm",
+      "Lập trình hệ thống",
+      "Hệ thống phân tán"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Cấu trúc dữ liệu và Giải thuật",
+        "mo_ta": "Trang bị tư duy thuật toán và kỹ năng tối ưu chương trình."
+      },
+      {
+        "ten_mon": "Hệ điều hành",
+        "mo_ta": "Nghiên cứu cách quản lý tài nguyên và tiến trình trong máy tính."
+      },
+      {
+        "ten_mon": "Hệ thống phân tán",
+        "mo_ta": "Xây dựng và vận hành các hệ thống có quy mô lớn."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "CNTT",
+    "per_year_estimate": "22 – 28 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa", "TuyenThang"],
+    "to_hop": ["A00", "A01", "D01", "D07"],
+    "diem_chuan": "18 – 21 (tham khảo các năm gần đây)",
+    "dieu_kien_dac_biet": [
+      "Học sinh giỏi môn Toán hoặc Tin học",
+      "Có chứng chỉ tiếng Anh quốc tế"
+    ]
+  },
+
+  "career": {
+    "positions": [
+      "Lập trình viên",
+      "Kỹ sư phần mềm",
+      "Kỹ sư hệ thống",
+      "Nghiên cứu viên CNTT"
+    ],
+    "workplace": [
+      "Công ty công nghệ",
+      "Doanh nghiệp phần mềm",
+      "Viện nghiên cứu",
+      "Doanh nghiệp trong và ngoài nước"
+    ],
+    "salary": {
+      "junior": "8 – 12 triệu VNĐ / tháng",
+      "mid": "15 – 25 triệu VNĐ / tháng",
+      "senior": "30 – 50+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "CNTT",
+    "school_id": "CS",
+    "school_group": "Khoa học Máy tính",
+    "language": "vi",
+    "version": "2025"
+  }
+}

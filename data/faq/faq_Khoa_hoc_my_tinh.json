@@ -1,0 +1,284 @@
+{
+  "type": "faq",
+  "school_id": "CS",
+  "school_name": "Trường Khoa học Máy tính",
+  "university": "Đại học Duy Tân",
+  "data": [
+    {
+      "faq_id": "FAQ_CS_AI_001",
+      "scope": "major",
+      "major_id": "CS_AI",
+      "question": "Ngành Trí tuệ Nhân tạo đào tạo với mục tiêu gì?",
+      "answer": "Ngành Trí tuệ Nhân tạo đào tạo kỹ sư có nền tảng vững về toán học, khoa học máy tính và AI, có khả năng thiết kế, xây dựng và triển khai các hệ thống trí tuệ nhân tạo phục vụ nhu cầu thực tế của doanh nghiệp và xã hội.",
+      "tags": ["ai", "muc-tieu", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_CS_AI_002",
+      "scope": "major",
+      "major_id": "CS_AI",
+      "question": "Ngành Trí tuệ Nhân tạo giải quyết những vấn đề thực tế nào?",
+      "answer": "Ngành Trí tuệ Nhân tạo tập trung giải quyết các bài toán như tự động hóa, phân tích dữ liệu lớn, nhận dạng hình ảnh, giọng nói, văn bản, dự đoán xu hướng và hỗ trợ ra quyết định trong nhiều lĩnh vực như kinh doanh, y tế, giáo dục và giao thông.",
+      "tags": ["ai", "ung-dung", "thuc-te"]
+    },
+    {
+      "faq_id": "FAQ_CS_AI_003",
+      "scope": "major",
+      "major_id": "CS_AI",
+      "question": "Sinh viên ngành Trí tuệ Nhân tạo sẽ học những môn gì?",
+      "answer": "Sinh viên được học lập trình Python, cấu trúc dữ liệu và giải thuật, Machine Learning, Deep Learning, xử lý ngôn ngữ tự nhiên, thị giác máy tính, khoa học dữ liệu và tham gia các dự án AI thực tế.",
+      "tags": ["ai", "hoc-gi", "chuong-trinh"]
+    },
+    {
+      "faq_id": "FAQ_CS_AI_004",
+      "scope": "major",
+      "major_id": "CS_AI",
+      "question": "Ngành Trí tuệ Nhân tạo có cần giỏi Toán không?",
+      "answer": "Ngành Trí tuệ Nhân tạo có sử dụng nhiều kiến thức toán như xác suất, thống kê và đại số tuyến tính, tuy nhiên sinh viên sẽ được học từ nền tảng đến nâng cao nên chỉ cần có tư duy logic và sự kiên trì là có thể theo học tốt.",
+      "tags": ["ai", "toan-hoc", "do-kho"]
+    },
+    {
+      "faq_id": "FAQ_CS_AI_005",
+      "scope": "major",
+      "major_id": "CS_AI",
+      "question": "Học phí ngành Trí tuệ Nhân tạo khoảng bao nhiêu?",
+      "answer": "Học phí ngành Trí tuệ Nhân tạo thuộc nhóm Công nghệ thông tin, ước tính khoảng 25–30 triệu đồng mỗi năm, có thể thay đổi theo từng năm học.",
+      "tags": ["ai", "hoc-phi"]
+    },
+    {
+      "faq_id": "FAQ_CS_AI_006",
+      "scope": "major",
+      "major_id": "CS_AI",
+      "question": "Ngành Trí tuệ Nhân tạo xét tuyển bằng những phương thức nào?",
+      "answer": "Ngành Trí tuệ Nhân tạo xét tuyển theo nhiều phương thức như điểm thi THPT, xét học bạ và tuyển thẳng. Các tổ hợp xét tuyển phổ biến gồm A00, A01, D01 và D07.",
+      "tags": ["ai", "xet-tuyen"]
+    },
+    {
+      "faq_id": "FAQ_CS_AI_007",
+      "scope": "major",
+      "major_id": "CS_AI",
+      "question": "Sinh viên ngành Trí tuệ Nhân tạo ra trường làm những công việc gì?",
+      "answer": "Sinh viên tốt nghiệp có thể làm việc ở các vị trí như Kỹ sư Trí tuệ Nhân tạo, Kỹ sư Machine Learning, Data Scientist, Data Analyst hoặc Lập trình viên AI tại các công ty công nghệ, doanh nghiệp và tổ chức trong và ngoài nước.",
+      "tags": ["ai", "viec-lam", "nghe-nghiep"]
+    },
+    {
+      "faq_id": "FAQ_CS_AI_008",
+      "scope": "major",
+      "major_id": "CS_AI",
+      "question": "Mức lương ngành Trí tuệ Nhân tạo sau khi ra trường như thế nào?",
+      "answer": "Mức lương khởi điểm của sinh viên ngành Trí tuệ Nhân tạo thường khoảng 10–15 triệu đồng mỗi tháng, sau vài năm kinh nghiệm có thể đạt 20–35 triệu đồng và cao hơn với các vị trí senior.",
+      "tags": ["ai", "luong", "thu-nhap"]
+    },
+
+    {
+      "faq_id": "FAQ_CS_SE_001",
+      "scope": "major",
+      "major_id": "CS_SE",
+      "question": "Ngành Kỹ thuật phần mềm đào tạo với mục tiêu gì?",
+      "answer": "Ngành Kỹ thuật phần mềm đào tạo kỹ sư có khả năng phân tích, thiết kế, phát triển, kiểm thử và vận hành các hệ thống phần mềm đáp ứng yêu cầu thực tế của doanh nghiệp.",
+      "tags": ["se", "muc-tieu"]
+    },
+    {
+      "faq_id": "FAQ_CS_SE_002",
+      "scope": "major",
+      "major_id": "CS_SE",
+      "question": "Sinh viên ngành Kỹ thuật phần mềm sẽ học những môn gì?",
+      "answer": "Sinh viên được học lập trình, cấu trúc dữ liệu và giải thuật, thiết kế phần mềm, công nghệ web, phát triển ứng dụng di động, kiểm thử phần mềm và quản lý dự án.",
+      "tags": ["se", "hoc-gi"]
+    },
+    {
+      "faq_id": "FAQ_CS_SE_003",
+      "scope": "major",
+      "major_id": "CS_SE",
+      "question": "Ngành Kỹ thuật phần mềm có cần giỏi lập trình từ đầu không?",
+      "answer": "Sinh viên không bắt buộc phải giỏi lập trình từ đầu vì chương trình đào tạo bắt đầu từ các môn nền tảng và nâng dần mức độ theo từng học kỳ.",
+      "tags": ["se", "lap-trinh"]
+    },
+    {
+      "faq_id": "FAQ_CS_SE_004",
+      "scope": "major",
+      "major_id": "CS_SE",
+      "question": "Ngành Kỹ thuật phần mềm ra trường làm những công việc gì?",
+      "answer": "Sinh viên tốt nghiệp có thể làm lập trình viên, kỹ sư phần mềm, kỹ sư kiểm thử, quản lý dự án CNTT hoặc phát triển sản phẩm phần mềm.",
+      "tags": ["se", "viec-lam"]
+    },
+    {
+      "faq_id": "FAQ_CS_SE_005",
+      "scope": "major",
+      "major_id": "CS_SE",
+      "question": "Mức lương ngành Kỹ thuật phần mềm như thế nào?",
+      "answer": "Mức lương khởi điểm của sinh viên ngành Kỹ thuật phần mềm thường từ 8–12 triệu đồng mỗi tháng và tăng nhanh theo kinh nghiệm và kỹ năng.",
+      "tags": ["se", "luong"]
+    },
+    {
+      "faq_id": "FAQ_CS_SE_006",
+      "scope": "major",
+      "major_id": "CS_SE",
+      "question": "Ngành Kỹ thuật phần mềm xét tuyển theo những phương thức nào?",
+      "answer": "Ngành Kỹ thuật phần mềm xét tuyển bằng điểm thi THPT, xét học bạ và các phương thức tuyển sinh khác theo quy định của trường.",
+      "tags": ["se", "xet-tuyen"]
+    },
+
+
+    {
+      "faq_id": "FAQ_CS_DS_001",
+      "scope": "major",
+      "major_id": "CS_DS",
+      "question": "Ngành Khoa học dữ liệu tập trung đào tạo nội dung gì?",
+      "answer": "Ngành Khoa học dữ liệu đào tạo kiến thức về thu thập, xử lý, phân tích dữ liệu lớn và xây dựng mô hình dự đoán hỗ trợ ra quyết định.",
+      "tags": ["ds", "muc-tieu"]
+    },
+    {
+      "faq_id": "FAQ_CS_DS_002",
+      "scope": "major",
+      "major_id": "CS_DS",
+      "question": "Sinh viên ngành Khoa học dữ liệu sẽ học những môn nào?",
+      "answer": "Sinh viên được học lập trình Python, thống kê, xác suất, khai phá dữ liệu, Machine Learning, trực quan hóa dữ liệu và phân tích dữ liệu lớn.",
+      "tags": ["ds", "hoc-gi"]
+    },
+    {
+      "faq_id": "FAQ_CS_DS_003",
+      "scope": "major",
+      "major_id": "CS_DS",
+      "question": "Ngành Khoa học dữ liệu có khó không?",
+      "answer": "Ngành Khoa học dữ liệu yêu cầu tư duy logic và kiến thức toán nhất định, nhưng chương trình học được thiết kế từ cơ bản đến nâng cao nên sinh viên có thể theo kịp.",
+      "tags": ["ds", "do-kho"]
+    },
+    {
+      "faq_id": "FAQ_CS_DS_004",
+      "scope": "major",
+      "major_id": "CS_DS",
+      "question": "Ngành Khoa học dữ liệu phù hợp với đối tượng nào?",
+      "answer": "Ngành Khoa học dữ liệu phù hợp với thí sinh yêu thích phân tích, làm việc với dữ liệu và có khả năng tư duy hệ thống.",
+      "tags": ["ds", "phu-hop"]
+    },
+    {
+      "faq_id": "FAQ_CS_DS_005",
+      "scope": "major",
+      "major_id": "CS_DS",
+      "question": "Sinh viên Khoa học dữ liệu ra trường làm những công việc gì?",
+      "answer": "Sinh viên có thể làm Data Analyst, Data Scientist, Business Analyst hoặc chuyên viên phân tích dữ liệu tại doanh nghiệp.",
+      "tags": ["ds", "viec-lam"]
+    },
+    {
+      "faq_id": "FAQ_CS_DS_006",
+      "scope": "major",
+      "major_id": "CS_DS",
+      "question": "Mức lương ngành Khoa học dữ liệu ra sao?",
+      "answer": "Mức lương khởi điểm ngành Khoa học dữ liệu thường từ 10–15 triệu đồng mỗi tháng và có thể cao hơn với kinh nghiệm.",
+      "tags": ["ds", "luong"]
+    },
+
+    {
+      "faq_id": "FAQ_CS_SEC_001",
+      "scope": "major",
+      "major_id": "CS_SEC",
+      "question": "Ngành An toàn thông tin đào tạo những kiến thức gì?",
+      "answer": "Ngành An toàn thông tin đào tạo kiến thức về bảo mật hệ thống, an ninh mạng, mã hóa dữ liệu và phòng chống tấn công mạng.",
+      "tags": ["security", "hoc-gi"]
+    },
+    {
+      "faq_id": "FAQ_CS_SEC_002",
+      "scope": "major",
+      "major_id": "CS_SEC",
+      "question": "Ngành An toàn thông tin có khó không?",
+      "answer": "Ngành An toàn thông tin có độ khó tương đối cao do yêu cầu kiến thức mạng máy tính và bảo mật, nhưng phù hợp với sinh viên yêu thích công nghệ và thử thách.",
+      "tags": ["security", "do-kho"]
+    },
+    {
+      "faq_id": "FAQ_CS_SEC_003",
+      "scope": "major",
+      "major_id": "CS_SEC",
+      "question": "Sinh viên An toàn thông tin ra trường làm gì?",
+      "answer": "Sinh viên có thể làm chuyên viên an ninh mạng, kỹ sư bảo mật, quản trị hệ thống hoặc tư vấn an toàn thông tin.",
+      "tags": ["security", "viec-lam"]
+    },
+    {
+      "faq_id": "FAQ_CS_SEC_004",
+      "scope": "major",
+      "major_id": "CS_SEC",
+      "question": "Ngành An toàn thông tin có nhu cầu nhân lực cao không?",
+      "answer": "Nhu cầu nhân lực ngành An toàn thông tin rất cao do các doanh nghiệp ngày càng chú trọng đến bảo mật và an ninh dữ liệu.",
+      "tags": ["security", "nhan-luc"]
+    },
+    {
+      "faq_id": "FAQ_CS_SEC_005",
+      "scope": "major",
+      "major_id": "CS_SEC",
+      "question": "Ngành An toàn thông tin xét tuyển theo tổ hợp nào?",
+      "answer": "Ngành An toàn thông tin xét tuyển theo các tổ hợp A00, A01, D01 và các phương thức khác theo quy định của trường.",
+      "tags": ["security", "xet-tuyen"]
+    },
+    {
+      "faq_id": "FAQ_CS_SEC_006",
+      "scope": "major",
+      "major_id": "CS_SEC",
+      "question": "Mức lương ngành An toàn thông tin sau khi ra trường thế nào?",
+      "answer": "Mức lương khởi điểm ngành An toàn thông tin thường từ 12–18 triệu đồng mỗi tháng và có thể tăng cao với các vị trí chuyên sâu.",
+      "tags": ["security", "luong"]
+    },
+
+    {
+      "faq_id": "FAQ_CS_NET_001",
+      "scope": "major",
+      "major_id": "CS_NET",
+      "question": "Ngành Mạng máy tính đào tạo với mục tiêu gì?",
+      "answer": "Ngành Mạng máy tính đào tạo kỹ sư có khả năng thiết kế, triển khai, vận hành và bảo mật các hệ thống mạng máy tính trong doanh nghiệp và tổ chức.",
+      "tags": ["network", "muc-tieu"]
+    },
+
+    {
+      "faq_id": "FAQ_CS_NET_002",
+      "scope": "major",
+      "major_id": "CS_NET",
+      "question": "Sinh viên ngành Mạng máy tính sẽ học những môn gì?",
+      "answer": "Sinh viên được học về mạng máy tính căn bản và nâng cao, quản trị mạng, hệ điều hành, an ninh mạng, điện toán đám mây và các công nghệ mạng hiện đại.",
+      "tags": ["network", "hoc-gi"]
+    },
+
+    {
+      "faq_id": "FAQ_CS_NET_003",
+      "scope": "major",
+      "major_id": "CS_NET",
+      "question": "Ngành Mạng máy tính có khó không?",
+      "answer": "Ngành Mạng máy tính yêu cầu tư duy logic và khả năng làm việc với hệ thống kỹ thuật, tuy nhiên chương trình đào tạo được xây dựng từ nền tảng nên sinh viên có thể theo học tốt nếu chăm chỉ.",
+      "tags": ["network", "do-kho"]
+    },
+    {
+      "faq_id": "FAQ_CS_NET_004",
+      "scope": "major",
+      "major_id": "CS_NET",
+      "question": "Ngành Mạng máy tính phù hợp với đối tượng nào?",
+      "answer": "Ngành Mạng máy tính phù hợp với thí sinh yêu thích công nghệ, hệ thống máy tính, thích làm việc với hạ tầng mạng và giải quyết các sự cố kỹ thuật.",
+      "tags": ["network", "phu-hop"]
+    },
+    {
+      "faq_id": "FAQ_CS_NET_005",
+      "scope": "major",
+      "major_id": "CS_NET",
+      "question": "Sinh viên ngành Mạng máy tính ra trường làm những công việc gì?",
+      "answer": "Sinh viên tốt nghiệp có thể làm quản trị mạng, kỹ sư hệ thống, kỹ sư hạ tầng CNTT, chuyên viên vận hành trung tâm dữ liệu hoặc kỹ sư mạng.",
+      "tags": ["network", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_CS_NET_006",
+      "scope": "major",
+      "major_id": "CS_NET",
+      "question": "Mức lương ngành Mạng máy tính sau khi ra trường như thế nào?",
+      "answer": "Mức lương khởi điểm ngành Mạng máy tính thường từ 9–14 triệu đồng mỗi tháng và tăng theo kinh nghiệm cũng như các chứng chỉ chuyên môn.",
+      "tags": ["network", "luong"]
+    },
+    {
+      "faq_id": "FAQ_CS_NET_007",
+      "scope": "major",
+      "major_id": "CS_NET",
+      "question": "Ngành Mạng máy tính xét tuyển theo những phương thức nào?",
+      "answer": "Ngành Mạng máy tính xét tuyển theo điểm thi THPT, xét học bạ và các phương thức tuyển sinh khác theo quy định của trường.",
+      "tags": ["network", "xet-tuyen"]
+    }   
+  ],
+  "metadata": {
+    "language": "vi",
+    "version": "2025"
+  }
+}

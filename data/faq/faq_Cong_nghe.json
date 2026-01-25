@@ -1,0 +1,276 @@
+{
+  "type": "faq",
+  "school_id": "ENG",
+  "school_name": "Trường Công nghệ",
+  "university": "Đại học Duy Tân",
+  "data": [
+
+    {
+      "faq_id": "FAQ_ENG_EE_001",
+      "scope": "major",
+      "major_id": "ENG_EE",
+      "question": "Ngành Kỹ thuật điện đào tạo kỹ sư theo định hướng nào?",
+      "answer": "Ngành Kỹ thuật điện đào tạo kỹ sư có kiến thức nền tảng và chuyên sâu về hệ thống điện, thiết bị điện và cung cấp điện cho công nghiệp và dân dụng.",
+      "tags": ["ky-thuat-dien", "muc-tieu"]
+    },
+    {
+      "faq_id": "FAQ_ENG_EE_002",
+      "scope": "major",
+      "major_id": "ENG_EE",
+      "question": "Sinh viên ngành Kỹ thuật điện sẽ học những nội dung chính gì?",
+      "answer": "Sinh viên học mạch điện, máy điện, hệ thống điện, điện tử công suất, đo lường điện và các học phần thực hành chuyên ngành.",
+      "tags": ["ky-thuat-dien", "hoc-gi"]
+    },
+    {
+      "faq_id": "FAQ_ENG_EE_003",
+      "scope": "major",
+      "major_id": "ENG_EE",
+      "question": "Ngành Kỹ thuật điện ứng dụng vào những lĩnh vực nào?",
+      "answer": "Ngành được ứng dụng trong nhà máy sản xuất, hệ thống điện công nghiệp, điện dân dụng, khu công nghiệp và các doanh nghiệp năng lượng.",
+      "tags": ["ky-thuat-dien", "ung-dung"]
+    },
+    {
+      "faq_id": "FAQ_ENG_EE_004",
+      "scope": "major",
+      "major_id": "ENG_EE",
+      "question": "Sinh viên ngành Kỹ thuật điện ra trường làm công việc gì?",
+      "answer": "Sinh viên có thể làm kỹ sư vận hành hệ thống điện, kỹ sư bảo trì, kỹ sư thiết kế và quản lý kỹ thuật tại doanh nghiệp.",
+      "tags": ["ky-thuat-dien", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_ENG_EEE_001",
+      "scope": "major",
+      "major_id": "ENG_EEE",
+      "question": "Ngành Kỹ thuật điện – điện tử khác gì so với Kỹ thuật điện?",
+      "answer": "Ngành Kỹ thuật điện – điện tử kết hợp kiến thức điện và điện tử, giúp sinh viên làm việc với các hệ thống điều khiển và thiết bị điện tử hiện đại.",
+      "tags": ["dien-dien-tu", "dac-diem"]
+    },
+    {
+      "faq_id": "FAQ_ENG_EEE_002",
+      "scope": "major",
+      "major_id": "ENG_EEE",
+      "question": "Sinh viên ngành Kỹ thuật điện – điện tử sẽ học những môn tiêu biểu nào?",
+      "answer": "Sinh viên học mạch điện tử, vi xử lý, hệ thống nhúng, điều khiển tự động và các học phần thực hành điện – điện tử.",
+      "tags": ["dien-dien-tu", "hoc-phan"]
+    },
+    {
+      "faq_id": "FAQ_ENG_EEE_003",
+      "scope": "major",
+      "major_id": "ENG_EEE",
+      "question": "Ngành Kỹ thuật điện – điện tử phù hợp với đối tượng nào?",
+      "answer": "Ngành phù hợp với thí sinh yêu thích kỹ thuật, công nghệ, thích làm việc với thiết bị điện và hệ thống điều khiển.",
+      "tags": ["dien-dien-tu", "phu-hop"]
+    },
+    {
+      "faq_id": "FAQ_ENG_EEE_004",
+      "scope": "major",
+      "major_id": "ENG_EEE",
+      "question": "Cơ hội việc làm ngành Kỹ thuật điện – điện tử ra sao?",
+      "answer": "Sinh viên có thể làm kỹ sư điện – điện tử, kỹ sư bảo trì, kỹ sư tự động hóa trong các nhà máy và doanh nghiệp sản xuất.",
+      "tags": ["dien-dien-tu", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_ENG_MECHATRONICS_001",
+      "scope": "major",
+      "major_id": "ENG_MECHATRONICS",
+      "question": "Ngành Cơ điện tử đào tạo theo mô hình nào?",
+      "answer": "Ngành Cơ điện tử đào tạo theo mô hình tích hợp giữa cơ khí, điện – điện tử và điều khiển tự động.",
+      "tags": ["co-dien-tu", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_ENG_MECHATRONICS_002",
+      "scope": "major",
+      "major_id": "ENG_MECHATRONICS",
+      "question": "Sinh viên ngành Cơ điện tử sẽ học những kỹ năng gì?",
+      "answer": "Sinh viên học thiết kế cơ khí, lập trình PLC, robot công nghiệp và vận hành hệ thống tự động.",
+      "tags": ["co-dien-tu", "ky-nang"]
+    },
+    {
+      "faq_id": "FAQ_ENG_MECHATRONICS_003",
+      "scope": "major",
+      "major_id": "ENG_MECHATRONICS",
+      "question": "Ngành Cơ điện tử được ứng dụng trong thực tế ra sao?",
+      "answer": "Ngành được ứng dụng mạnh trong sản xuất thông minh, dây chuyền tự động và nhà máy công nghiệp.",
+      "tags": ["co-dien-tu", "ung-dung"]
+    },
+    {
+      "faq_id": "FAQ_ENG_MECHATRONICS_004",
+      "scope": "major",
+      "major_id": "ENG_MECHATRONICS",
+      "question": "Sinh viên ngành Cơ điện tử có dễ xin việc không?",
+      "answer": "Cơ điện tử là ngành có nhu cầu nhân lực cao, đặc biệt tại các khu công nghiệp và doanh nghiệp sản xuất.",
+      "tags": ["co-dien-tu", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_ENG_AUTOMATION_001",
+      "scope": "major",
+      "major_id": "ENG_AUTOMATION",
+      "question": "Ngành Điều khiển và Tự động hóa đào tạo kỹ sư làm gì?",
+      "answer": "Ngành đào tạo kỹ sư có khả năng thiết kế, vận hành và tối ưu các hệ thống điều khiển và tự động hóa.",
+      "tags": ["tu-dong-hoa", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_ENG_AUTOMATION_002",
+      "scope": "major",
+      "major_id": "ENG_AUTOMATION",
+      "question": "Sinh viên ngành Tự động hóa học những nội dung trọng tâm nào?",
+      "answer": "Sinh viên học PLC, SCADA, robot công nghiệp, hệ thống điều khiển và sản xuất thông minh.",
+      "tags": ["tu-dong-hoa", "hoc-gi"]
+    },
+    {
+      "faq_id": "FAQ_ENG_AUTOMATION_003",
+      "scope": "major",
+      "major_id": "ENG_AUTOMATION",
+      "question": "Ngành Điều khiển và Tự động hóa ứng dụng trong lĩnh vực nào?",
+      "answer": "Ngành được ứng dụng trong dây chuyền sản xuất, nhà máy thông minh và các hệ thống tự động.",
+      "tags": ["tu-dong-hoa", "ung-dung"]
+    },
+    {
+      "faq_id": "FAQ_ENG_AUTOMATION_004",
+      "scope": "major",
+      "major_id": "ENG_AUTOMATION",
+      "question": "Sinh viên ngành Tự động hóa ra trường làm công việc gì?",
+      "answer": "Sinh viên có thể làm kỹ sư tự động hóa, kỹ sư điều khiển hoặc vận hành hệ thống sản xuất tại doanh nghiệp.",
+      "tags": ["tu-dong-hoa", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_ENG_EE_001",
+      "scope": "major",
+      "major_id": "ENG_EE",
+      "question": "Ngành Kỹ thuật điện đào tạo kỹ sư theo định hướng nào?",
+      "answer": "Ngành Kỹ thuật điện đào tạo kỹ sư có kiến thức nền tảng và chuyên sâu về hệ thống điện, thiết bị điện và cung cấp điện cho công nghiệp và dân dụng.",
+      "tags": ["ky-thuat-dien", "muc-tieu"]
+    },
+    {
+      "faq_id": "FAQ_ENG_EE_002",
+      "scope": "major",
+      "major_id": "ENG_EE",
+      "question": "Sinh viên ngành Kỹ thuật điện sẽ học những nội dung chính gì?",
+      "answer": "Sinh viên học mạch điện, máy điện, hệ thống điện, điện tử công suất, đo lường điện và các học phần thực hành chuyên ngành.",
+      "tags": ["ky-thuat-dien", "hoc-gi"]
+    },
+    {
+      "faq_id": "FAQ_ENG_EE_003",
+      "scope": "major",
+      "major_id": "ENG_EE",
+      "question": "Ngành Kỹ thuật điện ứng dụng vào những lĩnh vực nào?",
+      "answer": "Ngành được ứng dụng trong nhà máy sản xuất, hệ thống điện công nghiệp, điện dân dụng, khu công nghiệp và các doanh nghiệp năng lượng.",
+      "tags": ["ky-thuat-dien", "ung-dung"]
+    },
+    {
+      "faq_id": "FAQ_ENG_EE_004",
+      "scope": "major",
+      "major_id": "ENG_EE",
+      "question": "Sinh viên ngành Kỹ thuật điện ra trường làm công việc gì?",
+      "answer": "Sinh viên có thể làm kỹ sư vận hành hệ thống điện, kỹ sư bảo trì, kỹ sư thiết kế và quản lý kỹ thuật tại doanh nghiệp.",
+      "tags": ["ky-thuat-dien", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_ENG_EEE_001",
+      "scope": "major",
+      "major_id": "ENG_EEE",
+      "question": "Ngành Kỹ thuật điện – điện tử khác gì so với Kỹ thuật điện?",
+      "answer": "Ngành Kỹ thuật điện – điện tử kết hợp kiến thức điện và điện tử, giúp sinh viên làm việc với các hệ thống điều khiển và thiết bị điện tử hiện đại.",
+      "tags": ["dien-dien-tu", "dac-diem"]
+    },
+    {
+      "faq_id": "FAQ_ENG_EEE_002",
+      "scope": "major",
+      "major_id": "ENG_EEE",
+      "question": "Sinh viên ngành Kỹ thuật điện – điện tử sẽ học những môn tiêu biểu nào?",
+      "answer": "Sinh viên học mạch điện tử, vi xử lý, hệ thống nhúng, điều khiển tự động và các học phần thực hành điện – điện tử.",
+      "tags": ["dien-dien-tu", "hoc-phan"]
+    },
+    {
+      "faq_id": "FAQ_ENG_EEE_003",
+      "scope": "major",
+      "major_id": "ENG_EEE",
+      "question": "Ngành Kỹ thuật điện – điện tử phù hợp với đối tượng nào?",
+      "answer": "Ngành phù hợp với thí sinh yêu thích kỹ thuật, công nghệ, thích làm việc với thiết bị điện và hệ thống điều khiển.",
+      "tags": ["dien-dien-tu", "phu-hop"]
+    },
+    {
+      "faq_id": "FAQ_ENG_EEE_004",
+      "scope": "major",
+      "major_id": "ENG_EEE",
+      "question": "Cơ hội việc làm ngành Kỹ thuật điện – điện tử ra sao?",
+      "answer": "Sinh viên có thể làm kỹ sư điện – điện tử, kỹ sư bảo trì, kỹ sư tự động hóa trong các nhà máy và doanh nghiệp sản xuất.",
+      "tags": ["dien-dien-tu", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_ENG_MECHATRONICS_001",
+      "scope": "major",
+      "major_id": "ENG_MECHATRONICS",
+      "question": "Ngành Cơ điện tử đào tạo theo mô hình nào?",
+      "answer": "Ngành Cơ điện tử đào tạo theo mô hình tích hợp giữa cơ khí, điện – điện tử và điều khiển tự động.",
+      "tags": ["co-dien-tu", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_ENG_MECHATRONICS_002",
+      "scope": "major",
+      "major_id": "ENG_MECHATRONICS",
+      "question": "Sinh viên ngành Cơ điện tử sẽ học những kỹ năng gì?",
+      "answer": "Sinh viên học thiết kế cơ khí, lập trình PLC, robot công nghiệp và vận hành hệ thống tự động.",
+      "tags": ["co-dien-tu", "ky-nang"]
+    },
+    {
+      "faq_id": "FAQ_ENG_MECHATRONICS_003",
+      "scope": "major",
+      "major_id": "ENG_MECHATRONICS",
+      "question": "Ngành Cơ điện tử được ứng dụng trong thực tế ra sao?",
+      "answer": "Ngành được ứng dụng mạnh trong sản xuất thông minh, dây chuyền tự động và nhà máy công nghiệp.",
+      "tags": ["co-dien-tu", "ung-dung"]
+    },
+    {
+      "faq_id": "FAQ_ENG_MECHATRONICS_004",
+      "scope": "major",
+      "major_id": "ENG_MECHATRONICS",
+      "question": "Sinh viên ngành Cơ điện tử có dễ xin việc không?",
+      "answer": "Cơ điện tử là ngành có nhu cầu nhân lực cao, đặc biệt tại các khu công nghiệp và doanh nghiệp sản xuất.",
+      "tags": ["co-dien-tu", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_ENG_AUTOMATION_001",
+      "scope": "major",
+      "major_id": "ENG_AUTOMATION",
+      "question": "Ngành Điều khiển và Tự động hóa đào tạo kỹ sư làm gì?",
+      "answer": "Ngành đào tạo kỹ sư có khả năng thiết kế, vận hành và tối ưu các hệ thống điều khiển và tự động hóa.",
+      "tags": ["tu-dong-hoa", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_ENG_AUTOMATION_002",
+      "scope": "major",
+      "major_id": "ENG_AUTOMATION",
+      "question": "Sinh viên ngành Tự động hóa học những nội dung trọng tâm nào?",
+      "answer": "Sinh viên học PLC, SCADA, robot công nghiệp, hệ thống điều khiển và sản xuất thông minh.",
+      "tags": ["tu-dong-hoa", "hoc-gi"]
+    },
+    {
+      "faq_id": "FAQ_ENG_AUTOMATION_003",
+      "scope": "major",
+      "major_id": "ENG_AUTOMATION",
+      "question": "Ngành Điều khiển và Tự động hóa ứng dụng trong lĩnh vực nào?",
+      "answer": "Ngành được ứng dụng trong dây chuyền sản xuất, nhà máy thông minh và các hệ thống tự động.",
+      "tags": ["tu-dong-hoa", "ung-dung"]
+    },
+    {
+      "faq_id": "FAQ_ENG_AUTOMATION_004",
+      "scope": "major",
+      "major_id": "ENG_AUTOMATION",
+      "question": "Sinh viên ngành Tự động hóa ra trường làm công việc gì?",
+      "answer": "Sinh viên có thể làm kỹ sư tự động hóa, kỹ sư điều khiển hoặc vận hành hệ thống sản xuất tại doanh nghiệp.",
+      "tags": ["tu-dong-hoa", "viec-lam"]
+    }
+  ],
+  "metadata": {
+    "language": "vi",
+    "version": "2025"
+  }
+}

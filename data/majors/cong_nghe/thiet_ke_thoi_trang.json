@@ -1,0 +1,83 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7210404",
+  "major_name": "Thiết kế Thời trang",
+  "major_id": "ENG_FASHION",
+  "school_id": "ENG",
+  "school_name": "Trường Công nghệ",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo nhà thiết kế thời trang có khả năng sáng tạo và phát triển sản phẩm thời trang.",
+    "van_de_thuc_te": "Đáp ứng nhu cầu thiết kế, sản xuất và kinh doanh thời trang trong nước và quốc tế.",
+    "hoc_gi": "Sinh viên học mỹ thuật, thiết kế trang phục, kỹ thuật may và xây dựng bộ sưu tập."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Mỹ thuật cơ bản",
+      "Tin học",
+      "Tiếng Anh",
+      "Kỹ năng mềm"
+    ],
+    "mon_co_so_nganh": [
+      "Nguyên lý thiết kế",
+      "Chất liệu may mặc",
+      "Kỹ thuật may",
+      "Vẽ thời trang"
+    ],
+    "mon_chuyen_nganh": [
+      "Thiết kế trang phục",
+      "Xây dựng bộ sưu tập",
+      "Marketing thời trang"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Thiết kế trang phục",
+        "mo_ta": "Thiết kế và phát triển sản phẩm thời trang."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "CONG_NGHE",
+    "per_year_estimate": "26 – 32 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["H00", "H01"],
+    "diem_chuan": "18 – 22 (tham khảo)",
+    "dieu_kien_dac_biet": [
+      "Có năng khiếu mỹ thuật và thời trang"
+    ]
+  },
+
+  "career": {
+    "positions": [
+      "Fashion Designer",
+      "Nhà thiết kế thời trang",
+      "Chuyên viên phát triển sản phẩm"
+    ],
+    "workplace": [
+      "Công ty thời trang",
+      "Xưởng thiết kế",
+      "Doanh nghiệp may mặc"
+    ],
+    "salary": {
+      "junior": "7 – 11 triệu VNĐ / tháng",
+      "mid": "14 – 25 triệu VNĐ / tháng",
+      "senior": "30 – 50+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "CONG_NGHE",
+    "school_id": "ENG",
+    "school_group": "Công nghệ – Kỹ thuật",
+    "language": "vi",
+    "version": "2025"
+  }
+}

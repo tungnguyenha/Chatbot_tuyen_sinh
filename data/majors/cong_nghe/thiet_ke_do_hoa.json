@@ -1,0 +1,83 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7210403",
+  "major_name": "Thiết kế Đồ họa",
+  "major_id": "ENG_GRAPHIC",
+  "school_id": "ENG",
+  "school_name": "Trường Công nghệ",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo nhà thiết kế đồ họa có khả năng sáng tạo và ứng dụng mỹ thuật trong truyền thông.",
+    "van_de_thuc_te": "Đáp ứng nhu cầu thiết kế nhận diện thương hiệu, quảng cáo và truyền thông số.",
+    "hoc_gi": "Sinh viên học mỹ thuật, thiết kế đồ họa, UI/UX và phần mềm thiết kế."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Mỹ thuật cơ bản",
+      "Tin học",
+      "Tiếng Anh",
+      "Kỹ năng mềm"
+    ],
+    "mon_co_so_nganh": [
+      "Nguyên lý thiết kế",
+      "Màu sắc",
+      "Typography",
+      "Vẽ minh họa"
+    ],
+    "mon_chuyen_nganh": [
+      "Thiết kế thương hiệu",
+      "Thiết kế quảng cáo",
+      "UI/UX Design"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Thiết kế thương hiệu",
+        "mo_ta": "Xây dựng hệ thống nhận diện thương hiệu."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "CONG_NGHE",
+    "per_year_estimate": "26 – 32 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["H00", "H01"],
+    "diem_chuan": "18 – 22 (tham khảo)",
+    "dieu_kien_dac_biet": [
+      "Có năng khiếu mỹ thuật"
+    ]
+  },
+
+  "career": {
+    "positions": [
+      "Graphic Designer",
+      "UI/UX Designer",
+      "Chuyên viên thiết kế"
+    ],
+    "workplace": [
+      "Công ty truyền thông",
+      "Agency quảng cáo",
+      "Doanh nghiệp sáng tạo"
+    ],
+    "salary": {
+      "junior": "8 – 12 triệu VNĐ / tháng",
+      "mid": "15 – 25 triệu VNĐ / tháng",
+      "senior": "30 – 45+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "CONG_NGHE",
+    "school_id": "ENG",
+    "school_group": "Công nghệ – Kỹ thuật",
+    "language": "vi",
+    "version": "2025"
+  }
+}

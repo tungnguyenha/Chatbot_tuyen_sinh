@@ -1,0 +1,376 @@
+{
+  "type": "faq",
+  "school_id": "LANG",
+  "school_name": "Ngoại ngữ – Khoa học Xã hội & Nhân văn",
+  "university": "Đại học Duy Tân",
+  "data": [
+
+    {
+      "faq_id": "FAQ_LANG_EN_001",
+      "scope": "major",
+      "major_id": "LANG_EN",
+      "question": "Ngành Ngôn ngữ Anh đào tạo sinh viên theo định hướng nào?",
+      "answer": "Ngành Ngôn ngữ Anh đào tạo sinh viên sử dụng tiếng Anh thành thạo trong giao tiếp, công việc và môi trường quốc tế.",
+      "tags": ["tieng-anh", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_LANG_EN_002",
+      "scope": "major",
+      "major_id": "LANG_EN",
+      "question": "Sinh viên ngành Ngôn ngữ Anh sẽ học những kỹ năng gì?",
+      "answer": "Sinh viên được rèn luyện bốn kỹ năng nghe, nói, đọc, viết cùng kiến thức văn hóa và giao tiếp quốc tế.",
+      "tags": ["tieng-anh", "ky-nang"]
+    },
+    {
+      "faq_id": "FAQ_LANG_EN_003",
+      "scope": "major",
+      "major_id": "LANG_EN",
+      "question": "Ngành Ngôn ngữ Anh có phù hợp với người mất gốc không?",
+      "answer": "Chương trình được thiết kế từ cơ bản đến nâng cao nên phù hợp với cả sinh viên chưa có nền tảng vững.",
+      "tags": ["tieng-anh", "phu-hop"]
+    },
+    {
+      "faq_id": "FAQ_LANG_EN_004",
+      "scope": "major",
+      "major_id": "LANG_EN",
+      "question": "Sinh viên ngành Ngôn ngữ Anh ra trường làm công việc gì?",
+      "answer": "Sinh viên có thể làm biên phiên dịch, trợ lý đối ngoại, nhân viên doanh nghiệp quốc tế hoặc giảng dạy tiếng Anh.",
+      "tags": ["tieng-anh", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_LANG_CN_001",
+      "scope": "major",
+      "major_id": "LANG_CN",
+      "question": "Ngành Ngôn ngữ Trung Quốc đào tạo theo hướng nào?",
+      "answer": "Ngành đào tạo sinh viên sử dụng tiếng Trung trong giao tiếp, thương mại và môi trường doanh nghiệp.",
+      "tags": ["tieng-trung", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_LANG_CN_002",
+      "scope": "major",
+      "major_id": "LANG_CN",
+      "question": "Sinh viên ngành Ngôn ngữ Trung Quốc học những nội dung gì?",
+      "answer": "Sinh viên học tiếng Trung giao tiếp, biên phiên dịch và văn hóa – thương mại Trung Quốc.",
+      "tags": ["tieng-trung", "hoc-gi"]
+    },
+    {
+      "faq_id": "FAQ_LANG_CN_003",
+      "scope": "major",
+      "major_id": "LANG_CN",
+      "question": "Ngành Ngôn ngữ Trung Quốc có phù hợp với người mới bắt đầu không?",
+      "answer": "Chương trình học bắt đầu từ trình độ cơ bản nên phù hợp với sinh viên chưa biết tiếng Trung.",
+      "tags": ["tieng-trung", "phu-hop"]
+    },
+    {
+      "faq_id": "FAQ_LANG_CN_004",
+      "scope": "major",
+      "major_id": "LANG_CN",
+      "question": "Sinh viên ngành Ngôn ngữ Trung Quốc ra trường làm việc ở đâu?",
+      "answer": "Sinh viên có thể làm việc tại doanh nghiệp Trung Quốc, công ty xuất nhập khẩu hoặc làm biên phiên dịch.",
+      "tags": ["tieng-trung", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_LANG_JP_001",
+      "scope": "major",
+      "major_id": "LANG_JP",
+      "question": "Ngành Ngôn ngữ Nhật đào tạo sinh viên theo định hướng nào?",
+      "answer": "Ngành đào tạo sinh viên sử dụng tiếng Nhật trong giao tiếp và môi trường doanh nghiệp Nhật Bản.",
+      "tags": ["tieng-nhat", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_LANG_JP_002",
+      "scope": "major",
+      "major_id": "LANG_JP",
+      "question": "Sinh viên ngành Ngôn ngữ Nhật sẽ học những nội dung gì?",
+      "answer": "Sinh viên học tiếng Nhật giao tiếp, biên phiên dịch và văn hóa doanh nghiệp Nhật.",
+      "tags": ["tieng-nhat", "hoc-gi"]
+    },
+    {
+      "faq_id": "FAQ_LANG_JP_003",
+      "scope": "major",
+      "major_id": "LANG_JP",
+      "question": "Ngành Ngôn ngữ Nhật có khó không?",
+      "answer": "Ngành đòi hỏi sự kiên trì nhưng chương trình đào tạo bài bản giúp sinh viên tiến bộ từng bước.",
+      "tags": ["tieng-nhat", "do-kho"]
+    },
+    {
+      "faq_id": "FAQ_LANG_JP_004",
+      "scope": "major",
+      "major_id": "LANG_JP",
+      "question": "Sinh viên ngành Ngôn ngữ Nhật ra trường làm công việc gì?",
+      "answer": "Sinh viên có thể làm biên phiên dịch, trợ lý hoặc làm việc tại doanh nghiệp Nhật Bản.",
+      "tags": ["tieng-nhat", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_LANG_KR_001",
+      "scope": "major",
+      "major_id": "LANG_KR",
+      "question": "Ngành Ngôn ngữ Hàn Quốc đào tạo theo hướng nào?",
+      "answer": "Ngành đào tạo sinh viên sử dụng tiếng Hàn trong giao tiếp và môi trường doanh nghiệp Hàn Quốc.",
+      "tags": ["tieng-han", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_LANG_KR_002",
+      "scope": "major",
+      "major_id": "LANG_KR",
+      "question": "Sinh viên ngành Ngôn ngữ Hàn Quốc sẽ học những kỹ năng gì?",
+      "answer": "Sinh viên học tiếng Hàn giao tiếp, biên phiên dịch và văn hóa Hàn Quốc.",
+      "tags": ["tieng-han", "ky-nang"]
+    },
+    {
+      "faq_id": "FAQ_LANG_KR_003",
+      "scope": "major",
+      "major_id": "LANG_KR",
+      "question": "Ngành Ngôn ngữ Hàn Quốc có nhiều cơ hội việc làm không?",
+      "answer": "Nhu cầu nhân lực tiếng Hàn cao do sự phát triển của các doanh nghiệp Hàn Quốc tại Việt Nam.",
+      "tags": ["tieng-han", "co-hoi"]
+    },
+    {
+      "faq_id": "FAQ_LANG_KR_004",
+      "scope": "major",
+      "major_id": "LANG_KR",
+      "question": "Sinh viên ngành Ngôn ngữ Hàn Quốc ra trường làm công việc gì?",
+      "answer": "Sinh viên có thể làm biên phiên dịch, trợ lý hoặc nhân viên văn phòng tại doanh nghiệp Hàn Quốc.",
+      "tags": ["tieng-han", "viec-lam"]
+    },
+    {
+      "faq_id": "FAQ_LANG_LITERATURE_001",
+      "scope": "major",
+      "major_id": "LANG_LITERATURE",
+      "question": "Ngành Văn học đào tạo sinh viên theo định hướng nào?",
+      "answer": "Ngành Văn học đào tạo sinh viên kiến thức về văn học Việt Nam và thế giới, gắn với phân tích, nghiên cứu và sáng tác.",
+      "tags": ["van-hoc", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_LANG_LITERATURE_002",
+      "scope": "major",
+      "major_id": "LANG_LITERATURE",
+      "question": "Sinh viên ngành Văn học sẽ học những nội dung gì?",
+      "answer": "Sinh viên học văn học Việt Nam, văn học nước ngoài, lý luận phê bình và kỹ năng phân tích tác phẩm.",
+      "tags": ["van-hoc", "hoc-gi"]
+    },
+    {
+      "faq_id": "FAQ_LANG_LITERATURE_003",
+      "scope": "major",
+      "major_id": "LANG_LITERATURE",
+      "question": "Ngành Văn học phù hợp với đối tượng nào?",
+      "answer": "Ngành phù hợp với người yêu thích đọc, viết, nghiên cứu văn hóa và ngôn ngữ.",
+      "tags": ["van-hoc", "phu-hop"]
+    },
+    {
+      "faq_id": "FAQ_LANG_LITERATURE_004",
+      "scope": "major",
+      "major_id": "LANG_LITERATURE",
+      "question": "Sinh viên ngành Văn học ra trường làm công việc gì?",
+      "answer": "Sinh viên có thể làm biên tập viên, giảng dạy, nghiên cứu hoặc làm việc trong lĩnh vực truyền thông – xuất bản.",
+      "tags": ["van-hoc", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_LANG_VN_STUDIES_001",
+      "scope": "major",
+      "major_id": "LANG_VN_STUDIES",
+      "question": "Ngành Việt Nam học đào tạo sinh viên theo định hướng nào?",
+      "answer": "Ngành đào tạo sinh viên kiến thức toàn diện về văn hóa, lịch sử và con người Việt Nam gắn với du lịch và đối ngoại.",
+      "tags": ["viet-nam-hoc", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_LANG_VN_STUDIES_002",
+      "scope": "major",
+      "major_id": "LANG_VN_STUDIES",
+      "question": "Sinh viên ngành Việt Nam học sẽ học những nội dung gì?",
+      "answer": "Sinh viên học văn hóa, lịch sử, địa lý Việt Nam và kỹ năng thuyết minh, hướng dẫn.",
+      "tags": ["viet-nam-hoc", "hoc-gi"]
+    },
+    {
+      "faq_id": "FAQ_LANG_VN_STUDIES_003",
+      "scope": "major",
+      "major_id": "LANG_VN_STUDIES",
+      "question": "Ngành Việt Nam học phù hợp với đối tượng nào?",
+      "answer": "Ngành phù hợp với người yêu thích văn hóa, du lịch và công việc đối ngoại.",
+      "tags": ["viet-nam-hoc", "phu-hop"]
+    },
+    {
+      "faq_id": "FAQ_LANG_VN_STUDIES_004",
+      "scope": "major",
+      "major_id": "LANG_VN_STUDIES",
+      "question": "Sinh viên ngành Việt Nam học ra trường làm công việc gì?",
+      "answer": "Sinh viên có thể làm hướng dẫn viên, thuyết minh viên, cán bộ đối ngoại hoặc làm việc trong lĩnh vực du lịch.",
+      "tags": ["viet-nam-hoc", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_LANG_IR_001",
+      "scope": "major",
+      "major_id": "LANG_IR",
+      "question": "Ngành Quan hệ quốc tế đào tạo sinh viên theo hướng nào?",
+      "answer": "Ngành đào tạo sinh viên kiến thức về chính trị, ngoại giao và quan hệ quốc tế trong bối cảnh toàn cầu.",
+      "tags": ["quan-he-quoc-te", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_LANG_IR_002",
+      "scope": "major",
+      "major_id": "LANG_IR",
+      "question": "Sinh viên ngành Quan hệ quốc tế sẽ học những nội dung gì?",
+      "answer": "Sinh viên học quan hệ quốc tế, ngoại giao, chính trị quốc tế và kỹ năng đối ngoại.",
+      "tags": ["quan-he-quoc-te", "hoc-gi"]
+    },
+    {
+      "faq_id": "FAQ_LANG_IR_003",
+      "scope": "major",
+      "major_id": "LANG_IR",
+      "question": "Ngành Quan hệ quốc tế có yêu cầu ngoại ngữ không?",
+      "answer": "Ngoại ngữ là yếu tố quan trọng giúp sinh viên học tốt và mở rộng cơ hội nghề nghiệp trong lĩnh vực quốc tế.",
+      "tags": ["quan-he-quoc-te", "ngoai-ngu"]
+    },
+    {
+      "faq_id": "FAQ_LANG_IR_004",
+      "scope": "major",
+      "major_id": "LANG_IR",
+      "question": "Sinh viên ngành Quan hệ quốc tế ra trường làm việc ở đâu?",
+      "answer": "Sinh viên có thể làm việc tại cơ quan đối ngoại, tổ chức quốc tế hoặc doanh nghiệp nước ngoài.",
+      "tags": ["quan-he-quoc-te", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_LANG_PR_001",
+      "scope": "major",
+      "major_id": "LANG_PR",
+      "question": "Ngành Quan hệ công chúng đào tạo sinh viên theo định hướng nào?",
+      "answer": "Ngành đào tạo sinh viên kỹ năng xây dựng hình ảnh, thương hiệu và quản lý truyền thông cho tổ chức.",
+      "tags": ["quan-he-cong-chung", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_LANG_PR_002",
+      "scope": "major",
+      "major_id": "LANG_PR",
+      "question": "Sinh viên ngành Quan hệ công chúng sẽ học những kỹ năng gì?",
+      "answer": "Sinh viên học truyền thông, tổ chức sự kiện, viết thông cáo báo chí và xử lý khủng hoảng truyền thông.",
+      "tags": ["quan-he-cong-chung", "ky-nang"]
+    },
+    {
+      "faq_id": "FAQ_LANG_PR_003",
+      "scope": "major",
+      "major_id": "LANG_PR",
+      "question": "Ngành Quan hệ công chúng phù hợp với đối tượng nào?",
+      "answer": "Ngành phù hợp với người năng động, giao tiếp tốt và yêu thích lĩnh vực truyền thông.",
+      "tags": ["quan-he-cong-chung", "phu-hop"]
+    },
+    {
+      "faq_id": "FAQ_LANG_PR_004",
+      "scope": "major",
+      "major_id": "LANG_PR",
+      "question": "Sinh viên ngành Quan hệ công chúng ra trường làm công việc gì?",
+      "answer": "Sinh viên có thể làm chuyên viên PR, truyền thông, tổ chức sự kiện hoặc quản lý thương hiệu.",
+      "tags": ["quan-he-cong-chung", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_LANG_MULTIMEDIA_001",
+      "scope": "major",
+      "major_id": "LANG_MULTIMEDIA",
+      "question": "Ngành Truyền thông đa phương tiện đào tạo sinh viên theo hướng nào?",
+      "answer": "Ngành đào tạo sinh viên sáng tạo và sản xuất nội dung truyền thông trên nhiều nền tảng số.",
+      "tags": ["truyen-thong-da-phuong-tien", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_LANG_MULTIMEDIA_002",
+      "scope": "major",
+      "major_id": "LANG_MULTIMEDIA",
+      "question": "Sinh viên ngành Truyền thông đa phương tiện sẽ học những kỹ năng gì?",
+      "answer": "Sinh viên học viết nội dung, quay dựng video, thiết kế truyền thông và quản lý kênh số.",
+      "tags": ["truyen-thong-da-phuong-tien", "ky-nang"]
+    },
+    {
+      "faq_id": "FAQ_LANG_MULTIMEDIA_003",
+      "scope": "major",
+      "major_id": "LANG_MULTIMEDIA",
+      "question": "Ngành Truyền thông đa phương tiện phù hợp với ai?",
+      "answer": "Ngành phù hợp với người sáng tạo, yêu thích công nghệ và truyền thông.",
+      "tags": ["truyen-thong-da-phuong-tien", "phu-hop"]
+    },
+    {
+      "faq_id": "FAQ_LANG_MULTIMEDIA_004",
+      "scope": "major",
+      "major_id": "LANG_MULTIMEDIA",
+      "question": "Sinh viên ngành Truyền thông đa phương tiện ra trường làm công việc gì?",
+      "answer": "Sinh viên có thể làm truyền thông số, marketing nội dung, sản xuất media hoặc quản lý mạng xã hội.",
+      "tags": ["truyen-thong-da-phuong-tien", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_LANG_LAW_001",
+      "scope": "major",
+      "major_id": "LANG_LAW",
+      "question": "Ngành Luật đào tạo sinh viên theo định hướng nào?",
+      "answer": "Ngành Luật đào tạo sinh viên kiến thức pháp luật và kỹ năng áp dụng pháp luật trong thực tiễn.",
+      "tags": ["luat", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_LANG_LAW_002",
+      "scope": "major",
+      "major_id": "LANG_LAW",
+      "question": "Sinh viên ngành Luật sẽ học những nội dung gì?",
+      "answer": "Sinh viên học luật dân sự, hình sự, hành chính và kỹ năng nghề luật.",
+      "tags": ["luat", "hoc-gi"]
+    },
+    {
+      "faq_id": "FAQ_LANG_LAW_003",
+      "scope": "major",
+      "major_id": "LANG_LAW",
+      "question": "Ngành Luật phù hợp với đối tượng nào?",
+      "answer": "Ngành phù hợp với thí sinh có tư duy logic, khả năng lập luận và yêu thích lĩnh vực pháp lý.",
+      "tags": ["luat", "phu-hop"]
+    },
+    {
+      "faq_id": "FAQ_LANG_LAW_004",
+      "scope": "major",
+      "major_id": "LANG_LAW",
+      "question": "Sinh viên ngành Luật ra trường làm công việc gì?",
+      "answer": "Sinh viên có thể làm pháp chế, luật sư, công chức hoặc làm việc trong doanh nghiệp.",
+      "tags": ["luat", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_LANG_ECON_LAW_001",
+      "scope": "major",
+      "major_id": "LANG_ECON_LAW",
+      "question": "Ngành Luật kinh tế đào tạo sinh viên theo hướng nào?",
+      "answer": "Ngành Luật kinh tế đào tạo sinh viên kiến thức pháp luật gắn với hoạt động kinh doanh và thương mại.",
+      "tags": ["luat-kinh-te", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_LANG_ECON_LAW_002",
+      "scope": "major",
+      "major_id": "LANG_ECON_LAW",
+      "question": "Sinh viên ngành Luật kinh tế sẽ học những nội dung gì?",
+      "answer": "Sinh viên học luật doanh nghiệp, thương mại, hợp đồng và giải quyết tranh chấp kinh tế.",
+      "tags": ["luat-kinh-te", "hoc-gi"]
+    },
+    {
+      "faq_id": "FAQ_LANG_ECON_LAW_003",
+      "scope": "major",
+      "major_id": "LANG_ECON_LAW",
+      "question": "Ngành Luật kinh tế phù hợp với đối tượng nào?",
+      "answer": "Ngành phù hợp với người yêu thích pháp luật và môi trường kinh doanh.",
+      "tags": ["luat-kinh-te", "phu-hop"]
+    },
+    {
+      "faq_id": "FAQ_LANG_ECON_LAW_004",
+      "scope": "major",
+      "major_id": "LANG_ECON_LAW",
+      "question": "Sinh viên ngành Luật kinh tế ra trường làm công việc gì?",
+      "answer": "Sinh viên có thể làm pháp chế doanh nghiệp, tư vấn pháp lý hoặc làm việc trong lĩnh vực kinh tế – thương mại.",
+      "tags": ["luat-kinh-te", "viec-lam"]
+    }
+
+  ],
+  "metadata": {
+    "language": "vi",
+    "version": "2025",
+    "note": "Dữ liệu bám theo mã ngành trong file ma_nganh.txt"
+  }
+}

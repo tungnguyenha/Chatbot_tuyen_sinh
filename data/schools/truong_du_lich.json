@@ -1,0 +1,16 @@
+{
+  "school_id": "TOUR",
+  "school_name": "Trường Du lịch",
+  "school_name_en": "School of Tourism",
+  "description": "Đào tạo các ngành liên quan đến du lịch, khách sạn, nhà hàng và sự kiện.",
+  "majors": [
+    "TOUR_TOURISM",
+    "TOUR_TRAVEL",
+    "TOUR_HOTEL",
+    "TOUR_RESTAURANT",
+    "TOUR_EVENT"
+  ],
+  "metadata": {
+    "version": "2025"
+  }
+}

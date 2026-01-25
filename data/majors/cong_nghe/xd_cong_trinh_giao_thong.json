@@ -1,0 +1,82 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7580205",
+  "major_name": "Xây dựng Công trình Giao thông",
+  "major_id": "ENG_TRANSPORT_CIVIL",
+  "school_id": "ENG",
+  "school_name": "Trường Công nghệ",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo kỹ sư xây dựng giao thông có khả năng thiết kế và thi công các công trình hạ tầng giao thông.",
+    "van_de_thuc_te": "Phục vụ xây dựng đường bộ, cầu, hầm và các công trình giao thông hiện đại.",
+    "hoc_gi": "Sinh viên học đường ô tô, cầu đường, tổ chức thi công và quản lý dự án giao thông."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Toán cao cấp",
+      "Vật lý",
+      "Tin học",
+      "Tiếng Anh",
+      "Kỹ năng mềm"
+    ],
+    "mon_co_so_nganh": [
+      "Cơ học đất",
+      "Trắc địa",
+      "Vật liệu xây dựng",
+      "Kết cấu công trình"
+    ],
+    "mon_chuyen_nganh": [
+      "Thiết kế đường ô tô",
+      "Cầu đường",
+      "Thi công công trình giao thông"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Thiết kế đường ô tô",
+        "mo_ta": "Thiết kế hình học và kết cấu mặt đường."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "CONG_NGHE",
+    "per_year_estimate": "22 – 26 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["A00", "A01"],
+    "diem_chuan": "17 – 20 (tham khảo)",
+    "dieu_kien_dac_biet": []
+  },
+
+  "career": {
+    "positions": [
+      "Kỹ sư giao thông",
+      "Kỹ sư cầu đường",
+      "Chỉ huy công trình giao thông"
+    ],
+    "workplace": [
+      "Doanh nghiệp xây dựng giao thông",
+      "Ban quản lý dự án",
+      "Cơ quan hạ tầng giao thông"
+    ],
+    "salary": {
+      "junior": "8 – 12 triệu VNĐ / tháng",
+      "mid": "15 – 25 triệu VNĐ / tháng",
+      "senior": "30 – 45+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "CONG_NGHE",
+    "school_id": "ENG",
+    "school_group": "Công nghệ – Kỹ thuật",
+    "language": "vi",
+    "version": "2025"
+  }
+}

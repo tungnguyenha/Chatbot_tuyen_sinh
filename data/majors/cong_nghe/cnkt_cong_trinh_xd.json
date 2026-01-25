@@ -1,0 +1,82 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7510103",
+  "major_name": "Công nghệ Kỹ thuật Công trình Xây dựng",
+  "major_id": "ENG_CIVIL_TECH",
+  "school_id": "ENG",
+  "school_name": "Trường Công nghệ",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo kỹ sư thực hành có khả năng triển khai, giám sát và quản lý thi công công trình xây dựng.",
+    "van_de_thuc_te": "Đáp ứng nhu cầu nhân lực kỹ thuật trực tiếp cho các dự án xây dựng.",
+    "hoc_gi": "Sinh viên học kỹ thuật thi công, đọc bản vẽ, quản lý chất lượng và an toàn công trình."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Toán ứng dụng",
+      "Vật lý",
+      "Tin học",
+      "Tiếng Anh",
+      "Kỹ năng mềm"
+    ],
+    "mon_co_so_nganh": [
+      "Vật liệu xây dựng",
+      "Trắc địa",
+      "Kết cấu bê tông",
+      "Đọc bản vẽ xây dựng"
+    ],
+    "mon_chuyen_nganh": [
+      "Giám sát thi công",
+      "Tổ chức xây dựng",
+      "Quản lý chất lượng công trình"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Giám sát thi công",
+        "mo_ta": "Theo dõi tiến độ và chất lượng thi công."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "CONG_NGHE",
+    "per_year_estimate": "20 – 24 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["A00", "A01"],
+    "diem_chuan": "15 – 18 (tham khảo)",
+    "dieu_kien_dac_biet": []
+  },
+
+  "career": {
+    "positions": [
+      "Kỹ sư công trình",
+      "Cán bộ kỹ thuật hiện trường",
+      "Kỹ thuật viên xây dựng"
+    ],
+    "workplace": [
+      "Công ty xây dựng",
+      "Nhà thầu thi công",
+      "Ban quản lý dự án"
+    ],
+    "salary": {
+      "junior": "7 – 11 triệu VNĐ / tháng",
+      "mid": "13 – 22 triệu VNĐ / tháng",
+      "senior": "28 – 40+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "CONG_NGHE",
+    "school_id": "ENG",
+    "school_group": "Công nghệ – Kỹ thuật",
+    "language": "vi",
+    "version": "2025"
+  }
+}

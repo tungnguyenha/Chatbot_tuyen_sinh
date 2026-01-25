@@ -1,0 +1,20 @@
+{
+  "school_id": "ECON",
+  "school_name": "Trường Kinh tế",
+  "school_name_en": "School of Economics",
+  "description": "Đào tạo các ngành kinh tế, quản trị, tài chính, kế toán và thương mại.",
+  "majors": [
+    "ECON_BA",
+    "ECON_MARKETING",
+    "ECON_COMMERCE",
+    "ECON_ECOMMERCE",
+    "ECON_FINANCE",
+    "ECON_ACCOUNTING",
+    "ECON_AUDIT",
+    "ECON_HRM",
+    "ECON_INVESTMENT"
+  ],
+  "metadata": {
+    "version": "2025"
+  }
+}

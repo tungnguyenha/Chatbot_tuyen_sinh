@@ -1,0 +1,85 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7340122",
+  "major_name": "Thương mại Điện tử",
+  "major_id": "ECON_ECOMMERCE",
+  "school_id": "ECON",
+  "school_name": "Trường Kinh tế",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo cử nhân thương mại điện tử có khả năng vận hành và phát triển hoạt động kinh doanh trên nền tảng số.",
+    "van_de_thuc_te": "Giải quyết nhu cầu bán hàng online, quản lý sàn thương mại điện tử và marketing số.",
+    "hoc_gi": "Sinh viên học kinh doanh trực tuyến, digital marketing, logistics và phân tích dữ liệu kinh doanh."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Toán kinh tế",
+      "Tin học",
+      "Tiếng Anh",
+      "Pháp luật kinh tế",
+      "Kỹ năng mềm"
+    ],
+    "mon_co_so_nganh": [
+      "Kinh tế học",
+      "Marketing căn bản",
+      "Hệ thống thông tin",
+      "Hành vi khách hàng"
+    ],
+    "mon_chuyen_nganh": [
+      "Thương mại điện tử",
+      "Digital Marketing",
+      "Quản trị sàn TMĐT",
+      "Logistics và chuỗi cung ứng"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Digital Marketing",
+        "mo_ta": "Triển khai quảng cáo và tiếp thị trên nền tảng số."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "KINH_TE",
+    "per_year_estimate": "20 – 25 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["A00", "A01", "D01"],
+    "diem_chuan": "18 – 22 (tham khảo)",
+    "dieu_kien_dac_biet": [
+      "Yêu thích kinh doanh online"
+    ]
+  },
+
+  "career": {
+    "positions": [
+      "Chuyên viên TMĐT",
+      "Chuyên viên Digital Marketing",
+      "Quản lý gian hàng online"
+    ],
+    "workplace": [
+      "Doanh nghiệp thương mại điện tử",
+      "Công ty bán lẻ",
+      "Startup công nghệ"
+    ],
+    "salary": {
+      "junior": "8 – 12 triệu VNĐ / tháng",
+      "mid": "15 – 25 triệu VNĐ / tháng",
+      "senior": "30 – 50+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "KINH_TE",
+    "school_id": "BUS",
+    "school_group": "Kinh tế – Quản trị",
+    "language": "vi",
+    "version": "2025"
+  }
+}

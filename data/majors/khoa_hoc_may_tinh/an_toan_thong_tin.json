@@ -1,0 +1,89 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7480202",
+  "major_name": "An toàn Thông tin - Information Security",
+  "major_id": "CS_IS",
+  "school_id": "CS",
+  "school_name": "Trường Khoa học Máy tính",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo kỹ sư an toàn thông tin có khả năng bảo vệ hệ thống thông tin và dữ liệu trước các mối đe dọa an ninh mạng.",
+    "van_de_thuc_te": "Giải quyết các vấn đề tấn công mạng, rò rỉ dữ liệu, gian lận số và đảm bảo an toàn cho hệ thống CNTT.",
+    "hoc_gi": "Sinh viên học mạng máy tính, hệ điều hành, mật mã học, an ninh mạng, kiểm thử xâm nhập và quản trị hệ thống an toàn."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Toán cao cấp",
+      "Xác suất – Thống kê",
+      "Tin học đại cương",
+      "Tiếng Anh",
+      "Kỹ năng mềm"
+    ],
+    "mon_co_so_nganh": [
+      "Mạng máy tính",
+      "Hệ điều hành",
+      "Cơ sở dữ liệu",
+      "Lập trình"
+    ],
+    "mon_chuyen_nganh": [
+      "An ninh mạng",
+      "Mật mã học",
+      "Kiểm thử xâm nhập",
+      "Quản trị an toàn hệ thống",
+      "Điều tra số"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "An ninh mạng",
+        "mo_ta": "Phân tích, phát hiện và phòng chống các cuộc tấn công mạng."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "CNTT",
+    "per_year_estimate": "25 – 30 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa", "TuyenThang"],
+    "to_hop": ["A00", "A01", "D01", "D07"],
+    "diem_chuan": "20 – 23 (tham khảo các năm gần đây)",
+    "dieu_kien_dac_biet": [
+      "Có kiến thức tốt về Toán và Tin học",
+      "Có chứng chỉ CNTT hoặc an ninh mạng là lợi thế"
+    ]
+  },
+
+  "career": {
+    "positions": [
+      "Security Engineer",
+      "Pentester",
+      "SOC Analyst",
+      "Chuyên viên an toàn thông tin"
+    ],
+    "workplace": [
+      "Ngân hàng",
+      "Doanh nghiệp CNTT",
+      "Tổ chức tài chính",
+      "Cơ quan nhà nước"
+    ],
+    "salary": {
+      "junior": "12 – 18 triệu VNĐ / tháng",
+      "mid": "25 – 40 triệu VNĐ / tháng",
+      "senior": "50 – 80+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "CNTT",
+    "school_id": "CS",
+    "school_group": "Khoa học Máy tính",
+    "language": "vi",
+    "version": "2025"
+  }
+}

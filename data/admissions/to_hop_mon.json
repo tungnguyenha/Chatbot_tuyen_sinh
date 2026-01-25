@@ -1,0 +1,100 @@
+{
+  "type": "subject_combinations",
+  "description": "Danh sách các tổ hợp môn dùng trong xét tuyển đại học",
+  "combinations": [
+    {
+      "code": "A00",
+      "subjects": ["Toán", "Vật lý", "Hóa học"]
+    },
+    {
+      "code": "A01",
+      "subjects": ["Toán", "Vật lý", "Tiếng Anh"]
+    },
+    {
+      "code": "A02",
+      "subjects": ["Toán", "Hóa học", "Sinh học"]
+    },
+    {
+      "code": "B01",
+      "subjects": ["Toán", "Hóa học", "Tiếng Anh"]
+    },
+    {
+      "code": "B00",
+      "subjects": ["Toán", "Hóa học", "Sinh học"]
+    },
+    {
+      "code": "B02",
+      "subjects": ["Toán", "Sinh học", "Vật lý"]
+    },
+    {
+      "code": "C00",
+      "subjects": ["Ngữ văn", "Lịch sử", "Địa lý"]
+    },
+    {
+      "code": "C01",
+      "subjects": ["Ngữ văn", "Toán", "Vật lý"]
+    },
+    {
+      "code": "D01",
+      "subjects": ["Toán", "Ngữ văn", "Tiếng Anh"]
+    },
+    {
+      "code": "D02",
+      "subjects": ["Toán", "Ngữ văn", "Tiếng Nga"]
+    },
+    {
+      "code": "D03",
+      "subjects": ["Toán", "Ngữ văn", "Tiếng Pháp"]
+    },
+    {
+      "code": "D04",
+      "subjects": ["Toán", "Ngữ văn", "Tiếng Trung"]
+    },
+    {
+      "code": "D05",
+      "subjects": ["Toán", "Ngữ văn", "Tiếng Đức"]
+    },
+    {
+      "code": "D06",
+      "subjects": ["Toán", "Ngữ văn", "Tiếng Nhật"]
+    },
+    {
+      "code": "D07",
+      "subjects": ["Toán", "Hóa học", "Tiếng Anh"]
+    },
+    {
+      "code": "D14",
+      "subjects": ["Ngữ văn", "Lịch sử", "Tiếng Anh"]
+    },
+    {
+      "code": "DD2",
+      "subjects": ["Toán", "Ngữ văn", "Tiếng Hàn"]
+    },
+    {
+      "code": "C00",
+      "subjects": ["Ngữ văn", "Lịch sử", "Địa lý"]
+    },
+    
+    {
+      "code": "V00", 
+      "subjects": ["Ngữ văn", "Lịch sử", "Địa lý"]
+    },
+    {
+      "code": "V01", 
+      "subjects": ["Ngữ văn", "Toán", "Lịch sử"]
+    },
+    { 
+      "code": "H00", 
+      "subjects": ["Ngữ văn", "Vẽ mỹ thuật", "Năng khiếu"]
+    },
+    { 
+      "code": "H01", 
+      "subjects": ["Toán", "Vẽ mỹ thuật", "Năng khiếu"]
+    }
+
+  ],
+  "metadata": {
+    "language": "vi",
+    "version": "2025"
+  }
+}

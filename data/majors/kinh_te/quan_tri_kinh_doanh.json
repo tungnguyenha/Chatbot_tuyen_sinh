@@ -1,0 +1,83 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7340101",
+  "major_name": "Quản trị Kinh doanh",
+  "major_id": "ECON_BA",
+  "school_id": "ECON",
+  "school_name": "Trường Kinh tế",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo cử nhân quản trị kinh doanh có tư duy tổng hợp, khả năng quản lý và điều hành doanh nghiệp.",
+    "van_de_thuc_te": "Giải quyết các vấn đề quản trị, chiến lược, vận hành và phát triển doanh nghiệp.",
+    "hoc_gi": "Sinh viên học quản trị, marketing, tài chính, nhân sự và khởi nghiệp."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Toán kinh tế",
+      "Tin học",
+      "Tiếng Anh",
+      "Pháp luật đại cương",
+      "Kỹ năng mềm"
+    ],
+    "mon_co_so_nganh": [
+      "Kinh tế vi mô",
+      "Kinh tế vĩ mô",
+      "Nguyên lý quản trị",
+      "Marketing căn bản"
+    ],
+    "mon_chuyen_nganh": [
+      "Quản trị chiến lược",
+      "Quản trị vận hành",
+      "Khởi nghiệp",
+      "Quản trị dự án"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Quản trị chiến lược",
+        "mo_ta": "Xây dựng và triển khai chiến lược kinh doanh."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "KINH_TE",
+    "per_year_estimate": "20 – 25 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["A00", "A01", "D01"],
+    "diem_chuan": "18 – 22 (tham khảo)",
+    "dieu_kien_dac_biet": []
+  },
+
+  "career": {
+    "positions": [
+      "Chuyên viên kinh doanh",
+      "Quản lý doanh nghiệp",
+      "Nhà khởi nghiệp"
+    ],
+    "workplace": [
+      "Doanh nghiệp",
+      "Tập đoàn",
+      "Công ty khởi nghiệp"
+    ],
+    "salary": {
+      "junior": "8 – 12 triệu VNĐ / tháng",
+      "mid": "15 – 25 triệu VNĐ / tháng",
+      "senior": "30 – 50+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "KINH_TE",
+    "school_id": "BUS",
+    "school_group": "Kinh tế – Quản trị",
+    "language": "vi",
+    "version": "2025"
+  }
+}

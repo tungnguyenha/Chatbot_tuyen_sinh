@@ -1,0 +1,168 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7480107",
+  "major_name": "Trí tuệ Nhân tạo - Artificial Intelligence",
+  "major_id": "CS_AI",
+  "school_id": "CS",
+  "school_name": "Trường Khoa học Máy tính",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo kỹ sư Trí tuệ Nhân tạo có năng lực nghiên cứu, thiết kế, phát triển và triển khai các hệ thống AI thông minh, ứng dụng machine learning, deep learning, computer vision, natural language processing, generative AI và reinforcement learning để giải quyết các bài toán thực tiễn phức tạp trong kỷ nguyên chuyển đổi số.",
+    "van_de_thuc_te": "Ngành Trí tuệ Nhân tạo giải quyết các bài toán: nhận dạng hình ảnh và video với computer vision, xây dựng chatbot và AI assistant thông minh với NLP, phát triển hệ thống gợi ý cá nhân hóa, xe tự hành và robotics tự động, phát hiện bất thường và gian lận, dự đoán và phân tích big data, tạo nội dung với generative AI (văn bản, hình ảnh, video, âm thanh), tối ưu hóa quy trình doanh nghiệp, chẩn đoán y tế qua hình ảnh, nông nghiệp thông minh, smart city, bảo mật mạng AI-powered, trading algorithms, recommendation systems và personalization.",
+    "hoc_gi": "Sinh viên được học lập trình Python chuyên sâu cho Trí tuệ Nhân tạo, toán học nâng cao (đại số tuyến tính, giải tích, xác suất thống kê, optimization), các thuật toán machine learning (supervised learning, unsupervised learning, regression, classification, clustering, decision trees, random forest, SVM, ensemble methods), deep learning với neural networks (CNN, RNN, LSTM, GRU, Transformer, attention mechanisms, GANs, VAE), computer vision (object detection YOLO/R-CNN, image segmentation, face recognition, pose estimation, OCR), natural language processing (text processing, word embeddings, BERT, GPT, T5, sentiment analysis, NER, machine translation, question answering), generative AI (LLMs, text-to-image, diffusion models, prompt engineering), reinforcement learning (Q-learning, DQN, policy gradient, PPO), MLOps và deployment (model serving, monitoring, Docker, Kubernetes, cloud platforms), big data processing (Spark, Hadoop), và các framework TensorFlow, PyTorch, Keras, Hugging Face."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Toán cao cấp",
+      "Đại số tuyến tính",
+      "Xác suất – Thống kê",
+      "Toán tối ưu hóa",
+      "Tin học đại cương",
+      "Kỹ năng mềm",
+      "Tiếng Anh học thuật"
+    ],
+    "mon_co_so_nganh": [
+      "Lập trình Python cho AI",
+      "Cấu trúc dữ liệu và Giải thuật",
+      "Toán rời rạc",
+      "Cơ sở dữ liệu",
+      "Hệ điều hành",
+      "Mạng máy tính",
+      "Lập trình hướng đối tượng"
+    ],
+    "mon_chuyen_nganh": [
+      "Nhập môn Trí tuệ Nhân tạo",
+      "Machine Learning",
+      "Deep Learning",
+      "Advanced Deep Learning",
+      "Xử lý Ngôn ngữ Tự nhiên (NLP)",
+      "Large Language Models và Prompt Engineering",
+      "Thị giác Máy tính (Computer Vision)",
+      "Advanced Computer Vision",
+      "Học Tăng cường (Reinforcement Learning)",
+      "Generative AI",
+      "MLOps và Model Deployment",
+      "Big Data Analytics cho AI",
+      "Time Series Forecasting với ML",
+      "Recommender Systems",
+      "Speech Recognition và Processing",
+      "Hệ thống Nhúng AI và Edge AI",
+      "AI Ethics và Responsible AI",
+      "Explainable AI (XAI)",
+      "Transfer Learning và Few-shot Learning",
+      "Graph Neural Networks",
+      "Optimization for Machine Learning"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Machine Learning",
+        "mo_ta": "Nghiên cứu các thuật toán học máy: supervised learning (linear regression, logistic regression, SVM, decision tree, random forest, gradient boosting XGBoost/LightGBM), unsupervised learning (k-means, hierarchical clustering, DBSCAN, PCA, t-SNE), ensemble methods, cross-validation, hyperparameter tuning với GridSearch/RandomSearch, feature engineering, model evaluation metrics và best practices trong ML pipeline."
+      },
+      {
+        "ten_mon": "Deep Learning",
+        "mo_ta": "Xây dựng và training mạng nơ-ron nhân tạo sâu: feedforward neural networks, convolutional neural networks (CNN) cho xử lý ảnh, recurrent neural networks (RNN, LSTM, GRU) cho sequential data, attention mechanism và Transformer architecture (BERT, GPT), optimization algorithms (SGD, Adam, learning rate scheduling), regularization techniques (dropout, batch normalization, data augmentation), transfer learning và fine-tuning pre-trained models."
+      },
+      {
+        "ten_mon": "Xử lý Ngôn ngữ Tự nhiên",
+        "mo_ta": "Phát triển các ứng dụng NLP và chatbot: text preprocessing và tokenization, word embeddings (Word2Vec, GloVe, FastText), contextual embeddings (ELMo, BERT), Transformer-based models (GPT, T5, BART), text classification, sentiment analysis, named entity recognition (NER), part-of-speech tagging, machine translation, question answering systems, text summarization, dialogue systems và conversational AI với LLMs, prompt engineering techniques."
+      },
+      {
+        "ten_mon": "Thị giác Máy tính",
+        "mo_ta": "Nhận dạng và phân tích hình ảnh, video: image preprocessing và augmentation, CNN architectures (VGG, ResNet, EfficientNet), object detection (YOLO v5/v8, Faster R-CNN, SSD, RetinaNet), instance segmentation (Mask R-CNN), semantic segmentation (U-Net, DeepLab), face detection và recognition (FaceNet, ArcFace), human pose estimation, optical character recognition (OCR), image generation (GANs, Diffusion models), video analysis và tracking, ứng dụng trong autonomous vehicles, medical imaging, surveillance."
+      },
+      {
+        "ten_mon": "Generative AI",
+        "mo_ta": "Nghiên cứu và phát triển mô hình AI sinh tạo: Generative Adversarial Networks (GANs) và các biến thể (DCGAN, StyleGAN, CycleGAN), Variational Autoencoders (VAE), Diffusion Models (DDPM, Stable Diffusion), Large Language Models (GPT-3/4, Claude, Llama, PaLM), text-to-image generation (DALL-E, Midjourney, Stable Diffusion XL), text-to-video, image-to-image translation, style transfer, AI music generation, prompt engineering và prompt optimization, fine-tuning generative models, ứng dụng trong content creation, design và marketing."
+      },
+      {
+        "ten_mon": "Học Tăng cường (Reinforcement Learning)",
+        "mo_ta": "Phát triển AI agents học từ môi trường: Markov Decision Process (MDP), value-based methods (Q-learning, SARSA), Deep Q-Networks (DQN, Double DQN, Dueling DQN), policy-based methods (REINFORCE, Policy Gradient), Actor-Critic algorithms, Proximal Policy Optimization (PPO), Deep Deterministic Policy Gradient (DDPG), multi-agent RL, model-based RL, ứng dụng trong game AI (AlphaGo, OpenAI Five), robotics control, autonomous driving, resource allocation và optimization."
+      },
+      {
+        "ten_mon": "MLOps và Model Deployment",
+        "mo_ta": "Vận hành và triển khai mô hình ML/AI trong production: ML pipeline design, experiment tracking với MLflow/Weights&Biases, model versioning, CI/CD for machine learning, containerization (Docker), orchestration (Kubernetes), model serving (TensorFlow Serving, TorchServe, ONNX Runtime), REST API development với FastAPI/Flask, model monitoring và logging, A/B testing, model performance tracking, model optimization (quantization, pruning, knowledge distillation), deployment trên cloud (AWS SageMaker, Azure ML, Google Vertex AI), edge deployment."
+      },
+      {
+        "ten_mon": "AI Ethics và Responsible AI",
+        "mo_ta": "Đạo đức và trách nhiệm trong phát triển AI: fairness và bias trong ML models, bias detection và mitigation techniques, privacy-preserving machine learning (differential privacy, federated learning), explainability và interpretability (LIME, SHAP, attention visualization), model transparency, AI safety và robustness, adversarial attacks và defenses, regulatory compliance (GDPR, AI Act), social impact assessment, ethical considerations trong deployment, best practices cho responsible AI development."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "CNTT",
+    "per_year_estimate": "25 – 30 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa", "TuyenThang"],
+    "to_hop": ["A00", "A01", "D01", "D07"],
+    "diem_chuan": "21 – 24 (tham khảo các năm gần đây)",
+    "dieu_kien_dac_biet": [
+      "Có chứng chỉ IELTS từ 6.0 trở lên hoặc TOEIC từ 650",
+      "Học sinh giỏi môn Toán, Tin học, Vật lý cấp tỉnh/quốc gia",
+      "Có giải thưởng Olympic Tin học, Toán học hoặc các cuộc thi lập trình",
+      "Giải thưởng cuộc thi AI, Machine Learning, Data Science (Kaggle competitions, AI Hackathon, Google Code Jam)",
+      "Có dự án AI/ML cá nhân được publish trên GitHub (computer vision, NLP, chatbot, recommendation system)",
+      "Có portfolio về deep learning projects hoặc research paper",
+      "Hoàn thành các khóa học AI/ML online uy tín (Coursera ML/DL Specialization, Fast.ai, DeepLearning.AI)",
+      "Chứng chỉ chuyên môn: TensorFlow Developer Certificate, AWS Machine Learning Specialty, Google ML Engineer"
+    ]
+  },
+
+  "career": {
+    "positions": [
+      "AI Engineer / AI Developer",
+      "Machine Learning Engineer",
+      "Deep Learning Engineer / Research Engineer",
+      "Computer Vision Engineer / CV Scientist",
+      "NLP Engineer / NLP Scientist",
+      "AI Researcher / Research Scientist",
+      "MLOps Engineer / ML Platform Engineer",
+      "AI Product Manager",
+      "Data Scientist (AI/ML focus)",
+      "Generative AI Engineer",
+      "LLM Engineer / Prompt Engineer",
+      "AI Solutions Architect",
+      "Autonomous Systems Engineer",
+      "Robotics AI Engineer",
+      "AI Consultant",
+      "AI/ML Tech Lead",
+      "Applied AI Scientist"
+    ],
+    "workplace": [
+      "Công ty công nghệ lớn (Google, Microsoft, Meta, Amazon, Apple, NVIDIA, OpenAI, Anthropic)",
+      "Big Tech Việt Nam (VNG, FPT AI, Viettel AI, VNPT AI, Zalo AI)",
+      "Startup AI và Deep Tech unicorns",
+      "Fintech và ngân hàng số (Momo, VPBank, Techcombank AI Labs)",
+      "E-commerce platforms (Shopee, Lazada, Tiki AI teams)",
+      "Trung tâm R&D của tập đoàn đa quốc gia",
+      "AI Research Labs và viện nghiên cứu",
+      "Công ty tự động hóa, robotics và Industrial AI",
+      "Automotive AI (VinFast AI, Tesla, Waymo)",
+      "Healthcare AI và Medical Imaging companies",
+      "Game studios và Metaverse platforms",
+      "Cybersecurity firms với AI-powered solutions",
+      "Consulting firms (McKinsey Analytics, Deloitte AI)",
+      "Remote/Freelance cho dự án AI toàn cầu",
+      "Khởi nghiệp startup AI riêng"
+    ],
+    "salary": {
+      "junior": "12 – 20 triệu VNĐ / tháng",
+      "mid": "25 – 50 triệu VNĐ / tháng",
+      "senior": "50 – 120+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "CNTT",
+    "school_id": "CS",
+    "school_group": "Khoa học Máy tính",
+    "language": "vi",
+    "version": "2025"
+  }
+}

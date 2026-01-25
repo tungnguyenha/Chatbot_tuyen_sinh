@@ -1,0 +1,83 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7810101",
+  "major_name": "Du lịch",
+  "major_id": "TOUR_TOURISM",
+  "school_id": "TOUR",
+  "school_name": "Trường Du lịch",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo cử nhân du lịch có kiến thức tổng hợp về ngành du lịch và dịch vụ.",
+    "van_de_thuc_te": "Phục vụ phát triển du lịch bền vững và quản lý điểm đến.",
+    "hoc_gi": "Sinh viên học tổng quan du lịch, văn hóa, quản lý điểm đến và dịch vụ du lịch."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Kinh tế du lịch",
+      "Tin học",
+      "Tiếng Anh",
+      "Kỹ năng giao tiếp",
+      "Văn hóa"
+    ],
+    "mon_co_so_nganh": [
+      "Tổng quan du lịch",
+      "Địa lý du lịch",
+      "Marketing du lịch",
+      "Du lịch bền vững"
+    ],
+    "mon_chuyen_nganh": [
+      "Quản lý điểm đến",
+      "Phát triển du lịch",
+      "Dịch vụ du lịch",
+      "Du lịch cộng đồng"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Quản lý điểm đến",
+        "mo_ta": "Quản lý và phát triển khu, điểm du lịch."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "DU_LICH",
+    "per_year_estimate": "17 – 21 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["D01", "C00"],
+    "diem_chuan": "15 – 18 (tham khảo)",
+    "dieu_kien_dac_biet": []
+  },
+
+  "career": {
+    "positions": [
+      "Nhân viên du lịch",
+      "Chuyên viên quản lý điểm đến",
+      "Hướng dẫn viên"
+    ],
+    "workplace": [
+      "Doanh nghiệp du lịch",
+      "Khu du lịch",
+      "Cơ quan quản lý du lịch"
+    ],
+    "salary": {
+      "junior": "6 – 9 triệu VNĐ / tháng",
+      "mid": "12 – 20 triệu VNĐ / tháng",
+      "senior": "25 – 40+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "DU_LICH",
+    "school_id": "TOUR",
+    "school_group": "Du lịch – Dịch vụ",
+    "language": "vi",
+    "version": "2025"
+  }
+}

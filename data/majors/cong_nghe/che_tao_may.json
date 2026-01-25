@@ -1,0 +1,83 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7520118",
+  "major_name": "Chế tạo Máy",
+  "major_id": "ENG_MANUFACTURING",
+  "school_id": "ENG",
+  "school_name": "Trường Công nghệ",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo kỹ sư chế tạo máy có khả năng thiết kế, gia công và vận hành các hệ thống cơ khí.",
+    "van_de_thuc_te": "Phục vụ nhu cầu sản xuất máy móc, thiết bị công nghiệp và cơ khí chính xác.",
+    "hoc_gi": "Sinh viên học cơ học, vật liệu, CAD/CAM/CNC và công nghệ gia công."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Toán cao cấp",
+      "Vật lý",
+      "Tin học",
+      "Tiếng Anh",
+      "Kỹ năng mềm"
+    ],
+    "mon_co_so_nganh": [
+      "Cơ học kỹ thuật",
+      "Sức bền vật liệu",
+      "Vẽ kỹ thuật",
+      "Dung sai – đo lường"
+    ],
+    "mon_chuyen_nganh": [
+      "Công nghệ chế tạo máy",
+      "CAD/CAM",
+      "CNC",
+      "Gia công cơ khí"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "CAD/CAM",
+        "mo_ta": "Thiết kế và gia công chi tiết máy bằng phần mềm."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "CONG_NGHE",
+    "per_year_estimate": "22 – 26 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["A00", "A01"],
+    "diem_chuan": "15 – 18 (tham khảo)",
+    "dieu_kien_dac_biet": []
+  },
+
+  "career": {
+    "positions": [
+      "Kỹ sư cơ khí",
+      "Kỹ sư chế tạo",
+      "Kỹ sư thiết kế máy"
+    ],
+    "workplace": [
+      "Nhà máy cơ khí",
+      "Doanh nghiệp sản xuất",
+      "Khu công nghiệp"
+    ],
+    "salary": {
+      "junior": "8 – 12 triệu VNĐ / tháng",
+      "mid": "15 – 25 triệu VNĐ / tháng",
+      "senior": "30 – 45+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "CONG_NGHE",
+    "school_id": "ENG",
+    "school_group": "Công nghệ – Kỹ thuật",
+    "language": "vi",
+    "version": "2025"
+  }
+}

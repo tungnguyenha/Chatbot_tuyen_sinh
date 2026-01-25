@@ -1,0 +1,83 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7220201",
+  "major_name": "Ngôn ngữ Anh",
+  "major_id": "LANG_EN",
+  "school_id": "LANG",
+  "school_name": "Trường Ngoại ngữ & Khoa học Xã hội Nhân văn",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo cử nhân ngôn ngữ Anh có năng lực sử dụng tiếng Anh thành thạo trong môi trường học thuật và nghề nghiệp.",
+    "van_de_thuc_te": "Đáp ứng nhu cầu nhân lực sử dụng tiếng Anh trong giáo dục, kinh doanh và hội nhập quốc tế.",
+    "hoc_gi": "Sinh viên học ngữ âm, ngữ pháp, dịch thuật, giao tiếp và tiếng Anh chuyên ngành."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Tin học",
+      "Tiếng Anh cơ sở",
+      "Kỹ năng mềm",
+      "Phương pháp học đại học"
+    ],
+    "mon_co_so_nganh": [
+      "Ngữ âm – ngữ pháp",
+      "Từ vựng – ngữ nghĩa",
+      "Nghe – nói – đọc – viết",
+      "Văn hóa Anh – Mỹ"
+    ],
+    "mon_chuyen_nganh": [
+      "Biên dịch",
+      "Phiên dịch",
+      "Tiếng Anh thương mại",
+      "Tiếng Anh du lịch"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Biên dịch",
+        "mo_ta": "Dịch văn bản từ tiếng Anh sang tiếng Việt và ngược lại."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "NGOAI_NGU_XHNV",
+    "per_year_estimate": "18 – 22 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["D01", "D14"],
+    "diem_chuan": "17 – 20 (tham khảo)",
+    "dieu_kien_dac_biet": []
+  },
+
+  "career": {
+    "positions": [
+      "Biên dịch viên",
+      "Phiên dịch viên",
+      "Giáo viên tiếng Anh",
+      "Chuyên viên đối ngoại"
+    ],
+    "workplace": [
+      "Doanh nghiệp",
+      "Trường học",
+      "Tổ chức quốc tế"
+    ],
+    "salary": {
+      "junior": "8 – 12 triệu VNĐ / tháng",
+      "mid": "15 – 25 triệu VNĐ / tháng",
+      "senior": "30 – 50+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "NGOAI_NGU_XHNV",
+    "school_id": "LANG",
+    "school_group": "Ngoại ngữ – Xã hội – Nhân văn",
+    "language": "vi",
+    "version": "2025"
+  }
+}

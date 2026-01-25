@@ -1,0 +1,83 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7810202",
+  "major_name": "Quản trị Nhà hàng",
+  "major_id": "TOUR_RESTAURANT",
+  "school_id": "TOUR",
+  "school_name": "Trường Du lịch",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo cử nhân có khả năng quản lý và vận hành nhà hàng chuyên nghiệp.",
+    "van_de_thuc_te": "Đáp ứng nhu cầu nhân lực cho ngành dịch vụ ăn uống và nhà hàng.",
+    "hoc_gi": "Sinh viên học quản trị nhà hàng, nghiệp vụ phục vụ, an toàn thực phẩm và dịch vụ khách hàng."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Kinh tế",
+      "Tin học",
+      "Tiếng Anh",
+      "Kỹ năng giao tiếp",
+      "Văn hóa ẩm thực"
+    ],
+    "mon_co_so_nganh": [
+      "Tổng quan nhà hàng",
+      "Quản trị dịch vụ",
+      "Marketing dịch vụ",
+      "An toàn thực phẩm"
+    ],
+    "mon_chuyen_nganh": [
+      "Quản trị nhà hàng",
+      "Nghiệp vụ phục vụ",
+      "Quản lý chất lượng",
+      "Quản lý nhân sự nhà hàng"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Quản trị nhà hàng",
+        "mo_ta": "Tổ chức và vận hành hoạt động nhà hàng."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "DU_LICH",
+    "per_year_estimate": "18 – 22 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["D01", "C00"],
+    "diem_chuan": "16 – 19 (tham khảo)",
+    "dieu_kien_dac_biet": []
+  },
+
+  "career": {
+    "positions": [
+      "Quản lý nhà hàng",
+      "Giám sát nhà hàng",
+      "Chuyên viên dịch vụ"
+    ],
+    "workplace": [
+      "Nhà hàng",
+      "Chuỗi F&B",
+      "Khách sạn"
+    ],
+    "salary": {
+      "junior": "7 – 10 triệu VNĐ / tháng",
+      "mid": "12 – 20 triệu VNĐ / tháng",
+      "senior": "25 – 40+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "DU_LICH",
+    "school_id": "TOUR",
+    "school_group": "Du lịch – Dịch vụ",
+    "language": "vi",
+    "version": "2025"
+  }
+}

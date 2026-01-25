@@ -1,0 +1,149 @@
+{
+  "type": "cutoff_scores",
+  "school_id": "MED",
+  "school_name": "Trường Y – Dược",
+  "university": "Đại học Duy Tân",
+  "data": [
+    {
+      "major_id": "MED_MD",
+      "major_name": "Y khoa",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "B00",
+      "cutoff_score": 24.2,
+      "analysis": "Ngành Y khoa đào tạo bác sĩ đa khoa với kiến thức và kỹ năng y học nền tảng.",
+      "trend": "Điểm chuẩn ổn định ở mức cao.",
+      "note": "Phù hợp với thí sinh có học lực giỏi và tinh thần trách nhiệm cao."
+    },
+    {
+      "major_id": "MED_MD",
+      "major_name": "Y khoa",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "B00",
+      "cutoff_score": 24.8,
+      "analysis": "Nhu cầu chăm sóc sức khỏe tăng cao khiến ngành Y khoa tiếp tục thu hút thí sinh.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Yêu cầu nền tảng sinh học và hóa học vững."
+    },
+
+    {
+      "major_id": "MED_DENTAL",
+      "major_name": "Răng – Hàm – Mặt",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "B00",
+      "cutoff_score": 23.8,
+      "analysis": "Ngành Răng – Hàm – Mặt đào tạo bác sĩ chuyên sâu về điều trị và chăm sóc răng miệng.",
+      "trend": "Điểm chuẩn ổn định ở mức cao.",
+      "note": "Phù hợp với thí sinh cẩn thận và khéo léo."
+    },
+    {
+      "major_id": "MED_DENTAL",
+      "major_name": "Răng – Hàm – Mặt",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "B00",
+      "cutoff_score": 24.4,
+      "analysis": "Nhu cầu chăm sóc sức khỏe răng miệng ngày càng tăng.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội việc làm tốt trong lĩnh vực y tế chuyên sâu."
+    },
+
+    {
+      "major_id": "MED_PHARMACY",
+      "major_name": "Dược học",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "B00",
+      "cutoff_score": 23.5,
+      "analysis": "Ngành Dược học đào tạo kiến thức về thuốc và ứng dụng trong chăm sóc sức khỏe.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh yêu thích hóa học và y sinh."
+    },
+    {
+      "major_id": "MED_PHARMACY",
+      "major_name": "Dược học",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "B00",
+      "cutoff_score": 24.0,
+      "analysis": "Ngành dược phát triển cùng nhu cầu sử dụng thuốc chất lượng cao.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội làm việc tại bệnh viện và doanh nghiệp dược."
+    },
+
+    {
+      "major_id": "MED_NURSING",
+      "major_name": "Điều dưỡng",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "B00",
+      "cutoff_score": 22.4,
+      "analysis": "Ngành Điều dưỡng đào tạo kỹ năng chăm sóc và hỗ trợ điều trị cho bệnh nhân.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh có tinh thần phục vụ và nhân ái."
+    },
+    {
+      "major_id": "MED_NURSING",
+      "major_name": "Điều dưỡng",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "B00",
+      "cutoff_score": 23.0,
+      "analysis": "Nhu cầu điều dưỡng viên trong và ngoài nước tiếp tục tăng.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội việc làm cao, kể cả làm việc quốc tế."
+    },
+
+    {
+      "major_id": "MED_BIOTECH",
+      "major_name": "Công nghệ sinh học",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "B00",
+      "cutoff_score": 22.8,
+      "analysis": "Ngành Công nghệ sinh học ứng dụng sinh học trong y học và sản xuất.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh yêu thích nghiên cứu khoa học."
+    },
+    {
+      "major_id": "MED_BIOTECH",
+      "major_name": "Công nghệ sinh học",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "B00",
+      "cutoff_score": 23.4,
+      "analysis": "Ứng dụng công nghệ sinh học trong y dược ngày càng mở rộng.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội làm việc trong phòng thí nghiệm và doanh nghiệp sinh học."
+    },
+
+    {
+      "major_id": "MED_BIOMED",
+      "major_name": "Kỹ thuật y sinh",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 22.1,
+      "analysis": "Ngành Kỹ thuật y sinh kết hợp kỹ thuật và y học trong thiết bị y tế.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh yêu thích công nghệ và y học."
+    },
+    {
+      "major_id": "MED_BIOMED",
+      "major_name": "Kỹ thuật y sinh",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 22.7,
+      "analysis": "Thiết bị y tế hiện đại phát triển mạnh làm tăng nhu cầu nhân lực.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội nghề nghiệp trong lĩnh vực công nghệ y tế."
+    }
+  ],
+  "metadata": {
+    "language": "vi",
+    "version": "2025"
+  }
+}

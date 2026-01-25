@@ -1,0 +1,78 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7320108",
+  "major_name": "Quan hệ Công chúng",
+  "major_id": "LANG_PR",
+  "school_id": "LANG",
+  "school_name": "Trường Ngoại ngữ & Khoa học Xã hội Nhân văn",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo cử nhân có khả năng xây dựng và quản lý hình ảnh tổ chức.",
+    "van_de_thuc_te": "Phục vụ truyền thông thương hiệu và quan hệ công chúng.",
+    "hoc_gi": "Sinh viên học PR, truyền thông, quản trị thương hiệu."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Tin học",
+      "Kỹ năng mềm"
+    ],
+    "mon_co_so_nganh": [
+      "Cơ sở PR",
+      "Truyền thông đại chúng",
+      "Marketing"
+    ],
+    "mon_chuyen_nganh": [
+      "Quan hệ công chúng",
+      "Quản trị thương hiệu",
+      "Xử lý khủng hoảng truyền thông"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Quan hệ công chúng",
+        "mo_ta": "Xây dựng hình ảnh và uy tín tổ chức."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "NGOAI_NGU_XHNV",
+    "per_year_estimate": "18 – 24 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["D01", "C00"],
+    "diem_chuan": "17 – 20 (tham khảo)",
+    "dieu_kien_dac_biet": []
+  },
+
+  "career": {
+    "positions": [
+      "Chuyên viên PR",
+      "Truyền thông thương hiệu",
+      "PR Executive"
+    ],
+    "workplace": [
+      "Doanh nghiệp",
+      "Agency",
+      "Tổ chức truyền thông"
+    ],
+    "salary": {
+      "junior": "8 – 12 triệu VNĐ / tháng",
+      "mid": "15 – 30 triệu VNĐ / tháng",
+      "senior": "35 – 60+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "NGOAI_NGU_XHNV",
+    "school_id": "LANG",
+    "school_group": "Ngoại ngữ – Xã hội – Nhân văn",
+    "language": "vi",
+    "version": "2025"
+  }
+}

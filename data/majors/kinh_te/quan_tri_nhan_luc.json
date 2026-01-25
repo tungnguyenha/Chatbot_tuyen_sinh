@@ -1,0 +1,85 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7340404",
+  "major_name": "Quản trị Nhân lực",
+  "major_id": "ECON_HRM",
+  "school_id": "ECON",
+  "school_name": "Trường Kinh tế",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo cử nhân quản trị nhân lực có khả năng tuyển dụng, đào tạo và phát triển nguồn nhân lực.",
+    "van_de_thuc_te": "Giải quyết các vấn đề về nhân sự, văn hóa doanh nghiệp và quản trị con người.",
+    "hoc_gi": "Sinh viên học quản trị nhân sự, luật lao động, đánh giá hiệu suất và phát triển tổ chức."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Toán kinh tế",
+      "Tin học",
+      "Tiếng Anh",
+      "Pháp luật",
+      "Kỹ năng giao tiếp"
+    ],
+    "mon_co_so_nganh": [
+      "Quản trị học",
+      "Hành vi tổ chức",
+      "Luật lao động",
+      "Tiền lương – phúc lợi"
+    ],
+    "mon_chuyen_nganh": [
+      "Tuyển dụng",
+      "Đào tạo và phát triển",
+      "Đánh giá hiệu suất",
+      "Quan hệ lao động"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Tuyển dụng",
+        "mo_ta": "Xây dựng và triển khai quy trình tuyển dụng."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "KINH_TE",
+    "per_year_estimate": "18 – 23 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["A00", "A01", "D01"],
+    "diem_chuan": "17 – 20 (tham khảo)",
+    "dieu_kien_dac_biet": [
+      "Kỹ năng giao tiếp tốt"
+    ]
+  },
+
+  "career": {
+    "positions": [
+      "Chuyên viên nhân sự",
+      "HR Executive",
+      "HR Manager"
+    ],
+    "workplace": [
+      "Doanh nghiệp",
+      "Tập đoàn",
+      "Công ty tư vấn nhân sự"
+    ],
+    "salary": {
+      "junior": "7 – 10 triệu VNĐ / tháng",
+      "mid": "12 – 22 triệu VNĐ / tháng",
+      "senior": "30 – 45+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "KINH_TE",
+    "school_id": "BUS",
+    "school_group": "Kinh tế – Quản trị",
+    "language": "vi",
+    "version": "2025"
+  }
+}

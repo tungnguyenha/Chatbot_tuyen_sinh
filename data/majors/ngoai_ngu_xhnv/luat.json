@@ -1,0 +1,78 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7380101",
+  "major_name": "Luật",
+  "major_id": "LANG_LAW",
+  "school_id": "LANG",
+  "school_name": "Trường Ngoại ngữ & Khoa học Xã hội Nhân văn",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo cử nhân luật có kiến thức pháp lý cơ bản và chuyên sâu.",
+    "van_de_thuc_te": "Phục vụ công tác pháp luật và tư vấn pháp lý.",
+    "hoc_gi": "Sinh viên học luật hiến pháp, dân sự, hình sự và tố tụng."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Tin học",
+      "Kỹ năng mềm"
+    ],
+    "mon_co_so_nganh": [
+      "Luật đại cương",
+      "Luật hiến pháp",
+      "Luật dân sự"
+    ],
+    "mon_chuyen_nganh": [
+      "Luật hình sự",
+      "Luật hành chính",
+      "Luật tố tụng"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Luật dân sự",
+        "mo_ta": "Quy định về quan hệ dân sự."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "NGOAI_NGU_XHNV",
+    "per_year_estimate": "17 – 22 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["C00", "D01"],
+    "diem_chuan": "17 – 20 (tham khảo)",
+    "dieu_kien_dac_biet": []
+  },
+
+  "career": {
+    "positions": [
+      "Cử nhân luật",
+      "Tư vấn pháp lý",
+      "Cán bộ pháp chế"
+    ],
+    "workplace": [
+      "Cơ quan nhà nước",
+      "Doanh nghiệp",
+      "Văn phòng luật"
+    ],
+    "salary": {
+      "junior": "8 – 12 triệu VNĐ / tháng",
+      "mid": "15 – 30 triệu VNĐ / tháng",
+      "senior": "35 – 60+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "NGOAI_NGU_XHNV",
+    "school_id": "LANG",
+    "school_group": "Ngoại ngữ – Xã hội – Nhân văn",
+    "language": "vi",
+    "version": "2025"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7520212",
+  "major_name": "Kỹ thuật Y sinh",
+  "major_id": "MED_BIOMED",
+  "school_id": "MED",
+  "school_name": "Trường Y – Dược",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo kỹ sư y sinh có khả năng thiết kế, vận hành và bảo trì thiết bị y tế.",
+    "van_de_thuc_te": "Đáp ứng nhu cầu kỹ thuật cho bệnh viện và doanh nghiệp sản xuất thiết bị y tế.",
+    "hoc_gi": "Sinh viên học điện tử y sinh, thiết bị y tế, xử lý tín hiệu sinh học và hình ảnh y khoa."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Toán cao cấp",
+      "Vật lý",
+      "Tin học",
+      "Tiếng Anh",
+      "Kỹ năng kỹ thuật"
+    ],
+    "mon_co_so_nganh": [
+      "Giải phẫu – sinh lý",
+      "Điện tử cơ bản",
+      "Cảm biến y sinh",
+      "Xử lý tín hiệu"
+    ],
+    "mon_chuyen_nganh": [
+      "Thiết bị y tế",
+      "Hình ảnh y khoa",
+      "Điện tử y sinh",
+      "Quản lý thiết bị y tế"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Thiết bị y tế",
+        "mo_ta": "Nguyên lý hoạt động và bảo trì thiết bị y khoa."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "Y_DUOC",
+    "per_year_estimate": "26 – 32 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["A00", "A01", "B00"],
+    "diem_chuan": "18 – 21 (tham khảo)",
+    "dieu_kien_dac_biet": [
+      "Yêu thích công nghệ và y học"
+    ]
+  },
+
+  "career": {
+    "positions": [
+      "Kỹ sư y sinh",
+      "Kỹ sư thiết bị y tế",
+      "Chuyên viên kỹ thuật bệnh viện"
+    ],
+    "workplace": [
+      "Bệnh viện",
+      "Công ty thiết bị y tế",
+      "Trung tâm nghiên cứu"
+    ],
+    "salary": {
+      "junior": "9 – 13 triệu VNĐ / tháng",
+      "mid": "15 – 25 triệu VNĐ / tháng",
+      "senior": "30 – 50+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "Y_DUOC",
+    "school_id": "MED",
+    "school_group": "Y – Dược",
+    "language": "vi",
+    "version": "2025"
+  }
+}

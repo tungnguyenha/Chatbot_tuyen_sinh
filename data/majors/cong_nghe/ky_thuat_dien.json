@@ -1,0 +1,83 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7520201",
+  "major_name": "Kỹ thuật Điện - Electrical Engineering",
+  "major_id": "ENG_EE",
+  "school_id": "ENG",
+  "school_name": "Trường Công nghệ",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo kỹ sư Kỹ thuật Điện có khả năng thiết kế, vận hành và bảo trì các hệ thống điện công nghiệp và dân dụng.",
+    "van_de_thuc_te": "Giải quyết các bài toán cung cấp điện, truyền tải và phân phối điện năng, tối ưu hóa hệ thống điện trong nhà máy và đô thị.",
+    "hoc_gi": "Sinh viên học mạch điện, máy điện, hệ thống điện, điện công nghiệp, an toàn điện và tự động hóa cơ bản."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Toán cao cấp",
+      "Vật lý đại cương",
+      "Tin học đại cương",
+      "Kỹ năng mềm",
+      "Tiếng Anh"
+    ],
+    "mon_co_so_nganh": [
+      "Mạch điện",
+      "Điện tử cơ bản",
+      "Máy điện",
+      "Đo lường điện"
+    ],
+    "mon_chuyen_nganh": [
+      "Hệ thống điện",
+      "Điện công nghiệp",
+      "Cung cấp điện",
+      "An toàn điện"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Máy điện",
+        "mo_ta": "Nghiên cứu nguyên lý và ứng dụng của máy phát, động cơ điện."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "CONG_NGHE",
+    "per_year_estimate": "22 – 26 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["A00", "A01"],
+    "diem_chuan": "17 – 20 (tham khảo)",
+    "dieu_kien_dac_biet": []
+  },
+
+  "career": {
+    "positions": [
+      "Kỹ sư điện",
+      "Kỹ sư vận hành hệ thống điện",
+      "Kỹ sư bảo trì"
+    ],
+    "workplace": [
+      "Nhà máy sản xuất",
+      "Khu công nghiệp",
+      "Công ty điện lực"
+    ],
+    "salary": {
+      "junior": "8 – 12 triệu VNĐ / tháng",
+      "mid": "15 – 25 triệu VNĐ / tháng",
+      "senior": "30 – 45+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "CONG_NGHE",
+    "school_id": "ENG",
+    "school_group": "Công nghệ – Kỹ thuật",
+    "language": "vi",
+    "version": "2025"
+  }
+}

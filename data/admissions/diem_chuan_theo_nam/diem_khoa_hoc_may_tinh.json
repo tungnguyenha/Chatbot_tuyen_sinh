@@ -1,0 +1,149 @@
+{
+  "type": "cutoff_scores",
+  "school_id": "CS",
+  "school_name": "Trường Khoa học Máy tính",
+  "university": "Đại học Duy Tân",
+  "data": [
+    {
+      "major_id": "CS_CS",
+      "major_name": "Khoa học máy tính",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 22.9,
+      "analysis": "Ngành Khoa học máy tính giữ vai trò nền tảng trong lĩnh vực công nghệ thông tin, đáp ứng nhu cầu nhân lực CNTT đa dạng.",
+      "trend": "Điểm chuẩn ổn định và có xu hướng tăng nhẹ.",
+      "note": "Phù hợp với thí sinh có tư duy logic và nền tảng toán học tốt."
+    },
+    {
+      "major_id": "CS_CS",
+      "major_name": "Khoa học máy tính",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 23.5,
+      "analysis": "Chuyển đổi số mạnh mẽ trong doanh nghiệp khiến ngành Khoa học máy tính tiếp tục thu hút nhiều thí sinh.",
+      "trend": "Điểm chuẩn tăng nhẹ so với năm trước.",
+      "note": "Cơ hội việc làm rộng mở sau khi tốt nghiệp."
+    },
+
+    {
+      "major_id": "CS_SE",
+      "major_name": "Kỹ thuật phần mềm",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A01",
+      "cutoff_score": 22.2,
+      "analysis": "Ngành Kỹ thuật phần mềm tập trung đào tạo kỹ năng phát triển và vận hành các hệ thống phần mềm thực tế.",
+      "trend": "Điểm chuẩn duy trì ổn định.",
+      "note": "Chú trọng kỹ năng lập trình và làm việc nhóm."
+    },
+    {
+      "major_id": "CS_SE",
+      "major_name": "Kỹ thuật phần mềm",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A01",
+      "cutoff_score": 22.8,
+      "analysis": "Nhu cầu tuyển dụng lập trình viên tiếp tục tăng khiến ngành Kỹ thuật phần mềm giữ sức hút cao.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Sinh viên có thể tham gia thực tập từ năm thứ ba."
+    },
+
+    {
+      "major_id": "CS_AI",
+      "major_name": "Trí tuệ nhân tạo",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 24.1,
+      "analysis": "Trí tuệ nhân tạo là ngành công nghệ mũi nhọn, thu hút thí sinh có học lực khá giỏi.",
+      "trend": "Điểm chuẩn tăng nhanh qua các năm.",
+      "note": "Yêu cầu nền tảng toán học và lập trình vững."
+    },
+    {
+      "major_id": "CS_AI",
+      "major_name": "Trí tuệ nhân tạo",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 24.8,
+      "analysis": "Ứng dụng AI ngày càng rộng rãi trong doanh nghiệp và đời sống làm tăng mức độ cạnh tranh đầu vào.",
+      "trend": "Điểm chuẩn tiếp tục tăng.",
+      "note": "Phù hợp với thí sinh định hướng công nghệ cao."
+    },
+
+    {
+      "major_id": "CS_DS",
+      "major_name": "Khoa học dữ liệu",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A01",
+      "cutoff_score": 23.3,
+      "analysis": "Ngành Khoa học dữ liệu đáp ứng nhu cầu phân tích và khai thác dữ liệu lớn trong nhiều lĩnh vực.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh yêu thích phân tích dữ liệu."
+    },
+    {
+      "major_id": "CS_DS",
+      "major_name": "Khoa học dữ liệu",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A01",
+      "cutoff_score": 23.9,
+      "analysis": "Nhu cầu nhân lực dữ liệu tăng mạnh trong tài chính, thương mại điện tử và công nghệ.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cần tư duy logic và kỹ năng toán học tốt."
+    },
+
+    {
+      "major_id": "CS_IS",
+      "major_name": "An toàn thông tin",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 22.0,
+      "analysis": "An toàn thông tin đóng vai trò quan trọng trong bảo vệ hệ thống và dữ liệu số.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh yêu thích bảo mật và hệ thống."
+    },
+    {
+      "major_id": "CS_IS",
+      "major_name": "An toàn thông tin",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 22.6,
+      "analysis": "Gia tăng các rủi ro an ninh mạng khiến ngành An toàn thông tin được quan tâm nhiều hơn.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Ngành học đòi hỏi tính kỷ luật và tư duy hệ thống."
+    },
+
+    {
+      "major_id": "CS_NET",
+      "major_name": "Mạng máy tính và Truyền thông dữ liệu",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 21.5,
+      "analysis": "Mạng máy tính là nền tảng cho hạ tầng CNTT và các hệ thống truyền thông hiện đại.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh yêu thích hệ thống mạng."
+    },
+    {
+      "major_id": "CS_NET",
+      "major_name": "Mạng máy tính và Truyền thông dữ liệu",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 22.1,
+      "analysis": "Sự phát triển của điện toán đám mây và IoT làm tăng nhu cầu nhân lực mạng.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội việc làm tốt trong các doanh nghiệp CNTT."
+    }
+  ],
+  "metadata": {
+    "language": "vi",
+    "version": "2025"
+  }
+}

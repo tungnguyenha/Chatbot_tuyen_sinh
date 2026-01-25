@@ -1,0 +1,90 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7520216",
+  "major_name": "Điều khiển và Tự động hóa",
+  "major_id": "ENG_AUTOMATION",
+  "school_id": "ENG",
+  "school_name": "Trường Công nghệ",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo kỹ sư điều khiển và tự động hóa có khả năng thiết kế, lập trình và vận hành các hệ thống tự động trong công nghiệp.",
+    "van_de_thuc_te": "Giải quyết các bài toán tự động hóa dây chuyền sản xuất, nhà máy thông minh, tối ưu năng suất và giảm chi phí vận hành.",
+    "hoc_gi": "Sinh viên học điều khiển tự động, PLC, SCADA, robot công nghiệp và tích hợp hệ thống."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Toán cao cấp",
+      "Vật lý đại cương",
+      "Tin học",
+      "Tiếng Anh",
+      "Kỹ năng mềm"
+    ],
+    "mon_co_so_nganh": [
+      "Mạch điện",
+      "Điện tử",
+      "Kỹ thuật điều khiển",
+      "Cảm biến và đo lường"
+    ],
+    "mon_chuyen_nganh": [
+      "PLC",
+      "SCADA",
+      "Robot công nghiệp",
+      "Tự động hóa quá trình"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "PLC",
+        "mo_ta": "Lập trình và vận hành bộ điều khiển PLC trong nhà máy."
+      },
+      {
+        "ten_mon": "SCADA",
+        "mo_ta": "Giám sát và điều khiển hệ thống tự động hóa quy mô lớn."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "CONG_NGHE",
+    "per_year_estimate": "24 – 28 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["A00", "A01"],
+    "diem_chuan": "15 – 18 (tham khảo)",
+    "dieu_kien_dac_biet": [
+      "Yêu thích máy móc và hệ thống tự động",
+      "Có nền tảng Toán – Lý tốt"
+    ]
+  },
+
+  "career": {
+    "positions": [
+      "Kỹ sư tự động hóa",
+      "Kỹ sư PLC",
+      "Kỹ sư điều khiển"
+    ],
+    "workplace": [
+      "Nhà máy sản xuất",
+      "Khu công nghiệp",
+      "Doanh nghiệp công nghệ cao"
+    ],
+    "salary": {
+      "junior": "10 – 14 triệu VNĐ / tháng",
+      "mid": "18 – 30 triệu VNĐ / tháng",
+      "senior": "35 – 55+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "CONG_NGHE",
+    "school_id": "ENG",
+    "school_group": "Công nghệ – Kỹ thuật",
+    "language": "vi",
+    "version": "2025"
+  }
+}

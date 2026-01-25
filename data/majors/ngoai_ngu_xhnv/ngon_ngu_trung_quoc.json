@@ -1,0 +1,80 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7220204",
+  "major_name": "Ngôn ngữ Trung Quốc",
+  "major_id": "LANG_CN",
+  "school_id": "LANG",
+  "school_name": "Trường Ngoại ngữ & Khoa học Xã hội Nhân văn",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo cử nhân tiếng Trung có khả năng sử dụng tiếng Trung trong giao tiếp và công việc.",
+    "van_de_thuc_te": "Đáp ứng nhu cầu nhân lực tiếng Trung trong thương mại, sản xuất và đối ngoại.",
+    "hoc_gi": "Sinh viên học tiếng Trung hiện đại, giao tiếp, dịch thuật và văn hóa Trung Quốc."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Tin học",
+      "Kỹ năng mềm",
+      "Phương pháp học đại học"
+    ],
+    "mon_co_so_nganh": [
+      "Ngữ âm – chữ Hán",
+      "Ngữ pháp tiếng Trung",
+      "Nghe – nói – đọc – viết",
+      "Văn hóa Trung Quốc"
+    ],
+    "mon_chuyen_nganh": [
+      "Biên dịch Trung – Việt",
+      "Phiên dịch Trung – Việt",
+      "Tiếng Trung thương mại"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Tiếng Trung thương mại",
+        "mo_ta": "Sử dụng tiếng Trung trong môi trường kinh doanh."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "NGOAI_NGU_XHNV",
+    "per_year_estimate": "18 – 22 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["D01", "D04"],
+    "diem_chuan": "17 – 20 (tham khảo)",
+    "dieu_kien_dac_biet": []
+  },
+
+  "career": {
+    "positions": [
+      "Biên dịch tiếng Trung",
+      "Phiên dịch tiếng Trung",
+      "Nhân viên đối ngoại"
+    ],
+    "workplace": [
+      "Doanh nghiệp Trung Quốc",
+      "Công ty FDI",
+      "Tổ chức thương mại"
+    ],
+    "salary": {
+      "junior": "9 – 13 triệu VNĐ / tháng",
+      "mid": "15 – 30 triệu VNĐ / tháng",
+      "senior": "35 – 55+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "NGOAI_NGU_XHNV",
+    "school_id": "LANG",
+    "school_group": "Ngoại ngữ – Xã hội – Nhân văn",
+    "language": "vi",
+    "version": "2025"
+  }
+}

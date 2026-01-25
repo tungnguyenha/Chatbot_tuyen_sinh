@@ -1,0 +1,17 @@
+{
+  "school_id": "CS",
+  "school_name": "Trường Khoa học Máy tính",
+  "school_name_en": "School of Computer Science",
+  "description": "Đào tạo các ngành thuộc lĩnh vực Công nghệ Thông tin và Khoa học Máy tính.",
+  "majors": [
+    "CS_CS",
+    "CS_SE",
+    "CS_AI",
+    "CS_DS",
+    "CS_IS",
+    "CS_NET"
+  ],
+  "metadata": {
+    "version": "2025"
+  }
+}

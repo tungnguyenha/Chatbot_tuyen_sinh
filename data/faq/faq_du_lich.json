@@ -1,0 +1,178 @@
+{
+  "type": "faq",
+  "school_id": "TOURISM",
+  "school_name": "Trường Du lịch",
+  "university": "Đại học Duy Tân",
+  "data": [
+
+    {
+      "faq_id": "FAQ_TOURISM_TRAVEL_001",
+      "scope": "major",
+      "major_id": "TOURISM_TRAVEL",
+      "question": "Ngành Quản trị dịch vụ du lịch và lữ hành đào tạo sinh viên theo định hướng nào?",
+      "answer": "Ngành đào tạo sinh viên kiến thức và kỹ năng tổ chức, điều hành và kinh doanh các dịch vụ du lịch và lữ hành.",
+      "tags": ["du-lich-lu-hanh", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_TOURISM_TRAVEL_002",
+      "scope": "major",
+      "major_id": "TOURISM_TRAVEL",
+      "question": "Sinh viên ngành Du lịch và lữ hành sẽ học những nội dung trọng tâm gì?",
+      "answer": "Sinh viên học nghiệp vụ lữ hành, thiết kế tour, điều hành tour và quản lý dịch vụ du lịch.",
+      "tags": ["du-lich-lu-hanh", "hoc-gi"]
+    },
+    {
+      "faq_id": "FAQ_TOURISM_TRAVEL_003",
+      "scope": "major",
+      "major_id": "TOURISM_TRAVEL",
+      "question": "Ngành Du lịch và lữ hành phù hợp với đối tượng nào?",
+      "answer": "Ngành phù hợp với người yêu thích du lịch, giao tiếp tốt và năng động.",
+      "tags": ["du-lich-lu-hanh", "phu-hop"]
+    },
+    {
+      "faq_id": "FAQ_TOURISM_TRAVEL_004",
+      "scope": "major",
+      "major_id": "TOURISM_TRAVEL",
+      "question": "Sinh viên ngành Du lịch và lữ hành ra trường làm công việc gì?",
+      "answer": "Sinh viên có thể làm điều hành tour, nhân viên lữ hành, hướng dẫn viên hoặc quản lý du lịch.",
+      "tags": ["du-lich-lu-hanh", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_TOURISM_HOTEL_001",
+      "scope": "major",
+      "major_id": "TOURISM_HOTEL",
+      "question": "Ngành Quản trị khách sạn đào tạo sinh viên theo hướng nào?",
+      "answer": "Ngành đào tạo sinh viên quản lý và vận hành các bộ phận trong khách sạn theo tiêu chuẩn dịch vụ.",
+      "tags": ["khach-san", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_TOURISM_HOTEL_002",
+      "scope": "major",
+      "major_id": "TOURISM_HOTEL",
+      "question": "Sinh viên ngành Quản trị khách sạn sẽ học những kỹ năng gì?",
+      "answer": "Sinh viên học quản lý lễ tân, buồng phòng, nhà hàng và chăm sóc khách hàng.",
+      "tags": ["khach-san", "ky-nang"]
+    },
+    {
+      "faq_id": "FAQ_TOURISM_HOTEL_003",
+      "scope": "major",
+      "major_id": "TOURISM_HOTEL",
+      "question": "Ngành Quản trị khách sạn có yêu cầu ngoại ngữ không?",
+      "answer": "Ngành khuyến khích sử dụng ngoại ngữ vì thường xuyên làm việc với khách quốc tế.",
+      "tags": ["khach-san", "ngoai-ngu"]
+    },
+    {
+      "faq_id": "FAQ_TOURISM_HOTEL_004",
+      "scope": "major",
+      "major_id": "TOURISM_HOTEL",
+      "question": "Sinh viên ngành Quản trị khách sạn ra trường làm việc ở đâu?",
+      "answer": "Sinh viên có thể làm việc tại khách sạn, resort, khu nghỉ dưỡng hoặc doanh nghiệp dịch vụ lưu trú.",
+      "tags": ["khach-san", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_TOURISM_RESTAURANT_001",
+      "scope": "major",
+      "major_id": "TOURISM_RESTAURANT",
+      "question": "Ngành Quản trị nhà hàng đào tạo sinh viên theo định hướng nào?",
+      "answer": "Ngành đào tạo sinh viên quản lý và vận hành hoạt động nhà hàng và dịch vụ ăn uống.",
+      "tags": ["nha-hang", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_TOURISM_RESTAURANT_002",
+      "scope": "major",
+      "major_id": "TOURISM_RESTAURANT",
+      "question": "Sinh viên ngành Quản trị nhà hàng sẽ học những nội dung gì?",
+      "answer": "Sinh viên học quản lý nhà hàng, nghiệp vụ phục vụ, an toàn thực phẩm và chăm sóc khách hàng.",
+      "tags": ["nha-hang", "hoc-gi"]
+    },
+    {
+      "faq_id": "FAQ_TOURISM_RESTAURANT_003",
+      "scope": "major",
+      "major_id": "TOURISM_RESTAURANT",
+      "question": "Ngành Quản trị nhà hàng phù hợp với ai?",
+      "answer": "Ngành phù hợp với người yêu thích ẩm thực, dịch vụ và môi trường làm việc năng động.",
+      "tags": ["nha-hang", "phu-hop"]
+    },
+    {
+      "faq_id": "FAQ_TOURISM_RESTAURANT_004",
+      "scope": "major",
+      "major_id": "TOURISM_RESTAURANT",
+      "question": "Sinh viên ngành Quản trị nhà hàng ra trường làm công việc gì?",
+      "answer": "Sinh viên có thể làm quản lý nhà hàng, giám sát dịch vụ hoặc khởi nghiệp trong lĩnh vực ẩm thực.",
+      "tags": ["nha-hang", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_TOURISM_EVENT_001",
+      "scope": "major",
+      "major_id": "TOURISM_EVENT",
+      "question": "Ngành Quản trị sự kiện đào tạo sinh viên theo hướng nào?",
+      "answer": "Ngành đào tạo sinh viên tổ chức, điều phối và quản lý các sự kiện du lịch, văn hóa và giải trí.",
+      "tags": ["su-kien", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_TOURISM_EVENT_002",
+      "scope": "major",
+      "major_id": "TOURISM_EVENT",
+      "question": "Sinh viên ngành Quản trị sự kiện sẽ học những kỹ năng gì?",
+      "answer": "Sinh viên học lập kế hoạch sự kiện, tổ chức, truyền thông và quản lý rủi ro.",
+      "tags": ["su-kien", "ky-nang"]
+    },
+    {
+      "faq_id": "FAQ_TOURISM_EVENT_003",
+      "scope": "major",
+      "major_id": "TOURISM_EVENT",
+      "question": "Ngành Quản trị sự kiện phù hợp với đối tượng nào?",
+      "answer": "Ngành phù hợp với người sáng tạo, năng động và có khả năng tổ chức.",
+      "tags": ["su-kien", "phu-hop"]
+    },
+    {
+      "faq_id": "FAQ_TOURISM_EVENT_004",
+      "scope": "major",
+      "major_id": "TOURISM_EVENT",
+      "question": "Sinh viên ngành Quản trị sự kiện ra trường làm công việc gì?",
+      "answer": "Sinh viên có thể làm điều phối sự kiện, tổ chức chương trình hoặc làm việc tại công ty sự kiện.",
+      "tags": ["su-kien", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_TOURISM_GUIDE_001",
+      "scope": "major",
+      "major_id": "TOURISM_GUIDE",
+      "question": "Ngành Hướng dẫn du lịch đào tạo sinh viên theo định hướng nào?",
+      "answer": "Ngành đào tạo sinh viên kiến thức văn hóa, lịch sử và kỹ năng hướng dẫn khách du lịch.",
+      "tags": ["huong-dan", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_TOURISM_GUIDE_002",
+      "scope": "major",
+      "major_id": "TOURISM_GUIDE",
+      "question": "Sinh viên ngành Hướng dẫn du lịch sẽ học những nội dung gì?",
+      "answer": "Sinh viên học nghiệp vụ hướng dẫn, thuyết minh, tâm lý du khách và kỹ năng xử lý tình huống.",
+      "tags": ["huong-dan", "hoc-gi"]
+    },
+    {
+      "faq_id": "FAQ_TOURISM_GUIDE_003",
+      "scope": "major",
+      "major_id": "TOURISM_GUIDE",
+      "question": "Ngành Hướng dẫn du lịch có yêu cầu ngoại ngữ không?",
+      "answer": "Ngành rất cần ngoại ngữ để phục vụ khách quốc tế và mở rộng cơ hội nghề nghiệp.",
+      "tags": ["huong-dan", "ngoai-ngu"]
+    },
+    {
+      "faq_id": "FAQ_TOURISM_GUIDE_004",
+      "scope": "major",
+      "major_id": "TOURISM_GUIDE",
+      "question": "Sinh viên ngành Hướng dẫn du lịch ra trường làm công việc gì?",
+      "answer": "Sinh viên có thể làm hướng dẫn viên du lịch, thuyết minh viên hoặc làm việc tại doanh nghiệp lữ hành.",
+      "tags": ["huong-dan", "viec-lam"]
+    }
+
+  ],
+  "metadata": {
+    "language": "vi",
+    "version": "2025"
+  }
+}

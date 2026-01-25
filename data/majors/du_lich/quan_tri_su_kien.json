@@ -1,0 +1,85 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7810104",
+  "major_name": "Quản trị Sự kiện",
+  "major_id": "TOUR_EVENT",
+  "school_id": "TOUR",
+  "school_name": "Trường Du lịch",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo cử nhân có khả năng tổ chức, điều phối và quản lý các sự kiện chuyên nghiệp.",
+    "van_de_thuc_te": "Phục vụ nhu cầu tổ chức hội nghị, lễ hội, sự kiện doanh nghiệp và giải trí.",
+    "hoc_gi": "Sinh viên học quản trị sự kiện, truyền thông, PR và tổ chức chương trình."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Kinh tế",
+      "Tin học",
+      "Tiếng Anh",
+      "Kỹ năng giao tiếp",
+      "Văn hóa"
+    ],
+    "mon_co_so_nganh": [
+      "Tổng quan sự kiện",
+      "Marketing",
+      "Truyền thông",
+      "Hành vi khách hàng"
+    ],
+    "mon_chuyen_nganh": [
+      "Tổ chức sự kiện",
+      "Quản lý sự kiện",
+      "PR và truyền thông",
+      "Quản trị rủi ro sự kiện"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Tổ chức sự kiện",
+        "mo_ta": "Lập kế hoạch và triển khai sự kiện thực tế."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "DU_LICH",
+    "per_year_estimate": "18 – 22 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["D01", "C00"],
+    "diem_chuan": "16 – 19 (tham khảo)",
+    "dieu_kien_dac_biet": [
+      "Năng động, giao tiếp tốt"
+    ]
+  },
+
+  "career": {
+    "positions": [
+      "Event Executive",
+      "Event Planner",
+      "Chuyên viên tổ chức sự kiện"
+    ],
+    "workplace": [
+      "Công ty tổ chức sự kiện",
+      "Doanh nghiệp",
+      "Agency truyền thông"
+    ],
+    "salary": {
+      "junior": "8 – 12 triệu VNĐ / tháng",
+      "mid": "15 – 25 triệu VNĐ / tháng",
+      "senior": "30 – 45+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "DU_LICH",
+    "school_id": "TOUR",
+    "school_group": "Du lịch – Dịch vụ",
+    "language": "vi",
+    "version": "2025"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7340301",
+  "major_name": "Kế toán",
+  "major_id": "ECON_ACCOUNTING",
+  "school_id": "ECON",
+  "school_name": "Trường Kinh tế",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo cử nhân kế toán có khả năng ghi nhận, phân tích và kiểm soát thông tin tài chính.",
+    "van_de_thuc_te": "Đáp ứng nhu cầu quản lý tài chính minh bạch trong doanh nghiệp.",
+    "hoc_gi": "Sinh viên học kế toán tài chính, kế toán quản trị, thuế và kiểm toán cơ bản."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Toán kinh tế",
+      "Tin học",
+      "Tiếng Anh",
+      "Pháp luật",
+      "Kỹ năng nghề nghiệp"
+    ],
+    "mon_co_so_nganh": [
+      "Nguyên lý kế toán",
+      "Kế toán tài chính",
+      "Kế toán quản trị",
+      "Thuế"
+    ],
+    "mon_chuyen_nganh": [
+      "Kế toán doanh nghiệp",
+      "Kế toán thuế",
+      "Phân tích tài chính"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Kế toán tài chính",
+        "mo_ta": "Ghi nhận và lập báo cáo tài chính."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "KINH_TE",
+    "per_year_estimate": "18 – 23 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["A00", "A01", "D01"],
+    "diem_chuan": "17 – 20 (tham khảo)",
+    "dieu_kien_dac_biet": [
+      "Cẩn thận, chính xác"
+    ]
+  },
+
+  "career": {
+    "positions": [
+      "Kế toán viên",
+      "Kế toán tổng hợp",
+      "Chuyên viên tài chính"
+    ],
+    "workplace": [
+      "Doanh nghiệp",
+      "Công ty kiểm toán",
+      "Cơ quan tài chính"
+    ],
+    "salary": {
+      "junior": "7 – 10 triệu VNĐ / tháng",
+      "mid": "12 – 20 triệu VNĐ / tháng",
+      "senior": "25 – 40+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "KINH_TE",
+    "school_id": "BUS",
+    "school_group": "Kinh tế – Quản trị",
+    "language": "vi",
+    "version": "2025"
+  }
+}

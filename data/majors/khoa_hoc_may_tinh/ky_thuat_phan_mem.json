@@ -1,0 +1,93 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7480103",
+  "major_name": "Kỹ thuật Phần mềm - Software Engineering",
+  "major_id": "CS_SE",
+  "school_id": "CS",
+  "school_name": "Trường Khoa học Máy tính",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo kỹ sư phần mềm có khả năng thiết kế, phát triển, kiểm thử, triển khai và bảo trì các hệ thống phần mềm.",
+    "van_de_thuc_te": "Giải quyết nhu cầu xây dựng phần mềm cho doanh nghiệp, chính phủ điện tử, thương mại điện tử và startup công nghệ.",
+    "hoc_gi": "Sinh viên được học lập trình hướng đối tượng, phát triển Web và Mobile, quy trình phát triển phần mềm, DevOps và quản lý dự án."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Toán cao cấp",
+      "Xác suất – Thống kê",
+      "Tin học đại cương",
+      "Tiếng Anh",
+      "Kỹ năng mềm"
+    ],
+    "mon_co_so_nganh": [
+      "Lập trình hướng đối tượng",
+      "Cấu trúc dữ liệu và Giải thuật",
+      "Cơ sở dữ liệu",
+      "Hệ điều hành"
+    ],
+    "mon_chuyen_nganh": [
+      "Kỹ thuật phần mềm",
+      "Lập trình Web",
+      "Lập trình Mobile",
+      "Kiểm thử phần mềm",
+      "DevOps"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Kỹ thuật phần mềm",
+        "mo_ta": "Phân tích yêu cầu, thiết kế và quản lý vòng đời phần mềm."
+      },
+      {
+        "ten_mon": "Lập trình Web",
+        "mo_ta": "Xây dựng hệ thống web từ frontend đến backend."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "CNTT",
+    "per_year_estimate": "25 – 30 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa", "TuyenThang"],
+    "to_hop": ["A00", "A01", "D01", "D07"],
+    "diem_chuan": "19 – 22 (tham khảo các năm gần đây)",
+    "dieu_kien_dac_biet": [
+      "Có sản phẩm lập trình cá nhân",
+      "Có chứng chỉ tiếng Anh"
+    ]
+  },
+
+  "career": {
+    "positions": [
+      "Software Engineer",
+      "Web Developer",
+      "Mobile Developer",
+      "QA/QC Engineer",
+      "DevOps Engineer"
+    ],
+    "workplace": [
+      "Công ty phần mềm",
+      "Startup công nghệ",
+      "Doanh nghiệp CNTT trong và ngoài nước"
+    ],
+    "salary": {
+      "junior": "10 – 15 triệu VNĐ / tháng",
+      "mid": "20 – 30 triệu VNĐ / tháng",
+      "senior": "35 – 60+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "CNTT",
+    "school_id": "CS",
+    "school_group": "Khoa học Máy tính",
+    "language": "vi",
+    "version": "2025"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7229030",
+  "major_name": "Văn học",
+  "major_id": "LANG_LITERATURE",
+  "school_id": "LANG",
+  "school_name": "Trường Ngoại ngữ & Khoa học Xã hội Nhân văn",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo cử nhân văn học có kiến thức về văn học Việt Nam và thế giới.",
+    "van_de_thuc_te": "Đáp ứng nhu cầu nghiên cứu, giảng dạy và sáng tác văn học.",
+    "hoc_gi": "Sinh viên học lý luận văn học, văn học Việt Nam, văn học nước ngoài và kỹ năng viết."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Tin học",
+      "Kỹ năng mềm",
+      "Phương pháp nghiên cứu khoa học"
+    ],
+    "mon_co_so_nganh": [
+      "Lý luận văn học",
+      "Văn học Việt Nam",
+      "Văn học thế giới",
+      "Ngôn ngữ học"
+    ],
+    "mon_chuyen_nganh": [
+      "Phê bình văn học",
+      "Sáng tác văn học",
+      "Văn học so sánh"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Lý luận văn học",
+        "mo_ta": "Nghiên cứu các lý thuyết và trường phái văn học."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "NGOAI_NGU_XHNV",
+    "per_year_estimate": "16 – 20 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["C00", "D01"],
+    "diem_chuan": "15 – 18 (tham khảo)",
+    "dieu_kien_dac_biet": []
+  },
+
+  "career": {
+    "positions": [
+      "Biên tập viên",
+      "Nhà nghiên cứu",
+      "Giáo viên"
+    ],
+    "workplace": [
+      "Nhà xuất bản",
+      "Trường học",
+      "Viện nghiên cứu"
+    ],
+    "salary": {
+      "junior": "6 – 9 triệu VNĐ / tháng",
+      "mid": "10 – 18 triệu VNĐ / tháng",
+      "senior": "25 – 40+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "NGOAI_NGU_XHNV",
+    "school_id": "LANG",
+    "school_group": "Ngoại ngữ – Xã hội – Nhân văn",
+    "language": "vi",
+    "version": "2025"
+  }
+}

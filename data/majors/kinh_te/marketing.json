@@ -1,0 +1,85 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7340115",
+  "major_name": "Marketing",
+  "major_id": "ECON_MARKETING",
+  "school_id": "ECON",
+  "school_name": "Trường Kinh tế",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo cử nhân marketing có khả năng xây dựng và triển khai chiến lược tiếp thị.",
+    "van_de_thuc_te": "Giải quyết nhu cầu xây dựng thương hiệu và thu hút khách hàng.",
+    "hoc_gi": "Sinh viên học marketing chiến lược, truyền thông, digital marketing và nghiên cứu thị trường."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Toán kinh tế",
+      "Tin học",
+      "Tiếng Anh",
+      "Pháp luật",
+      "Kỹ năng mềm"
+    ],
+    "mon_co_so_nganh": [
+      "Marketing căn bản",
+      "Hành vi khách hàng",
+      "Truyền thông marketing",
+      "Nghiên cứu thị trường"
+    ],
+    "mon_chuyen_nganh": [
+      "Marketing chiến lược",
+      "Digital Marketing",
+      "Brand Management",
+      "Content Marketing"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Brand Management",
+        "mo_ta": "Xây dựng và phát triển thương hiệu."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "KINH_TE",
+    "per_year_estimate": "20 – 25 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["A00", "A01", "D01"],
+    "diem_chuan": "18 – 22 (tham khảo)",
+    "dieu_kien_dac_biet": [
+      "Sáng tạo, năng động"
+    ]
+  },
+
+  "career": {
+    "positions": [
+      "Chuyên viên marketing",
+      "Brand Executive",
+      "Digital Marketer"
+    ],
+    "workplace": [
+      "Doanh nghiệp",
+      "Agency marketing",
+      "Công ty truyền thông"
+    ],
+    "salary": {
+      "junior": "8 – 12 triệu VNĐ / tháng",
+      "mid": "15 – 30 triệu VNĐ / tháng",
+      "senior": "35 – 60+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "KINH_TE",
+    "school_id": "BUS",
+    "school_group": "Kinh tế – Quản trị",
+    "language": "vi",
+    "version": "2025"
+  }
+}

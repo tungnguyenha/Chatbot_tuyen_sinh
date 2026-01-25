@@ -1,0 +1,78 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7320104",
+  "major_name": "Truyền thông Đa phương tiện",
+  "major_id": "LANG_MULTIMEDIA",
+  "school_id": "LANG",
+  "school_name": "Trường Ngoại ngữ & Khoa học Xã hội Nhân văn",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo cử nhân truyền thông có khả năng sản xuất nội dung đa phương tiện.",
+    "van_de_thuc_te": "Phục vụ nhu cầu truyền thông số, marketing và sáng tạo nội dung.",
+    "hoc_gi": "Sinh viên học báo chí, truyền thông số, thiết kế nội dung và sản xuất media."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Tin học",
+      "Kỹ năng mềm"
+    ],
+    "mon_co_so_nganh": [
+      "Cơ sở truyền thông",
+      "Báo chí",
+      "Truyền thông đại chúng"
+    ],
+    "mon_chuyen_nganh": [
+      "Truyền thông số",
+      "Sản xuất video",
+      "Thiết kế nội dung đa phương tiện"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Truyền thông số",
+        "mo_ta": "Xây dựng nội dung trên nền tảng số."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "NGOAI_NGU_XHNV",
+    "per_year_estimate": "18 – 24 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["D01", "C00"],
+    "diem_chuan": "17 – 20 (tham khảo)",
+    "dieu_kien_dac_biet": []
+  },
+
+  "career": {
+    "positions": [
+      "Chuyên viên truyền thông",
+      "Content Creator",
+      "Media Executive"
+    ],
+    "workplace": [
+      "Agency truyền thông",
+      "Doanh nghiệp",
+      "Tổ chức truyền thông"
+    ],
+    "salary": {
+      "junior": "8 – 12 triệu VNĐ / tháng",
+      "mid": "15 – 30 triệu VNĐ / tháng",
+      "senior": "35 – 60+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "NGOAI_NGU_XHNV",
+    "school_id": "LANG",
+    "school_group": "Ngoại ngữ – Xã hội – Nhân văn",
+    "language": "vi",
+    "version": "2025"
+  }
+}

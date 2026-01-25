@@ -1,0 +1,277 @@
+{
+  "type": "faq",
+  "school_id": "ECON",
+  "school_name": "Trường Kinh tế",
+  "university": "Đại học Duy Tân",
+  "data": [
+
+    {
+      "faq_id": "FAQ_ECON_BA_001",
+      "scope": "major",
+      "major_id": "ECON_BA",
+      "question": "Ngành Quản trị kinh doanh đào tạo sinh viên theo định hướng nào?",
+      "answer": "Ngành Quản trị kinh doanh đào tạo sinh viên kiến thức tổng hợp về quản lý, điều hành, chiến lược kinh doanh và vận hành doanh nghiệp.",
+      "tags": ["qtkd", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_ECON_BA_002",
+      "scope": "major",
+      "major_id": "ECON_BA",
+      "question": "Sinh viên ngành Quản trị kinh doanh sẽ học những nội dung trọng tâm gì?",
+      "answer": "Sinh viên học quản trị, marketing, tài chính, nhân sự, chiến lược kinh doanh và khởi nghiệp.",
+      "tags": ["qtkd", "hoc-gi"]
+    },
+    {
+      "faq_id": "FAQ_ECON_BA_003",
+      "scope": "major",
+      "major_id": "ECON_BA",
+      "question": "Ngành Quản trị kinh doanh phù hợp với đối tượng nào?",
+      "answer": "Ngành phù hợp với thí sinh năng động, có tư duy quản lý, giao tiếp tốt và mong muốn làm việc trong môi trường doanh nghiệp.",
+      "tags": ["qtkd", "phu-hop"]
+    },
+    {
+      "faq_id": "FAQ_ECON_BA_004",
+      "scope": "major",
+      "major_id": "ECON_BA",
+      "question": "Sinh viên ngành Quản trị kinh doanh ra trường làm công việc gì?",
+      "answer": "Sinh viên có thể làm quản lý, nhân viên kinh doanh, marketing, điều hành doanh nghiệp hoặc khởi nghiệp.",
+      "tags": ["qtkd", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_ECON_MARKETING_001",
+      "scope": "major",
+      "major_id": "ECON_MARKETING",
+      "question": "Ngành Marketing đào tạo sinh viên theo hướng nào?",
+      "answer": "Ngành Marketing đào tạo sinh viên về nghiên cứu thị trường, xây dựng thương hiệu và triển khai chiến lược marketing.",
+      "tags": ["marketing", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_ECON_MARKETING_002",
+      "scope": "major",
+      "major_id": "ECON_MARKETING",
+      "question": "Sinh viên ngành Marketing sẽ học những kỹ năng gì?",
+      "answer": "Sinh viên học marketing căn bản, digital marketing, truyền thông, quảng cáo và hành vi người tiêu dùng.",
+      "tags": ["marketing", "ky-nang"]
+    },
+    {
+      "faq_id": "FAQ_ECON_MARKETING_003",
+      "scope": "major",
+      "major_id": "ECON_MARKETING",
+      "question": "Ngành Marketing có phù hợp với người sáng tạo không?",
+      "answer": "Ngành rất phù hợp với người yêu thích sáng tạo, truyền thông và làm việc trong môi trường năng động.",
+      "tags": ["marketing", "phu-hop"]
+    },
+    {
+      "faq_id": "FAQ_ECON_MARKETING_004",
+      "scope": "major",
+      "major_id": "ECON_MARKETING",
+      "question": "Sinh viên ngành Marketing ra trường làm công việc gì?",
+      "answer": "Sinh viên có thể làm chuyên viên marketing, truyền thông, digital marketing hoặc quản lý thương hiệu.",
+      "tags": ["marketing", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_ECON_ECOMMERCE_001",
+      "scope": "major",
+      "major_id": "ECON_ECOMMERCE",
+      "question": "Ngành Thương mại điện tử đào tạo sinh viên theo định hướng nào?",
+      "answer": "Ngành Thương mại điện tử đào tạo sinh viên về kinh doanh trên nền tảng số và vận hành hệ thống bán hàng trực tuyến.",
+      "tags": ["ecommerce", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_ECON_ECOMMERCE_002",
+      "scope": "major",
+      "major_id": "ECON_ECOMMERCE",
+      "question": "Sinh viên ngành Thương mại điện tử học những nội dung gì?",
+      "answer": "Sinh viên học kinh doanh online, marketing số, quản trị sàn thương mại điện tử và logistics.",
+      "tags": ["ecommerce", "hoc-gi"]
+    },
+    {
+      "faq_id": "FAQ_ECON_ECOMMERCE_003",
+      "scope": "major",
+      "major_id": "ECON_ECOMMERCE",
+      "question": "Ngành Thương mại điện tử phù hợp với ai?",
+      "answer": "Ngành phù hợp với người yêu thích kinh doanh, công nghệ và môi trường số.",
+      "tags": ["ecommerce", "phu-hop"]
+    },
+    {
+      "faq_id": "FAQ_ECON_ECOMMERCE_004",
+      "scope": "major",
+      "major_id": "ECON_ECOMMERCE",
+      "question": "Sinh viên ngành Thương mại điện tử ra trường làm công việc gì?",
+      "answer": "Sinh viên có thể làm quản lý sàn TMĐT, kinh doanh online, digital marketing hoặc khởi nghiệp.",
+      "tags": ["ecommerce", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_ECON_FINANCE_001",
+      "scope": "major",
+      "major_id": "ECON_FINANCE",
+      "question": "Ngành Tài chính – Ngân hàng đào tạo sinh viên theo định hướng nào?",
+      "answer": "Ngành Tài chính – Ngân hàng đào tạo sinh viên kiến thức về tài chính doanh nghiệp, ngân hàng, đầu tư và quản lý tài chính.",
+      "tags": ["tai-chinh", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_ECON_FINANCE_002",
+      "scope": "major",
+      "major_id": "ECON_FINANCE",
+      "question": "Sinh viên ngành Tài chính – Ngân hàng sẽ học những nội dung trọng tâm gì?",
+      "answer": "Sinh viên học tài chính doanh nghiệp, ngân hàng thương mại, thị trường chứng khoán, đầu tư và quản trị rủi ro.",
+      "tags": ["tai-chinh", "hoc-gi"]
+    },
+    {
+      "faq_id": "FAQ_ECON_FINANCE_003",
+      "scope": "major",
+      "major_id": "ECON_FINANCE",
+      "question": "Ngành Tài chính – Ngân hàng phù hợp với đối tượng nào?",
+      "answer": "Ngành phù hợp với thí sinh có tư duy logic, cẩn thận với số liệu và quan tâm đến lĩnh vực tài chính – tiền tệ.",
+      "tags": ["tai-chinh", "phu-hop"]
+    },
+    {
+      "faq_id": "FAQ_ECON_FINANCE_004",
+      "scope": "major",
+      "major_id": "ECON_FINANCE",
+      "question": "Sinh viên ngành Tài chính – Ngân hàng ra trường làm công việc gì?",
+      "answer": "Sinh viên có thể làm việc tại ngân hàng, công ty tài chính, chứng khoán hoặc bộ phận tài chính doanh nghiệp.",
+      "tags": ["tai-chinh", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_ECON_ACCOUNTING_001",
+      "scope": "major",
+      "major_id": "ECON_ACCOUNTING",
+      "question": "Ngành Kế toán đào tạo sinh viên theo hướng nào?",
+      "answer": "Ngành Kế toán đào tạo sinh viên về ghi chép, xử lý, phân tích và cung cấp thông tin tài chính cho doanh nghiệp.",
+      "tags": ["ke-toan", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_ECON_ACCOUNTING_002",
+      "scope": "major",
+      "major_id": "ECON_ACCOUNTING",
+      "question": "Sinh viên ngành Kế toán sẽ học những nội dung chính gì?",
+      "answer": "Sinh viên học kế toán tài chính, kế toán quản trị, thuế, kiểm soát nội bộ và phần mềm kế toán.",
+      "tags": ["ke-toan", "hoc-gi"]
+    },
+    {
+      "faq_id": "FAQ_ECON_ACCOUNTING_003",
+      "scope": "major",
+      "major_id": "ECON_ACCOUNTING",
+      "question": "Ngành Kế toán có phù hợp với người không giỏi giao tiếp không?",
+      "answer": "Ngành Kế toán chú trọng độ chính xác và làm việc với số liệu, phù hợp với người cẩn thận và làm việc có hệ thống.",
+      "tags": ["ke-toan", "phu-hop"]
+    },
+    {
+      "faq_id": "FAQ_ECON_ACCOUNTING_004",
+      "scope": "major",
+      "major_id": "ECON_ACCOUNTING",
+      "question": "Sinh viên ngành Kế toán ra trường làm công việc gì?",
+      "answer": "Sinh viên có thể làm kế toán viên, kế toán tổng hợp, kế toán thuế hoặc kế toán doanh nghiệp.",
+      "tags": ["ke-toan", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_ECON_AUDIT_001",
+      "scope": "major",
+      "major_id": "ECON_AUDIT",
+      "question": "Ngành Kiểm toán đào tạo sinh viên theo định hướng nào?",
+      "answer": "Ngành Kiểm toán đào tạo sinh viên về kiểm tra, đánh giá tính minh bạch và chính xác của báo cáo tài chính.",
+      "tags": ["kiem-toan", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_ECON_AUDIT_002",
+      "scope": "major",
+      "major_id": "ECON_AUDIT",
+      "question": "Sinh viên ngành Kiểm toán sẽ học những nội dung gì?",
+      "answer": "Sinh viên học kiểm toán báo cáo tài chính, kiểm soát nội bộ, kế toán và luật kinh tế.",
+      "tags": ["kiem-toan", "hoc-gi"]
+    },
+    {
+      "faq_id": "FAQ_ECON_AUDIT_003",
+      "scope": "major",
+      "major_id": "ECON_AUDIT",
+      "question": "Ngành Kiểm toán phù hợp với đối tượng nào?",
+      "answer": "Ngành phù hợp với thí sinh cẩn thận, trung thực và có khả năng phân tích số liệu.",
+      "tags": ["kiem-toan", "phu-hop"]
+    },
+    {
+      "faq_id": "FAQ_ECON_AUDIT_004",
+      "scope": "major",
+      "major_id": "ECON_AUDIT",
+      "question": "Sinh viên ngành Kiểm toán ra trường làm việc ở đâu?",
+      "answer": "Sinh viên có thể làm việc tại công ty kiểm toán, tư vấn tài chính hoặc bộ phận kiểm soát nội bộ doanh nghiệp.",
+      "tags": ["kiem-toan", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_ECON_HRM_001",
+      "scope": "major",
+      "major_id": "ECON_HRM",
+      "question": "Ngành Quản trị nhân lực đào tạo sinh viên theo hướng nào?",
+      "answer": "Ngành Quản trị nhân lực đào tạo sinh viên về quản lý con người, tuyển dụng, đào tạo và phát triển nhân sự.",
+      "tags": ["nhan-luc", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_ECON_HRM_002",
+      "scope": "major",
+      "major_id": "ECON_HRM",
+      "question": "Sinh viên ngành Quản trị nhân lực sẽ học những kỹ năng gì?",
+      "answer": "Sinh viên học tuyển dụng, đánh giá nhân sự, luật lao động và kỹ năng giao tiếp nội bộ.",
+      "tags": ["nhan-luc", "ky-nang"]
+    },
+    {
+      "faq_id": "FAQ_ECON_HRM_003",
+      "scope": "major",
+      "major_id": "ECON_HRM",
+      "question": "Ngành Quản trị nhân lực phù hợp với ai?",
+      "answer": "Ngành phù hợp với người có kỹ năng giao tiếp, quan tâm đến con người và môi trường doanh nghiệp.",
+      "tags": ["nhan-luc", "phu-hop"]
+    },
+    {
+      "faq_id": "FAQ_ECON_HRM_004",
+      "scope": "major",
+      "major_id": "ECON_HRM",
+      "question": "Sinh viên ngành Quản trị nhân lực ra trường làm công việc gì?",
+      "answer": "Sinh viên có thể làm chuyên viên nhân sự, tuyển dụng, đào tạo hoặc quản lý nhân sự tại doanh nghiệp.",
+      "tags": ["nhan-luc", "viec-lam"]
+    },
+
+    {
+      "faq_id": "FAQ_ECON_INVESTMENT_001",
+      "scope": "major",
+      "major_id": "ECON_INVESTMENT",
+      "question": "Ngành Kinh tế đầu tư đào tạo sinh viên theo định hướng nào?",
+      "answer": "Ngành Kinh tế đầu tư đào tạo sinh viên về phân tích, đánh giá và quản lý các dự án đầu tư.",
+      "tags": ["dau-tu", "dao-tao"]
+    },
+    {
+      "faq_id": "FAQ_ECON_INVESTMENT_002",
+      "scope": "major",
+      "major_id": "ECON_INVESTMENT",
+      "question": "Sinh viên ngành Kinh tế đầu tư sẽ học những nội dung gì?",
+      "answer": "Sinh viên học phân tích dự án, tài chính đầu tư, thị trường vốn và quản lý dự án.",
+      "tags": ["dau-tu", "hoc-gi"]
+    },
+    {
+      "faq_id": "FAQ_ECON_INVESTMENT_003",
+      "scope": "major",
+      "major_id": "ECON_INVESTMENT",
+      "question": "Ngành Kinh tế đầu tư phù hợp với đối tượng nào?",
+      "answer": "Ngành phù hợp với thí sinh yêu thích phân tích, tài chính và ra quyết định đầu tư.",
+      "tags": ["dau-tu", "phu-hop"]
+    },
+    {
+      "faq_id": "FAQ_ECON_INVESTMENT_004",
+      "scope": "major",
+      "major_id": "ECON_INVESTMENT",
+      "question": "Sinh viên ngành Kinh tế đầu tư ra trường làm công việc gì?",
+      "answer": "Sinh viên có thể làm chuyên viên đầu tư, phân tích tài chính hoặc quản lý dự án tại doanh nghiệp.",
+      "tags": ["dau-tu", "viec-lam"]
+    }
+
+  ],
+  "metadata": {
+    "language": "vi",
+    "version": "2025"
+  }
+}

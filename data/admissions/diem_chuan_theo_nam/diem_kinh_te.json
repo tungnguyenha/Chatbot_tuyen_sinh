@@ -1,0 +1,218 @@
+{
+  "type": "cutoff_scores",
+  "school_id": "ECON",
+  "school_name": "Trường Kinh tế",
+  "university": "Đại học Duy Tân",
+  "data": [
+    {
+      "major_id": "ECON_BA",
+      "major_name": "Quản trị kinh doanh",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 21.5,
+      "analysis": "Ngành Quản trị kinh doanh cung cấp kiến thức nền tảng về quản lý, marketing và vận hành doanh nghiệp.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh có tư duy tổng hợp và khả năng giao tiếp."
+    },
+    {
+      "major_id": "ECON_BA",
+      "major_name": "Quản trị kinh doanh",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 22.1,
+      "analysis": "Nhu cầu nhân lực quản lý trong doanh nghiệp tiếp tục tăng.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội việc làm đa dạng trong nhiều lĩnh vực."
+    },
+
+    {
+      "major_id": "ECON_MARKETING",
+      "major_name": "Marketing",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A01",
+      "cutoff_score": 22.0,
+      "analysis": "Ngành Marketing đào tạo kỹ năng nghiên cứu thị trường và xây dựng thương hiệu.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh yêu thích sáng tạo và truyền thông."
+    },
+    {
+      "major_id": "ECON_MARKETING",
+      "major_name": "Marketing",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A01",
+      "cutoff_score": 22.8,
+      "analysis": "Marketing số phát triển mạnh làm tăng sức hút của ngành.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Nhiều cơ hội việc làm trong doanh nghiệp và agency."
+    },
+
+    {
+      "major_id": "ECON_COMMERCE",
+      "major_name": "Kinh doanh thương mại",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 20.9,
+      "analysis": "Ngành Kinh doanh thương mại tập trung vào hoạt động mua bán và phân phối hàng hóa.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh yêu thích kinh doanh."
+    },
+    {
+      "major_id": "ECON_COMMERCE",
+      "major_name": "Kinh doanh thương mại",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 21.6,
+      "analysis": "Hoạt động thương mại trong nước và quốc tế phát triển ổn định.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội làm việc trong doanh nghiệp thương mại."
+    },
+
+    {
+      "major_id": "ECON_ECOMMERCE",
+      "major_name": "Thương mại điện tử",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A01",
+      "cutoff_score": 22.4,
+      "analysis": "Thương mại điện tử là ngành gắn liền với kinh doanh trên nền tảng số.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh yêu thích công nghệ và kinh doanh."
+    },
+    {
+      "major_id": "ECON_ECOMMERCE",
+      "major_name": "Thương mại điện tử",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A01",
+      "cutoff_score": 23.1,
+      "analysis": "Mua sắm trực tuyến phát triển mạnh làm tăng nhu cầu nhân lực.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội việc làm tốt trong lĩnh vực số."
+    },
+
+    {
+      "major_id": "ECON_FINANCE",
+      "major_name": "Tài chính – Ngân hàng",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 22.7,
+      "analysis": "Ngành Tài chính – Ngân hàng đào tạo kiến thức về tài chính doanh nghiệp và ngân hàng.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh có tư duy phân tích."
+    },
+    {
+      "major_id": "ECON_FINANCE",
+      "major_name": "Tài chính – Ngân hàng",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 23.4,
+      "analysis": "Nhu cầu nhân lực tài chính chất lượng cao tiếp tục tăng.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội làm việc trong ngân hàng và doanh nghiệp."
+    },
+
+    {
+      "major_id": "ECON_ACCOUNTING",
+      "major_name": "Kế toán",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A01",
+      "cutoff_score": 21.8,
+      "analysis": "Ngành Kế toán đào tạo kỹ năng ghi nhận và phân tích tài chính.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh cẩn thận và chính xác."
+    },
+    {
+      "major_id": "ECON_ACCOUNTING",
+      "major_name": "Kế toán",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A01",
+      "cutoff_score": 22.4,
+      "analysis": "Nhu cầu kế toán trong doanh nghiệp luôn ổn định.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội việc làm rộng mở."
+    },
+
+    {
+      "major_id": "ECON_AUDIT",
+      "major_name": "Kiểm toán",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 22.0,
+      "analysis": "Ngành Kiểm toán tập trung vào kiểm tra và đánh giá báo cáo tài chính.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh có tư duy logic."
+    },
+    {
+      "major_id": "ECON_AUDIT",
+      "major_name": "Kiểm toán",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 22.7,
+      "analysis": "Minh bạch tài chính được chú trọng làm tăng nhu cầu kiểm toán.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội nghề nghiệp tốt trong và ngoài nước."
+    },
+
+    {
+      "major_id": "ECON_HRM",
+      "major_name": "Quản trị nhân lực",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A01",
+      "cutoff_score": 21.2,
+      "analysis": "Ngành Quản trị nhân lực đào tạo kỹ năng quản lý và phát triển nguồn nhân lực.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh yêu thích làm việc với con người."
+    },
+    {
+      "major_id": "ECON_HRM",
+      "major_name": "Quản trị nhân lực",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A01",
+      "cutoff_score": 21.9,
+      "analysis": "Doanh nghiệp chú trọng quản trị nhân sự chuyên nghiệp hơn.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội việc làm trong nhiều loại hình doanh nghiệp."
+    },
+
+    {
+      "major_id": "ECON_INVESTMENT",
+      "major_name": "Kinh tế đầu tư",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 21.6,
+      "analysis": "Ngành Kinh tế đầu tư đào tạo kiến thức về phân tích và quản lý dự án.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh yêu thích phân tích và hoạch định."
+    },
+    {
+      "major_id": "ECON_INVESTMENT",
+      "major_name": "Kinh tế đầu tư",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 22.3,
+      "analysis": "Hoạt động đầu tư phát triển mạnh trong nền kinh tế.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội nghề nghiệp trong lĩnh vực đầu tư và tài chính."
+    }
+  ],
+  "metadata": {
+    "language": "vi",
+    "version": "2025"
+  }
+}

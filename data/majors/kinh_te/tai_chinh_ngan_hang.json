@@ -1,0 +1,83 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7340201",
+  "major_name": "Tài chính – Ngân hàng",
+  "major_id": "ECON_FINANCE",
+  "school_id": "ECON",
+  "school_name": "Trường Kinh tế",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo cử nhân tài chính – ngân hàng có khả năng phân tích, quản lý và vận hành các hoạt động tài chính.",
+    "van_de_thuc_te": "Đáp ứng nhu cầu nhân lực cho hệ thống ngân hàng, tài chính và đầu tư.",
+    "hoc_gi": "Sinh viên học tài chính doanh nghiệp, ngân hàng, đầu tư và quản trị rủi ro."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Toán tài chính",
+      "Tin học",
+      "Tiếng Anh",
+      "Pháp luật kinh tế",
+      "Kỹ năng mềm"
+    ],
+    "mon_co_so_nganh": [
+      "Kinh tế học",
+      "Tài chính doanh nghiệp",
+      "Tiền tệ – ngân hàng",
+      "Kế toán tài chính"
+    ],
+    "mon_chuyen_nganh": [
+      "Tín dụng ngân hàng",
+      "Đầu tư tài chính",
+      "Quản trị rủi ro",
+      "Thị trường chứng khoán"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Thị trường chứng khoán",
+        "mo_ta": "Phân tích và đầu tư trên thị trường vốn."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "KINH_TE",
+    "per_year_estimate": "20 – 25 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["A00", "A01", "D01"],
+    "diem_chuan": "18 – 22 (tham khảo)",
+    "dieu_kien_dac_biet": []
+  },
+
+  "career": {
+    "positions": [
+      "Chuyên viên ngân hàng",
+      "Chuyên viên tài chính",
+      "Chuyên viên đầu tư"
+    ],
+    "workplace": [
+      "Ngân hàng",
+      "Công ty tài chính",
+      "Công ty chứng khoán"
+    ],
+    "salary": {
+      "junior": "9 – 13 triệu VNĐ / tháng",
+      "mid": "15 – 30 triệu VNĐ / tháng",
+      "senior": "35 – 60+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "KINH_TE",
+    "school_id": "BUS",
+    "school_group": "Kinh tế – Quản trị",
+    "language": "vi",
+    "version": "2025"
+  }
+}

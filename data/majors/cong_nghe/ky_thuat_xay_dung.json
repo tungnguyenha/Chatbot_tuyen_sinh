@@ -1,0 +1,83 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7580201",
+  "major_name": "Kỹ thuật Xây dựng",
+  "major_id": "ENG_CIVIL",
+  "school_id": "ENG",
+  "school_name": "Trường Công nghệ",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo kỹ sư xây dựng có khả năng thiết kế, thi công và quản lý các công trình xây dựng.",
+    "van_de_thuc_te": "Phục vụ nhu cầu xây dựng nhà ở, công trình dân dụng và công nghiệp, hạ tầng kỹ thuật.",
+    "hoc_gi": "Sinh viên học kết cấu công trình, vật liệu xây dựng, tổ chức thi công và quản lý dự án."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Toán cao cấp",
+      "Vật lý",
+      "Tin học",
+      "Tiếng Anh",
+      "Kỹ năng mềm"
+    ],
+    "mon_co_so_nganh": [
+      "Cơ học kết cấu",
+      "Sức bền vật liệu",
+      "Vật liệu xây dựng",
+      "Trắc địa"
+    ],
+    "mon_chuyen_nganh": [
+      "Thiết kế kết cấu",
+      "Thi công xây dựng",
+      "Quản lý dự án",
+      "An toàn lao động"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Thi công xây dựng",
+        "mo_ta": "Tổ chức và quản lý thi công công trình."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "CONG_NGHE",
+    "per_year_estimate": "22 – 26 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["A00", "A01"],
+    "diem_chuan": "17 – 20 (tham khảo)",
+    "dieu_kien_dac_biet": []
+  },
+
+  "career": {
+    "positions": [
+      "Kỹ sư xây dựng",
+      "Chỉ huy công trình",
+      "Kỹ sư giám sát"
+    ],
+    "workplace": [
+      "Công ty xây dựng",
+      "Doanh nghiệp hạ tầng",
+      "Ban quản lý dự án"
+    ],
+    "salary": {
+      "junior": "8 – 12 triệu VNĐ / tháng",
+      "mid": "15 – 25 triệu VNĐ / tháng",
+      "senior": "30 – 45+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "CONG_NGHE",
+    "school_id": "ENG",
+    "school_group": "Công nghệ – Kỹ thuật",
+    "language": "vi",
+    "version": "2025"
+  }
+}

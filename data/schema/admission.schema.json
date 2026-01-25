@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Admission Schema",
+  "description": "Schema cho dữ liệu tuyển sinh, học phí, điểm chuẩn",
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "university": {
+      "type": "string"
+    },
+    "year": {
+      "type": "number"
+    },
+    "majors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["major_id"],
+        "properties": {
+          "major_id": {
+            "type": "string"
+          },
+          "cutoff_by_year": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["year", "method_code", "details"],
+              "properties": {
+                "year": {
+                  "type": "number"
+                },
+                "method_code": {
+                  "type": "string"
+                },
+                "details": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["to_hop_code", "cutoff_score"],
+                    "properties": {
+                      "to_hop_code": {
+                        "type": "string"
+                      },
+                      "cutoff_score": {
+                        "type": "number"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "language": { "type": "string" },
+        "version": { "type": "string" }
+      }
+    }
+  }
+}

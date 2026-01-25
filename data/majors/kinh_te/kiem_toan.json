@@ -1,0 +1,84 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7340302",
+  "major_name": "Kiểm toán",
+  "major_id": "ECON_AUDIT",
+  "school_id": "ECON",
+  "school_name": "Trường Kinh tế",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo cử nhân kiểm toán có khả năng đánh giá và kiểm tra tính minh bạch của báo cáo tài chính.",
+    "van_de_thuc_te": "Đảm bảo tính chính xác và minh bạch trong hoạt động tài chính doanh nghiệp.",
+    "hoc_gi": "Sinh viên học kiểm toán, kế toán nâng cao, phân tích rủi ro và chuẩn mực kế toán."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Toán kinh tế",
+      "Tin học",
+      "Tiếng Anh",
+      "Pháp luật",
+      "Kỹ năng nghề nghiệp"
+    ],
+    "mon_co_so_nganh": [
+      "Nguyên lý kế toán",
+      "Kế toán tài chính",
+      "Kiểm toán căn bản",
+      "Thuế"
+    ],
+    "mon_chuyen_nganh": [
+      "Kiểm toán báo cáo tài chính",
+      "Kiểm toán nội bộ",
+      "Quản trị rủi ro"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Kiểm toán báo cáo tài chính",
+        "mo_ta": "Đánh giá tính trung thực của báo cáo tài chính."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "KINH_TE",
+    "per_year_estimate": "18 – 23 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["A00", "A01", "D01"],
+    "diem_chuan": "17 – 20 (tham khảo)",
+    "dieu_kien_dac_biet": [
+      "Tư duy logic tốt"
+    ]
+  },
+
+  "career": {
+    "positions": [
+      "Kiểm toán viên",
+      "Chuyên viên kiểm soát nội bộ",
+      "Chuyên viên tài chính"
+    ],
+    "workplace": [
+      "Công ty kiểm toán",
+      "Doanh nghiệp",
+      "Tổ chức tài chính"
+    ],
+    "salary": {
+      "junior": "8 – 12 triệu VNĐ / tháng",
+      "mid": "15 – 25 triệu VNĐ / tháng",
+      "senior": "30 – 50+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "KINH_TE",
+    "school_id": "BUS",
+    "school_group": "Kinh tế – Quản trị",
+    "language": "vi",
+    "version": "2025"
+  }
+}

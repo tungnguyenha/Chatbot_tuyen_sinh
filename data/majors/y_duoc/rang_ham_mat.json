@@ -1,0 +1,86 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7720501",
+  "major_name": "Răng – Hàm – Mặt - Dentistry",
+  "major_id": "MED_DENTAL",
+  "school_id": "MED",
+  "school_name": "Trường Y – Dược",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo bác sĩ Răng – Hàm – Mặt có kiến thức và kỹ năng điều trị các bệnh lý răng miệng.",
+    "van_de_thuc_te": "Chăm sóc, điều trị và thẩm mỹ răng miệng cho cộng đồng.",
+    "hoc_gi": "Sinh viên học giải phẫu răng hàm mặt, nha khoa cơ sở, điều trị và phục hình răng."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Sinh học",
+      "Hóa học",
+      "Tin học",
+      "Tiếng Anh",
+      "Kỹ năng giao tiếp y khoa"
+    ],
+    "mon_co_so_nganh": [
+      "Giải phẫu răng hàm mặt",
+      "Sinh lý",
+      "Vi sinh",
+      "Nha khoa cơ sở"
+    ],
+    "mon_chuyen_nganh": [
+      "Điều trị nội nha",
+      "Phục hình răng",
+      "Chỉnh nha",
+      "Nha khoa thẩm mỹ"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Phục hình răng",
+        "mo_ta": "Thiết kế và phục hồi chức năng răng bị mất."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "Y_DUOC",
+    "per_year_estimate": "45 – 55 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "TuyenThang"],
+    "to_hop": ["B00"],
+    "diem_chuan": "22 – 25 (tham khảo)",
+    "dieu_kien_dac_biet": [
+      "Sức khỏe tốt",
+      "Khéo tay, cẩn thận"
+    ]
+  },
+
+  "career": {
+    "positions": [
+      "Bác sĩ Răng – Hàm – Mặt",
+      "Bác sĩ nha khoa",
+      "Chuyên viên thẩm mỹ răng"
+    ],
+    "workplace": [
+      "Phòng khám nha khoa",
+      "Bệnh viện",
+      "Trung tâm y tế"
+    ],
+    "salary": {
+      "junior": "12 – 18 triệu VNĐ / tháng",
+      "mid": "25 – 40 triệu VNĐ / tháng",
+      "senior": "50 – 80+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "Y_DUOC",
+    "school_id": "MED",
+    "school_group": "Y – Dược",
+    "language": "vi",
+    "version": "2025"
+  }
+}

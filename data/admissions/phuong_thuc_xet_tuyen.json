@@ -1,0 +1,29 @@
+{
+  "type": "admission_methods",
+  "university": "Đại học Duy Tân",
+  "year": 2025,
+  "methods": [
+    {
+      "code": "THPT",
+      "name": "Xét tuyển bằng điểm thi THPT",
+      "description": "Sử dụng kết quả kỳ thi tốt nghiệp THPT quốc gia để xét tuyển vào các ngành học.",
+      "note": "Áp dụng cho hầu hết các ngành"
+    },
+    {
+      "code": "HocBa",
+      "name": "Xét tuyển bằng học bạ THPT",
+      "description": "Xét điểm trung bình các môn học trong học bạ THPT theo tổ hợp xét tuyển.",
+      "note": "Có thể xét theo 3 hoặc 5 học kỳ"
+    },
+    {
+      "code": "TuyenThang",
+      "name": "Tuyển thẳng",
+      "description": "Tuyển thẳng thí sinh đạt giải học sinh giỏi quốc gia, quốc tế hoặc theo quy định của Bộ GD&ĐT.",
+      "note": "Không áp dụng cho tất cả thí sinh"
+    }
+  ],
+  "metadata": {
+    "language": "vi",
+    "version": "2025"
+  }
+}

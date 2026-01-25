@@ -1,0 +1,264 @@
+{
+  "type": "cutoff_scores",
+  "school_id": "LANG",
+  "school_name": "Trường Ngoại ngữ và Khoa học Xã hội – Nhân văn",
+  "university": "Đại học Duy Tân",
+  "data": [
+    {
+      "major_id": "LANG_EN",
+      "major_name": "Ngôn ngữ Anh",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "D01",
+      "cutoff_score": 22.2,
+      "analysis": "Ngành Ngôn ngữ Anh đào tạo kỹ năng sử dụng tiếng Anh trong học thuật và công việc.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh yêu thích ngoại ngữ và giao tiếp."
+    },
+    {
+      "major_id": "LANG_EN",
+      "major_name": "Ngôn ngữ Anh",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "D01",
+      "cutoff_score": 22.9,
+      "analysis": "Nhu cầu nhân lực giỏi tiếng Anh trong doanh nghiệp tiếp tục tăng.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội việc làm trong giáo dục, doanh nghiệp và dịch vụ."
+    },
+
+    {
+      "major_id": "LANG_CN",
+      "major_name": "Ngôn ngữ Trung Quốc",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "D01",
+      "cutoff_score": 21.6,
+      "analysis": "Ngành Ngôn ngữ Trung Quốc đào tạo kỹ năng tiếng Trung phục vụ giao tiếp và công việc.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh quan tâm đến ngôn ngữ và văn hóa Trung Quốc."
+    },
+    {
+      "major_id": "LANG_CN",
+      "major_name": "Ngôn ngữ Trung Quốc",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "D01",
+      "cutoff_score": 22.3,
+      "analysis": "Hợp tác kinh tế Việt – Trung thúc đẩy nhu cầu nhân lực tiếng Trung.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội việc làm trong doanh nghiệp và thương mại."
+    },
+
+    {
+      "major_id": "LANG_JP",
+      "major_name": "Ngôn ngữ Nhật",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "D01",
+      "cutoff_score": 22.0,
+      "analysis": "Ngành Ngôn ngữ Nhật đào tạo tiếng Nhật gắn với văn hóa và doanh nghiệp Nhật Bản.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh yêu thích ngôn ngữ và văn hóa Nhật."
+    },
+    {
+      "major_id": "LANG_JP",
+      "major_name": "Ngôn ngữ Nhật",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "D01",
+      "cutoff_score": 22.7,
+      "analysis": "Doanh nghiệp Nhật Bản tại Việt Nam tăng nhu cầu nhân lực biết tiếng Nhật.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội việc làm tốt trong và ngoài nước."
+    },
+
+    {
+      "major_id": "LANG_KR",
+      "major_name": "Ngôn ngữ Hàn Quốc",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "D01",
+      "cutoff_score": 21.9,
+      "analysis": "Ngành Ngôn ngữ Hàn Quốc đào tạo tiếng Hàn phục vụ giao tiếp và công việc.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh yêu thích văn hóa Hàn Quốc."
+    },
+    {
+      "major_id": "LANG_KR",
+      "major_name": "Ngôn ngữ Hàn Quốc",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "D01",
+      "cutoff_score": 22.5,
+      "analysis": "Đầu tư của doanh nghiệp Hàn Quốc làm tăng nhu cầu nhân lực tiếng Hàn.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội việc làm trong doanh nghiệp FDI."
+    },
+
+    {
+      "major_id": "LANG_LITERATURE",
+      "major_name": "Văn học",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "C00",
+      "cutoff_score": 20.8,
+      "analysis": "Ngành Văn học đào tạo kiến thức về ngôn ngữ, văn hóa và tác phẩm văn học.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh yêu thích đọc, viết và nghiên cứu."
+    },
+    {
+      "major_id": "LANG_LITERATURE",
+      "major_name": "Văn học",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "C00",
+      "cutoff_score": 21.4,
+      "analysis": "Nhu cầu nghiên cứu và giảng dạy văn học duy trì ổn định.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội việc làm trong giáo dục và nghiên cứu."
+    },
+
+    {
+      "major_id": "LANG_VN_STUDIES",
+      "major_name": "Việt Nam học",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "C00",
+      "cutoff_score": 20.6,
+      "analysis": "Ngành Việt Nam học đào tạo kiến thức về lịch sử, văn hóa và con người Việt Nam.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh yêu thích văn hóa và xã hội."
+    },
+    {
+      "major_id": "LANG_VN_STUDIES",
+      "major_name": "Việt Nam học",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "C00",
+      "cutoff_score": 21.2,
+      "analysis": "Nghiên cứu văn hóa và du lịch Việt Nam ngày càng được quan tâm.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội làm việc trong du lịch và nghiên cứu."
+    },
+
+    {
+      "major_id": "LANG_IR",
+      "major_name": "Quan hệ quốc tế",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "D01",
+      "cutoff_score": 22.1,
+      "analysis": "Ngành Quan hệ quốc tế đào tạo kiến thức về ngoại giao và hợp tác quốc tế.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh yêu thích lĩnh vực quốc tế."
+    },
+    {
+      "major_id": "LANG_IR",
+      "major_name": "Quan hệ quốc tế",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "D01",
+      "cutoff_score": 22.8,
+      "analysis": "Hội nhập quốc tế sâu rộng làm tăng nhu cầu nhân lực ngành Quan hệ quốc tế.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội việc làm trong cơ quan đối ngoại và doanh nghiệp."
+    },
+
+    {
+      "major_id": "LANG_PR",
+      "major_name": "Quan hệ công chúng",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "D01",
+      "cutoff_score": 22.4,
+      "analysis": "Ngành Quan hệ công chúng đào tạo kỹ năng truyền thông và xây dựng hình ảnh.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh năng động và sáng tạo."
+    },
+    {
+      "major_id": "LANG_PR",
+      "major_name": "Quan hệ công chúng",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "D01",
+      "cutoff_score": 23.1,
+      "analysis": "Hoạt động truyền thông và thương hiệu phát triển mạnh.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội việc làm trong doanh nghiệp và agency."
+    },
+
+    {
+      "major_id": "LANG_MULTIMEDIA",
+      "major_name": "Truyền thông đa phương tiện",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A01",
+      "cutoff_score": 22.6,
+      "analysis": "Ngành Truyền thông đa phương tiện kết hợp nội dung, hình ảnh và công nghệ.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh yêu thích sáng tạo nội dung."
+    },
+    {
+      "major_id": "LANG_MULTIMEDIA",
+      "major_name": "Truyền thông đa phương tiện",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A01",
+      "cutoff_score": 23.3,
+      "analysis": "Nhu cầu truyền thông số làm tăng sức hút ngành.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội nghề nghiệp đa dạng trong lĩnh vực truyền thông."
+    },
+
+    {
+      "major_id": "LANG_LAW",
+      "major_name": "Luật",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "C00",
+      "cutoff_score": 22.0,
+      "analysis": "Ngành Luật đào tạo kiến thức pháp luật và kỹ năng tư vấn pháp lý.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh có tư duy logic và lập luận."
+    },
+    {
+      "major_id": "LANG_LAW",
+      "major_name": "Luật",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "C00",
+      "cutoff_score": 22.7,
+      "analysis": "Nhu cầu tư vấn và áp dụng pháp luật trong xã hội ngày càng tăng.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội việc làm trong cơ quan nhà nước và doanh nghiệp."
+    },
+
+    {
+      "major_id": "LANG_ECON_LAW",
+      "major_name": "Luật kinh tế",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 22.3,
+      "analysis": "Ngành Luật kinh tế kết hợp kiến thức pháp luật và kinh doanh.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh yêu thích cả luật và kinh tế."
+    },
+    {
+      "major_id": "LANG_ECON_LAW",
+      "major_name": "Luật kinh tế",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 23.0,
+      "analysis": "Hoạt động kinh doanh ngày càng cần tư vấn pháp lý chuyên sâu.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội nghề nghiệp tốt trong doanh nghiệp và tổ chức pháp lý."
+    }
+  ],
+  "metadata": {
+    "language": "vi",
+    "version": "2025"
+  }
+}

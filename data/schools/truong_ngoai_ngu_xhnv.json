@@ -1,0 +1,22 @@
+{
+  "school_id": "LANG",
+  "school_name": "Trường Ngoại ngữ – Khoa học Xã hội & Nhân văn",
+  "school_name_en": "School of Languages and Social Sciences",
+  "description": "Đào tạo các ngành ngoại ngữ, luật, truyền thông và khoa học xã hội.",
+  "majors": [
+    "LANG_EN",
+    "LANG_CN",
+    "LANG_JP",
+    "LANG_KR",
+    "LANG_LITERATURE",
+    "LANG_VN_STUDIES",
+    "LANG_IR",
+    "LANG_PR",
+    "LANG_MULTIMEDIA",
+    "LANG_LAW",
+    "LANG_ECON_LAW"
+  ],
+  "metadata": {
+    "version": "2025"
+  }
+}

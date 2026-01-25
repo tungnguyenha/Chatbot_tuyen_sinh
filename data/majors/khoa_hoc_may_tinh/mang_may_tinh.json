@@ -1,0 +1,93 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7480108",
+  "major_name": "Mạng máy tính và Truyền thông dữ liệu",
+  "major_id": "CS_NET",
+  "school_id": "CS",
+  "school_name": "Trường Khoa học Máy tính",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo kỹ sư mạng có khả năng thiết kế, triển khai, vận hành và bảo trì các hệ thống mạng và hạ tầng CNTT.",
+    "van_de_thuc_te": "Giải quyết nhu cầu xây dựng và quản lý hệ thống mạng doanh nghiệp, trung tâm dữ liệu, điện toán đám mây.",
+    "hoc_gi": "Sinh viên học mạng máy tính, quản trị hệ thống, điện toán đám mây, an ninh mạng và hệ thống phân tán."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Toán cao cấp",
+      "Xác suất – Thống kê",
+      "Tin học đại cương",
+      "Tiếng Anh",
+      "Kỹ năng mềm"
+    ],
+    "mon_co_so_nganh": [
+      "Mạng máy tính",
+      "Hệ điều hành",
+      "Cơ sở dữ liệu",
+      "Lập trình"
+    ],
+    "mon_chuyen_nganh": [
+      "Quản trị mạng",
+      "Hệ thống máy chủ",
+      "Điện toán đám mây",
+      "An ninh mạng",
+      "Hệ thống phân tán"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Quản trị mạng",
+        "mo_ta": "Thiết kế, cấu hình và vận hành hệ thống mạng doanh nghiệp."
+      },
+      {
+        "ten_mon": "Điện toán đám mây",
+        "mo_ta": "Triển khai và quản lý hạ tầng cloud hiện đại."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "CNTT",
+    "per_year_estimate": "23 – 28 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa", "TuyenThang"],
+    "to_hop": ["A00", "A01", "D01", "D07"],
+    "diem_chuan": "18 – 21 (tham khảo các năm gần đây)",
+    "dieu_kien_dac_biet": [
+      "Yêu thích hệ thống và mạng máy tính",
+      "Có chứng chỉ CNTT cơ bản là lợi thế"
+    ]
+  },
+
+  "career": {
+    "positions": [
+      "Network Engineer",
+      "System Administrator",
+      "Cloud Engineer",
+      "IT Infrastructure Engineer"
+    ],
+    "workplace": [
+      "Doanh nghiệp CNTT",
+      "Trung tâm dữ liệu",
+      "Công ty viễn thông",
+      "Doanh nghiệp trong và ngoài nước"
+    ],
+    "salary": {
+      "junior": "9 – 14 triệu VNĐ / tháng",
+      "mid": "18 – 30 triệu VNĐ / tháng",
+      "senior": "35 – 55+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "CNTT",
+    "school_id": "CS",
+    "school_group": "Khoa học Máy tính",
+    "language": "vi",
+    "version": "2025"
+  }
+}

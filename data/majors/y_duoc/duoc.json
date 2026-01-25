@@ -1,0 +1,85 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7720201",
+  "major_name": "Dược học - Pharmacy",
+  "major_id": "MED_PHARMACY",
+  "school_id": "MED",
+  "school_name": "Trường Y – Dược",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo dược sĩ có kiến thức chuyên sâu về thuốc, đảm bảo sử dụng thuốc an toàn, hiệu quả.",
+    "van_de_thuc_te": "Giải quyết nhu cầu nghiên cứu, sản xuất, phân phối và tư vấn sử dụng thuốc.",
+    "hoc_gi": "Sinh viên học hóa dược, dược lý, bào chế, kiểm nghiệm và quản lý dược."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Hóa học",
+      "Sinh học",
+      "Tin học",
+      "Tiếng Anh chuyên ngành",
+      "Kỹ năng giao tiếp"
+    ],
+    "mon_co_so_nganh": [
+      "Hóa dược",
+      "Dược lý",
+      "Vi sinh",
+      "Thực vật dược"
+    ],
+    "mon_chuyen_nganh": [
+      "Bào chế",
+      "Kiểm nghiệm thuốc",
+      "Dược lâm sàng",
+      "Quản lý và cung ứng thuốc"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Dược lâm sàng",
+        "mo_ta": "Tư vấn và theo dõi sử dụng thuốc cho bệnh nhân."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "Y_DUOC",
+    "per_year_estimate": "40 – 50 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "TuyenThang"],
+    "to_hop": ["B00"],
+    "diem_chuan": "21 – 24 (tham khảo)",
+    "dieu_kien_dac_biet": [
+      "Học tốt Hóa học và Sinh học"
+    ]
+  },
+
+  "career": {
+    "positions": [
+      "Dược sĩ",
+      "Trình dược viên",
+      "Chuyên viên kiểm nghiệm"
+    ],
+    "workplace": [
+      "Nhà thuốc",
+      "Công ty dược",
+      "Bệnh viện"
+    ],
+    "salary": {
+      "junior": "8 – 12 triệu VNĐ / tháng",
+      "mid": "15 – 25 triệu VNĐ / tháng",
+      "senior": "30 – 50+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "Y_DUOC",
+    "school_id": "MED",
+    "school_group": "Y – Dược",
+    "language": "vi",
+    "version": "2025"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7580101",
+  "major_name": "Kiến trúc",
+  "major_id": "ENG_ARCH",
+  "school_id": "ENG",
+  "school_name": "Trường Công nghệ",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo kiến trúc sư có tư duy sáng tạo, có khả năng thiết kế công trình kiến trúc đáp ứng yêu cầu thẩm mỹ, công năng và bền vững.",
+    "van_de_thuc_te": "Giải quyết nhu cầu thiết kế nhà ở, công trình công cộng, không gian đô thị phù hợp với điều kiện kinh tế, xã hội và môi trường.",
+    "hoc_gi": "Sinh viên học mỹ thuật cơ bản, kiến trúc công trình, quy hoạch, thiết kế nội thất và ứng dụng phần mềm thiết kế."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Toán cao cấp",
+      "Vẽ mỹ thuật",
+      "Tin học đại cương",
+      "Tiếng Anh",
+      "Kỹ năng mềm"
+    ],
+    "mon_co_so_nganh": [
+      "Hình họa kiến trúc",
+      "Cơ sở kiến trúc",
+      "Vật liệu xây dựng",
+      "Kết cấu công trình"
+    ],
+    "mon_chuyen_nganh": [
+      "Thiết kế kiến trúc",
+      "Quy hoạch đô thị",
+      "Thiết kế nội thất",
+      "Kiến trúc bền vững"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Thiết kế kiến trúc",
+        "mo_ta": "Thiết kế công trình nhà ở và công trình công cộng."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "CONG_NGHE",
+    "per_year_estimate": "26 – 32 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["V00", "V01"],
+    "diem_chuan": "18 – 22 (tham khảo)",
+    "dieu_kien_dac_biet": [
+      "Có năng khiếu mỹ thuật",
+      "Yêu thích sáng tạo và thiết kế"
+    ]
+  },
+
+  "career": {
+    "positions": [
+      "Kiến trúc sư",
+      "Nhà thiết kế kiến trúc",
+      "Chuyên viên quy hoạch"
+    ],
+    "workplace": [
+      "Công ty tư vấn thiết kế",
+      "Doanh nghiệp xây dựng",
+      "Văn phòng kiến trúc"
+    ],
+    "salary": {
+      "junior": "8 – 12 triệu VNĐ / tháng",
+      "mid": "15 – 25 triệu VNĐ / tháng",
+      "senior": "30 – 50+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "CONG_NGHE",
+    "school_id": "ENG",
+    "school_group": "Công nghệ – Kỹ thuật",
+    "language": "vi",
+    "version": "2025"
+  }
+}

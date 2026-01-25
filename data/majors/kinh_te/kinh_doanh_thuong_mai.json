@@ -1,0 +1,83 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7340121",
+  "major_name": "Kinh doanh Thương mại",
+  "major_id": "BUS_COMMERCE",
+  "school_id": "BUS",
+  "school_name": "Trường Kinh tế",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo cử nhân kinh doanh thương mại có khả năng tổ chức và phát triển hoạt động mua bán.",
+    "van_de_thuc_te": "Phục vụ hoạt động phân phối, bán buôn, bán lẻ và xuất nhập khẩu.",
+    "hoc_gi": "Sinh viên học kinh doanh, thương mại, logistics và quản lý bán hàng."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Toán kinh tế",
+      "Tin học",
+      "Tiếng Anh",
+      "Pháp luật",
+      "Kỹ năng mềm"
+    ],
+    "mon_co_so_nganh": [
+      "Kinh tế học",
+      "Marketing",
+      "Quản trị kinh doanh",
+      "Hành vi khách hàng"
+    ],
+    "mon_chuyen_nganh": [
+      "Quản trị bán hàng",
+      "Logistics",
+      "Xuất nhập khẩu",
+      "Thương mại quốc tế"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Quản trị bán hàng",
+        "mo_ta": "Tổ chức và quản lý hoạt động bán hàng."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "KINH_TE",
+    "per_year_estimate": "18 – 23 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["A00", "A01", "D01"],
+    "diem_chuan": "17 – 20 (tham khảo)",
+    "dieu_kien_dac_biet": []
+  },
+
+  "career": {
+    "positions": [
+      "Nhân viên kinh doanh",
+      "Quản lý bán hàng",
+      "Chuyên viên xuất nhập khẩu"
+    ],
+    "workplace": [
+      "Doanh nghiệp thương mại",
+      "Công ty logistics",
+      "Doanh nghiệp xuất nhập khẩu"
+    ],
+    "salary": {
+      "junior": "7 – 10 triệu VNĐ / tháng",
+      "mid": "12 – 22 triệu VNĐ / tháng",
+      "senior": "30 – 45+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "KINH_TE",
+    "school_id": "BUS",
+    "school_group": "Kinh tế – Quản trị",
+    "language": "vi",
+    "version": "2025"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7510205",
+  "major_name": "Công nghệ Ô tô",
+  "major_id": "ENG_AUTOMOTIVE",
+  "school_id": "ENG",
+  "school_name": "Trường Công nghệ",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo kỹ sư công nghệ ô tô có khả năng bảo trì, chẩn đoán và thiết kế các hệ thống trên ô tô hiện đại.",
+    "van_de_thuc_te": "Đáp ứng nhu cầu nhân lực cho ngành công nghiệp ô tô, xe điện và dịch vụ kỹ thuật ô tô.",
+    "hoc_gi": "Sinh viên học động cơ, khung gầm, điện – điện tử ô tô, chẩn đoán và xe điện."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Toán cao cấp",
+      "Vật lý",
+      "Tin học",
+      "Tiếng Anh",
+      "Kỹ năng mềm"
+    ],
+    "mon_co_so_nganh": [
+      "Cơ học ô tô",
+      "Động cơ đốt trong",
+      "Khung gầm ô tô",
+      "Điện – điện tử ô tô"
+    ],
+    "mon_chuyen_nganh": [
+      "Chẩn đoán ô tô",
+      "Xe điện và hybrid",
+      "Bảo dưỡng và sửa chữa ô tô"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Điện – điện tử ô tô",
+        "mo_ta": "Phân tích và sửa chữa hệ thống điện, ECU trên ô tô."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "CONG_NGHE",
+    "per_year_estimate": "24 – 28 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["A00", "A01"],
+    "diem_chuan": "15 – 18 (tham khảo)",
+    "dieu_kien_dac_biet": [
+      "Yêu thích ô tô và kỹ thuật cơ khí"
+    ]
+  },
+
+  "career": {
+    "positions": [
+      "Kỹ sư công nghệ ô tô",
+      "Kỹ thuật viên chẩn đoán",
+      "Kỹ sư dịch vụ ô tô"
+    ],
+    "workplace": [
+      "Hãng ô tô",
+      "Garage và trung tâm dịch vụ",
+      "Doanh nghiệp sản xuất ô tô"
+    ],
+    "salary": {
+      "junior": "9 – 14 triệu VNĐ / tháng",
+      "mid": "18 – 30 triệu VNĐ / tháng",
+      "senior": "35 – 50+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "CONG_NGHE",
+    "school_id": "ENG",
+    "school_group": "Công nghệ – Kỹ thuật",
+    "language": "vi",
+    "version": "2025"
+  }
+}

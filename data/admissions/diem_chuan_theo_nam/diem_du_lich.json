@@ -1,0 +1,126 @@
+{
+  "type": "cutoff_scores",
+  "school_id": "TOUR",
+  "school_name": "Trường Du lịch",
+  "university": "Đại học Duy Tân",
+  "data": [
+    {
+      "major_id": "TOUR_TOURISM",
+      "major_name": "Du lịch",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "C00",
+      "cutoff_score": 20.5,
+      "analysis": "Ngành Du lịch cung cấp kiến thức tổng quan về hoạt động du lịch và dịch vụ.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh yêu thích khám phá và giao tiếp."
+    },
+    {
+      "major_id": "TOUR_TOURISM",
+      "major_name": "Du lịch",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "C00",
+      "cutoff_score": 21.2,
+      "analysis": "Hoạt động du lịch phục hồi mạnh sau dịch giúp ngành thu hút thí sinh.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội việc làm đa dạng trong lĩnh vực du lịch."
+    },
+
+    {
+      "major_id": "TOUR_TRAVEL",
+      "major_name": "Quản lý dịch vụ du lịch và lữ hành",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "D01",
+      "cutoff_score": 21.0,
+      "analysis": "Ngành đào tạo kỹ năng tổ chức, điều hành và quản lý tour du lịch.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh năng động và yêu thích quản lý."
+    },
+    {
+      "major_id": "TOUR_TRAVEL",
+      "major_name": "Quản lý dịch vụ du lịch và lữ hành",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "D01",
+      "cutoff_score": 21.7,
+      "analysis": "Nhu cầu nhân lực quản lý lữ hành tăng cùng sự phát triển du lịch.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội việc làm tại công ty lữ hành và dịch vụ."
+    },
+
+    {
+      "major_id": "TOUR_HOTEL",
+      "major_name": "Quản trị khách sạn",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A01",
+      "cutoff_score": 21.8,
+      "analysis": "Ngành Quản trị khách sạn đào tạo kỹ năng quản lý và vận hành cơ sở lưu trú.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh yêu thích dịch vụ và quản lý."
+    },
+    {
+      "major_id": "TOUR_HOTEL",
+      "major_name": "Quản trị khách sạn",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A01",
+      "cutoff_score": 22.4,
+      "analysis": "Ngành khách sạn phát triển cùng sự gia tăng du khách.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội việc làm tốt tại khách sạn và resort."
+    },
+
+    {
+      "major_id": "TOUR_RESTAURANT",
+      "major_name": "Quản trị nhà hàng và dịch vụ ăn uống",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A01",
+      "cutoff_score": 21.2,
+      "analysis": "Ngành đào tạo kỹ năng quản lý nhà hàng và dịch vụ ẩm thực.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh yêu thích lĩnh vực ẩm thực."
+    },
+    {
+      "major_id": "TOUR_RESTAURANT",
+      "major_name": "Quản trị nhà hàng và dịch vụ ăn uống",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A01",
+      "cutoff_score": 21.9,
+      "analysis": "Nhu cầu dịch vụ ăn uống chất lượng cao ngày càng tăng.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội việc làm đa dạng trong ngành dịch vụ."
+    },
+
+    {
+      "major_id": "TOUR_EVENT",
+      "major_name": "Quản trị sự kiện",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "D01",
+      "cutoff_score": 21.6,
+      "analysis": "Ngành Quản trị sự kiện đào tạo kỹ năng tổ chức và điều phối các sự kiện.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh sáng tạo và năng động."
+    },
+    {
+      "major_id": "TOUR_EVENT",
+      "major_name": "Quản trị sự kiện",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "D01",
+      "cutoff_score": 22.2,
+      "analysis": "Hoạt động sự kiện và truyền thông phát triển mạnh.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội nghề nghiệp trong lĩnh vực tổ chức sự kiện."
+    }
+  ],
+  "metadata": {
+    "language": "vi",
+    "version": "2025"
+  }
+}

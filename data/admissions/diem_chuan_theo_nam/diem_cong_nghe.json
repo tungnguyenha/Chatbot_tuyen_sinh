@@ -1,0 +1,286 @@
+{
+  "type": "cutoff_scores",
+  "school_id": "ENG",
+  "school_name": "Trường Công nghệ",
+  "university": "Đại học Duy Tân",
+  "data": [
+    {
+      "major_id": "ENG_EE",
+      "major_name": "Kỹ thuật điện",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 20.8,
+      "analysis": "Ngành Kỹ thuật điện cung cấp kiến thức nền tảng về hệ thống điện và ứng dụng trong công nghiệp.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh có tư duy kỹ thuật và khả năng toán học."
+    },
+    {
+      "major_id": "ENG_EE",
+      "major_name": "Kỹ thuật điện",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 21.4,
+      "analysis": "Nhu cầu nhân lực kỹ thuật điện trong công nghiệp và năng lượng tiếp tục tăng.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội việc làm đa dạng trong lĩnh vực điện – năng lượng."
+    },
+
+    {
+      "major_id": "ENG_EEE",
+      "major_name": "Kỹ thuật điện – điện tử",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A01",
+      "cutoff_score": 21.2,
+      "analysis": "Ngành Kỹ thuật điện – điện tử kết hợp kiến thức điện và điện tử ứng dụng.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Chú trọng cả phần cứng và hệ thống điều khiển."
+    },
+    {
+      "major_id": "ENG_EEE",
+      "major_name": "Kỹ thuật điện – điện tử",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A01",
+      "cutoff_score": 21.9,
+      "analysis": "Sự phát triển của tự động hóa và thiết bị thông minh làm tăng sức hút ngành.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Phù hợp với sinh viên yêu thích công nghệ ứng dụng."
+    },
+
+    {
+      "major_id": "ENG_MECHATRONICS",
+      "major_name": "Cơ điện tử",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 22.0,
+      "analysis": "Cơ điện tử là ngành liên ngành giữa cơ khí, điện và điều khiển.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Yêu cầu tư duy tổng hợp và khả năng kỹ thuật tốt."
+    },
+    {
+      "major_id": "ENG_MECHATRONICS",
+      "major_name": "Cơ điện tử",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 22.7,
+      "analysis": "Ứng dụng robot và tự động hóa giúp ngành Cơ điện tử ngày càng được quan tâm.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội việc làm tốt trong nhà máy và khu công nghiệp."
+    },
+
+    {
+      "major_id": "ENG_AUTOMATION",
+      "major_name": "Điều khiển và Tự động hóa",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 22.3,
+      "analysis": "Ngành Điều khiển và Tự động hóa đáp ứng nhu cầu sản xuất thông minh.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh yêu thích hệ thống điều khiển."
+    },
+    {
+      "major_id": "ENG_AUTOMATION",
+      "major_name": "Điều khiển và Tự động hóa",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 23.0,
+      "analysis": "Cách mạng công nghiệp 4.0 làm tăng nhu cầu kỹ sư tự động hóa.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Nhu cầu nhân lực cao trong các doanh nghiệp sản xuất."
+    },
+
+    {
+      "major_id": "ENG_MANUFACTURING",
+      "major_name": "Công nghệ chế tạo máy",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A01",
+      "cutoff_score": 20.5,
+      "analysis": "Ngành Công nghệ chế tạo máy đào tạo kỹ sư thiết kế và sản xuất cơ khí.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh yêu thích cơ khí và máy móc."
+    },
+    {
+      "major_id": "ENG_MANUFACTURING",
+      "major_name": "Công nghệ chế tạo máy",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A01",
+      "cutoff_score": 21.1,
+      "analysis": "Sản xuất công nghiệp phát triển giúp ngành duy trì nhu cầu ổn định.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Sinh viên có nhiều cơ hội thực hành và thực tập."
+    },
+
+    {
+      "major_id": "ENG_AUTOMOTIVE",
+      "major_name": "Công nghệ ô tô",
+      "year": 2023,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 22.6,
+      "analysis": "Công nghệ ô tô là ngành kỹ thuật gắn liền với thực tiễn sản xuất và dịch vụ.",
+      "trend": "Điểm chuẩn ổn định.",
+      "note": "Phù hợp với thí sinh đam mê lĩnh vực ô tô."
+    },
+    {
+      "major_id": "ENG_AUTOMOTIVE",
+      "major_name": "Công nghệ ô tô",
+      "year": 2024,
+      "method": "THPT",
+      "to_hop": "A00",
+      "cutoff_score": 23.4,
+      "analysis": "Sự phát triển của xe điện và công nghệ mới làm tăng sức hút ngành.",
+      "trend": "Điểm chuẩn tăng nhẹ.",
+      "note": "Cơ hội việc làm tốt trong ngành công nghiệp ô tô."
+    },
+    {
+  "major_id": "ENG_CIVIL",
+  "major_name": "Kỹ thuật xây dựng",
+  "year": 2023,
+  "method": "THPT",
+  "to_hop": "A00",
+  "cutoff_score": 20.9,
+  "analysis": "Ngành Kỹ thuật xây dựng đào tạo kỹ sư thiết kế, thi công và quản lý các công trình xây dựng.",
+  "trend": "Điểm chuẩn ổn định.",
+  "note": "Phù hợp với thí sinh yêu thích kỹ thuật và công trình."
+},
+{
+  "major_id": "ENG_CIVIL",
+  "major_name": "Kỹ thuật xây dựng",
+  "year": 2024,
+  "method": "THPT",
+  "to_hop": "A00",
+  "cutoff_score": 21.6,
+  "analysis": "Nhu cầu phát triển hạ tầng đô thị và công nghiệp giúp ngành duy trì sức hút.",
+  "trend": "Điểm chuẩn tăng nhẹ.",
+  "note": "Cơ hội việc làm tốt trong lĩnh vực xây dựng."
+},
+
+{
+  "major_id": "ENG_CIVIL_TECH",
+  "major_name": "Công nghệ kỹ thuật công trình xây dựng",
+  "year": 2023,
+  "method": "THPT",
+  "to_hop": "A01",
+  "cutoff_score": 20.2,
+  "analysis": "Ngành tập trung vào kỹ thuật thi công và quản lý công trình xây dựng.",
+  "trend": "Điểm chuẩn ổn định.",
+  "note": "Chú trọng kỹ năng thực hành và triển khai công trình."
+},
+{
+  "major_id": "ENG_CIVIL_TECH",
+  "major_name": "Công nghệ kỹ thuật công trình xây dựng",
+  "year": 2024,
+  "method": "THPT",
+  "to_hop": "A01",
+  "cutoff_score": 20.8,
+  "analysis": "Nhu cầu nhân lực kỹ thuật tại các dự án xây dựng tiếp tục tăng.",
+  "trend": "Điểm chuẩn tăng nhẹ.",
+  "note": "Sinh viên có nhiều cơ hội thực tập tại công trường."
+},
+
+{
+  "major_id": "ENG_TRANSPORT_CIVIL",
+  "major_name": "Xây dựng công trình giao thông",
+  "year": 2023,
+  "method": "THPT",
+  "to_hop": "A00",
+  "cutoff_score": 20.6,
+  "analysis": "Ngành đào tạo kỹ sư xây dựng các công trình cầu đường và hạ tầng giao thông.",
+  "trend": "Điểm chuẩn ổn định.",
+  "note": "Phù hợp với thí sinh yêu thích công trình quy mô lớn."
+},
+{
+  "major_id": "ENG_TRANSPORT_CIVIL",
+  "major_name": "Xây dựng công trình giao thông",
+  "year": 2024,
+  "method": "THPT",
+  "to_hop": "A00",
+  "cutoff_score": 21.3,
+  "analysis": "Các dự án giao thông trọng điểm làm tăng nhu cầu kỹ sư xây dựng.",
+  "trend": "Điểm chuẩn tăng nhẹ.",
+  "note": "Cơ hội việc làm ổn định trong lĩnh vực hạ tầng."
+},
+
+{
+  "major_id": "ENG_ARCH",
+  "major_name": "Kiến trúc",
+  "year": 2023,
+  "method": "THPT",
+  "to_hop": "V00",
+  "cutoff_score": 22.5,
+  "analysis": "Ngành Kiến trúc đào tạo tư duy thiết kế không gian và công trình.",
+  "trend": "Điểm chuẩn ổn định.",
+  "note": "Yêu cầu năng khiếu mỹ thuật và sáng tạo."
+},
+{
+  "major_id": "ENG_ARCH",
+  "major_name": "Kiến trúc",
+  "year": 2024,
+  "method": "THPT",
+  "to_hop": "V00",
+  "cutoff_score": 23.2,
+  "analysis": "Nhu cầu thiết kế kiến trúc hiện đại giúp ngành duy trì sức hút.",
+  "trend": "Điểm chuẩn tăng nhẹ.",
+  "note": "Phù hợp với thí sinh có tư duy thẩm mỹ tốt."
+},
+
+{
+  "major_id": "ENG_GRAPHIC",
+  "major_name": "Thiết kế đồ họa",
+  "year": 2023,
+  "method": "THPT",
+  "to_hop": "H00",
+  "cutoff_score": 21.8,
+  "analysis": "Ngành Thiết kế đồ họa đào tạo kỹ năng sáng tạo hình ảnh và truyền thông thị giác.",
+  "trend": "Điểm chuẩn ổn định.",
+  "note": "Phù hợp với thí sinh yêu thích sáng tạo và mỹ thuật."
+},
+{
+  "major_id": "ENG_GRAPHIC",
+  "major_name": "Thiết kế đồ họa",
+  "year": 2024,
+  "method": "THPT",
+  "to_hop": "H00",
+  "cutoff_score": 22.4,
+  "analysis": "Nhu cầu nhân lực thiết kế trong truyền thông và marketing tiếp tục tăng.",
+  "trend": "Điểm chuẩn tăng nhẹ.",
+  "note": "Cơ hội việc làm đa dạng trong lĩnh vực sáng tạo."
+},
+
+{
+  "major_id": "ENG_FASHION",
+  "major_name": "Thiết kế thời trang",
+  "year": 2023,
+  "method": "THPT",
+  "to_hop": "H00",
+  "cutoff_score": 21.3,
+  "analysis": "Ngành Thiết kế thời trang đào tạo sáng tạo và ứng dụng trong lĩnh vực may mặc.",
+  "trend": "Điểm chuẩn ổn định.",
+  "note": "Yêu cầu năng khiếu thẩm mỹ và sáng tạo."
+},
+{
+  "major_id": "ENG_FASHION",
+  "major_name": "Thiết kế thời trang",
+  "year": 2024,
+  "method": "THPT",
+  "to_hop": "H00",
+  "cutoff_score": 22.0,
+  "analysis": "Ngành thời trang phát triển kéo theo nhu cầu nhân lực thiết kế.",
+  "trend": "Điểm chuẩn tăng nhẹ.",
+  "note": "Phù hợp với thí sinh yêu thích nghệ thuật và thiết kế."
+}
+  ],
+  "metadata": {
+    "language": "vi",
+    "version": "2025"
+  }
+}

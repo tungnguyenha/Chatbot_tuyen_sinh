@@ -1,0 +1,89 @@
+{
+  "type": "tuition",
+  "university": "Đại học Duy Tân",
+  "currency": "VND",
+  "calculation_method": "Tính theo số tín chỉ đăng ký mỗi học kỳ",
+  "tuition_groups": [
+    {
+      "group_id": "CS",
+      "group_name": "Công nghệ thông tin & Khoa học Máy tính",
+      "major_ids": [
+          "CS_AI",
+          "CS_DS",
+          "CS_SE",
+          "CS_DS",
+          "CS_IS",
+          "CS_NET"
+        ],
+      "estimated_per_year": "25 – 30 triệu",
+      "details": "Bao gồm các ngành Trí tuệ Nhân tạo, Khoa học Dữ liệu, Kỹ thuật Phần mềm..."
+    },
+    {
+      "group_id": "ECON",
+      "group_name": "Kinh tế – Quản trị",
+       "major_ids": [
+          "ECON_BA",
+          "ECON_MARKETING",
+          "ECON_COMMERCE",
+          "ECON_FINANCE",
+          "ECON_ACCOUNTING",
+          "ECON_AUDIT",
+          "ECON_HRM",
+          "ECON_INVESTMENT"
+        ],
+      "estimated_per_year": "22 – 26 triệu"
+    },
+    {
+      "group_id": "TOUR",
+      "group_name": "Du lịch – Nhà hàng – Khách sạn",
+      "major_ids": [
+          "TOUR_TOURISM",
+          "TOUR_TRAVEL",
+          "TOUR_HOTEL",
+          "TOUR_RESTAURANT",
+          "TOUR_EVENT"
+        ],
+      "estimated_per_year": "20 – 25 triệu"
+    },
+    {
+      "group_id": "MED",
+      "group_name": "Y – Dược",
+      "major_ids": [
+          "MED_MD",
+          "MED_DENTAL",
+          "MED_PHARMACY",
+          "MED_NURSING",
+          "MED_BIOTECH",
+          "MED_BIOMED"
+        ],
+      "estimated_per_year": "35 – 45 triệu",
+      "details": "Chi phí cao do thực hành, thí nghiệm và trang thiết bị chuyên ngành"
+    },
+    {
+      "group_id": "LANG",
+      "group_name": "Ngoại ngữ – Khoa học Xã hội",
+      "major_ids": [
+          "LANG_EN",
+          "LANG_CN",
+          "LANG_JP",
+          "LANG_KR",
+          "LANG_LITERATURE",
+          "LANG_VN_STUDIES",
+          "LANG_IR",
+          "LANG_PR",
+          "LANG_MULTIMEDIA",
+          "LANG_LAW",
+          "LANG_ECON_LAW"
+        ],
+      "estimated_per_year": "18 – 22 triệu"
+    }
+  ],
+  "notes": [
+    "Học phí có thể điều chỉnh theo từng năm",
+    "Sinh viên có thể đóng theo từng học kỳ"
+  ],
+  "metadata": {
+    "year": 2025,
+    "language": "vi"
+  }
+}

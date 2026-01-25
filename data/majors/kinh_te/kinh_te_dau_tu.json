@@ -1,0 +1,85 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7310104",
+  "major_name": "Kinh tế Đầu tư",
+  "major_id": "ECON_INVESTMENT",
+  "school_id": "ECON",
+  "school_name": "Trường Kinh tế",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo cử nhân kinh tế đầu tư có khả năng phân tích và quản lý các dự án đầu tư.",
+    "van_de_thuc_te": "Đáp ứng nhu cầu phát triển dự án, đầu tư công và đầu tư tư nhân.",
+    "hoc_gi": "Sinh viên học kinh tế đầu tư, phân tích dự án, tài chính và quản lý rủi ro."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Toán kinh tế",
+      "Tin học",
+      "Tiếng Anh",
+      "Pháp luật",
+      "Kỹ năng phân tích"
+    ],
+    "mon_co_so_nganh": [
+      "Kinh tế học",
+      "Tài chính",
+      "Thống kê",
+      "Kế toán"
+    ],
+    "mon_chuyen_nganh": [
+      "Phân tích dự án",
+      "Quản lý đầu tư",
+      "Đầu tư công",
+      "Quản trị rủi ro"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Phân tích dự án",
+        "mo_ta": "Đánh giá hiệu quả kinh tế – tài chính của dự án."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "KINH_TE",
+    "per_year_estimate": "18 – 23 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["A00", "A01", "D01"],
+    "diem_chuan": "17 – 20 (tham khảo)",
+    "dieu_kien_dac_biet": [
+      "Tư duy phân tích tốt"
+    ]
+  },
+
+  "career": {
+    "positions": [
+      "Chuyên viên đầu tư",
+      "Chuyên viên phân tích dự án",
+      "Chuyên viên tài chính"
+    ],
+    "workplace": [
+      "Doanh nghiệp",
+      "Công ty đầu tư",
+      "Cơ quan quản lý dự án"
+    ],
+    "salary": {
+      "junior": "8 – 12 triệu VNĐ / tháng",
+      "mid": "15 – 25 triệu VNĐ / tháng",
+      "senior": "30 – 50+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "KINH_TE",
+    "school_id": "BUS",
+    "school_group": "Kinh tế – Quản trị",
+    "language": "vi",
+    "version": "2025"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Major Schema",
+  "description": "Schema kiểm tra cấu trúc file ngành đào tạo",
+  "type": "object",
+  "required": ["major_id", "major_name", "school_id", "tuition", "admission"],
+  "properties": {
+    "major_code_ministry": {
+      "type": "string"
+    },
+    "major_name": {
+      "type": "string",
+      "description": "Tên ngành"
+    },
+
+    "major_id": {
+      "type": "string",
+      "description": "Mã ngành nội bộ, ví dụ CS_AI"
+    },
+    "school_id": {
+          "type": "string",
+          "description": "Mã trường/khoa, ví dụ CS, ECON"
+    },
+
+    "school_name": {
+          "type": "string",
+          "description": "tên khoa, ví dụ CS, ECON"
+    },
+
+    "university": {
+      "type": "string",
+      "description": "Tên trường đại học"
+    },
+
+    "description": {
+      "type": "object"
+    },
+
+    "curriculum": {
+      "type": "object",
+      "required": ["mon_dai_cuong", "mon_co_so_nganh", "mon_chuyen_nganh", "mon_tieu_bieu"],
+      "properties": {
+        "mon_dai_cuong": {
+          "type": "array",
+          "description": "Nhóm học phí, ví dụ CNTT"
+        },
+        "mon_co_so_nganh": {
+          "type": "array",
+          "description": "Nhóm học phí, ví dụ CNTT"
+        },
+        "mon_chuyen_nganh": {
+          "type": "array",
+          "description": "Nhóm học phí, ví dụ CNTT"
+        },
+        "mon_tieu_bieu": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["ten_mon", "mo_ta"],
+            "properties": {
+              "ten_mon": { "type": "string" },
+              "mo_ta": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+
+    "tuition": {
+      "type": "object",
+      "required": ["group_id", "per_year_estimate"],
+      "properties": {
+        "group_id": {
+          "type": "string",
+          "description": "Nhóm học phí, ví dụ CNTT"
+        },
+        "per_year_estimate": {
+          "type": "string"
+        }
+      }
+    },
+    "admission": {
+      "type": "object",
+      "required": ["methods", "to_hop", "diem_chuan", "dieu_kien_dac_biet"],
+      "properties": {
+        "methods": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "to_hop": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "diem_chuan": {
+          "type": "string"
+        },
+        "dieu_kien_dac_biet": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "career_opportunities": {
+      "type": "object",
+      "required": ["fields", "positions", "skills"],
+      "properties": {
+        "fields": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "positions": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "skills": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["domain","school_id","school_group","language", "version"],
+      "properties": {
+        "language": { "type": "string" },
+        "version": { "type": "string" },
+        "domain": { "type": "string" },
+        "school_id": { "type": "string" },
+        "school_group": { "type": "string" }
+      }
+    }
+  }
+}

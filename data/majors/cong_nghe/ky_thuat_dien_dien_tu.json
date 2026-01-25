@@ -1,0 +1,82 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7520207",
+  "major_name": "Kỹ thuật Điện – Điện tử",
+  "major_id": "ENG_EEE",
+  "school_id": "ENG",
+  "school_name": "Trường Công nghệ",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo kỹ sư có kiến thức tổng hợp về điện và điện tử, đáp ứng nhu cầu công nghiệp hiện đại.",
+    "van_de_thuc_te": "Thiết kế, vận hành các hệ thống điện – điện tử trong sản xuất và đời sống.",
+    "hoc_gi": "Điện tử công suất, vi điều khiển, hệ thống nhúng, tự động hóa."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Toán cao cấp",
+      "Vật lý đại cương",
+      "Tin học",
+      "Tiếng Anh",
+      "Kỹ năng mềm"
+    ],
+    "mon_co_so_nganh": [
+      "Mạch điện",
+      "Điện tử tương tự",
+      "Điện tử số",
+      "Vi điều khiển"
+    ],
+    "mon_chuyen_nganh": [
+      "Điện tử công suất",
+      "Hệ thống nhúng",
+      "Tự động hóa"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Vi điều khiển",
+        "mo_ta": "Lập trình và ứng dụng vi điều khiển trong thiết bị thông minh."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "CONG_NGHE",
+    "per_year_estimate": "23 – 27 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["A00", "A01"],
+    "diem_chuan": "15 – 18 (tham khảo)",
+    "dieu_kien_dac_biet": []
+  },
+
+  "career": {
+    "positions": [
+      "Kỹ sư điện – điện tử",
+      "Kỹ sư hệ thống nhúng",
+      "Kỹ sư bảo trì"
+    ],
+    "workplace": [
+      "Nhà máy",
+      "Công ty sản xuất thiết bị",
+      "Doanh nghiệp công nghệ"
+    ],
+    "salary": {
+      "junior": "9 – 13 triệu VNĐ / tháng",
+      "mid": "18 – 28 triệu VNĐ / tháng",
+      "senior": "35 – 50+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "CONG_NGHE",
+    "school_id": "ENG",
+    "school_group": "Công nghệ – Kỹ thuật",
+    "language": "vi",
+    "version": "2025"
+  }
+}

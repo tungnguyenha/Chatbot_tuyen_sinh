@@ -1,0 +1,79 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7220209",
+  "major_name": "Ngôn ngữ Nhật Bản",
+  "major_id": "LANG_JP",
+  "school_id": "LANG",
+  "school_name": "Trường Ngoại ngữ & Khoa học Xã hội Nhân văn",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo cử nhân tiếng Nhật có khả năng làm việc trong môi trường Nhật Bản.",
+    "van_de_thuc_te": "Đáp ứng nhu cầu nhân lực cho doanh nghiệp Nhật tại Việt Nam.",
+    "hoc_gi": "Sinh viên học tiếng Nhật, giao tiếp, dịch thuật và văn hóa Nhật Bản."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Tin học",
+      "Kỹ năng mềm"
+    ],
+    "mon_co_so_nganh": [
+      "Chữ Kanji",
+      "Ngữ pháp tiếng Nhật",
+      "Nghe – nói – đọc – viết",
+      "Văn hóa Nhật Bản"
+    ],
+    "mon_chuyen_nganh": [
+      "Biên dịch Nhật – Việt",
+      "Phiên dịch Nhật – Việt",
+      "Tiếng Nhật doanh nghiệp"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Tiếng Nhật doanh nghiệp",
+        "mo_ta": "Giao tiếp tiếng Nhật trong môi trường công ty."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "NGOAI_NGU_XHNV",
+    "per_year_estimate": "18 – 22 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["D01", "D06"],
+    "diem_chuan": "17 – 20 (tham khảo)",
+    "dieu_kien_dac_biet": []
+  },
+
+  "career": {
+    "positions": [
+      "Phiên dịch tiếng Nhật",
+      "Biên dịch tiếng Nhật",
+      "Nhân viên doanh nghiệp Nhật"
+    ],
+    "workplace": [
+      "Doanh nghiệp Nhật Bản",
+      "Công ty FDI",
+      "Tổ chức quốc tế"
+    ],
+    "salary": {
+      "junior": "9 – 14 triệu VNĐ / tháng",
+      "mid": "16 – 30 triệu VNĐ / tháng",
+      "senior": "35 – 60+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "NGOAI_NGU_XHNV",
+    "school_id": "LANG",
+    "school_group": "Ngoại ngữ – Xã hội – Nhân văn",
+    "language": "vi",
+    "version": "2025"
+  }
+}

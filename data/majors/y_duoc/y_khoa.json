@@ -1,0 +1,91 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7720101",
+  "major_name": "Y khoa - General Medicine",
+  "major_id": "MED_MD",
+  "school_id": "MED",
+  "school_name": "Trường Y – Dược",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo bác sĩ đa khoa có y đức, kiến thức y học vững vàng và kỹ năng lâm sàng đáp ứng nhu cầu chăm sóc sức khỏe cộng đồng.",
+    "van_de_thuc_te": "Giải quyết các vấn đề chẩn đoán, điều trị và phòng bệnh trong hệ thống y tế.",
+    "hoc_gi": "Sinh viên học giải phẫu, sinh lý, bệnh học, dược lý, y học lâm sàng và thực tập tại bệnh viện."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Sinh học",
+      "Hóa học",
+      "Tin học y học",
+      "Tiếng Anh chuyên ngành",
+      "Kỹ năng giao tiếp y khoa"
+    ],
+    "mon_co_so_nganh": [
+      "Giải phẫu học",
+      "Sinh lý học",
+      "Hóa sinh",
+      "Vi sinh – ký sinh trùng"
+    ],
+    "mon_chuyen_nganh": [
+      "Nội khoa",
+      "Ngoại khoa",
+      "Nhi khoa",
+      "Sản phụ khoa",
+      "Y học cộng đồng"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Nội khoa",
+        "mo_ta": "Chẩn đoán và điều trị các bệnh lý nội khoa thường gặp."
+      },
+      {
+        "ten_mon": "Ngoại khoa",
+        "mo_ta": "Nguyên lý phẫu thuật và chăm sóc bệnh nhân ngoại khoa."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "Y_DUOC",
+    "per_year_estimate": "45 – 55 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "TuyenThang"],
+    "to_hop": ["B00"],
+    "diem_chuan": "22 – 25 (tham khảo)",
+    "dieu_kien_dac_biet": [
+      "Học lực giỏi",
+      "Sức khỏe tốt, đáp ứng yêu cầu học tập lâm sàng"
+    ]
+  },
+
+  "career": {
+    "positions": [
+      "Bác sĩ đa khoa",
+      "Bác sĩ điều trị",
+      "Bác sĩ y học cộng đồng"
+    ],
+    "workplace": [
+      "Bệnh viện",
+      "Trung tâm y tế",
+      "Cơ sở khám chữa bệnh"
+    ],
+    "salary": {
+      "junior": "10 – 15 triệu VNĐ / tháng",
+      "mid": "20 – 35 triệu VNĐ / tháng",
+      "senior": "40 – 70+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "Y_DUOC",
+    "school_id": "MED",
+    "school_group": "Y – Dược",
+    "language": "vi",
+    "version": "2025"
+  }
+}

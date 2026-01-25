@@ -1,0 +1,106 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7480109",
+  "major_name": "Khoa học Dữ liệu - Data Science",
+  "major_id": "CS_DS",
+  "school_id": "CS",
+  "school_name": "Trường Khoa học Máy tính",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo kỹ sư Khoa học Dữ liệu có khả năng thu thập, xử lý, phân tích và khai thác dữ liệu để hỗ trợ ra quyết định trong kinh doanh, công nghệ và khoa học.",
+    "van_de_thuc_te": "Ngành Khoa học Dữ liệu giải quyết các bài toán phân tích dữ liệu lớn, dự đoán xu hướng khách hàng, tối ưu hoạt động doanh nghiệp, phát hiện gian lận và hỗ trợ xây dựng các hệ thống trí tuệ nhân tạo.",
+    "hoc_gi": "Sinh viên được học lập trình Python, SQL, xác suất thống kê, học máy, trực quan hóa dữ liệu, xử lý dữ liệu lớn và triển khai các dự án phân tích dữ liệu thực tế."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Toán cao cấp",
+      "Xác suất – Thống kê",
+      "Tin học đại cương",
+      "Kỹ năng mềm",
+      "Tiếng Anh học thuật"
+    ],
+    "mon_co_so_nganh": [
+      "Lập trình Python",
+      "Cấu trúc dữ liệu và Giải thuật",
+      "Cơ sở dữ liệu",
+      "Hệ điều hành",
+      "Mạng máy tính"
+    ],
+    "mon_chuyen_nganh": [
+      "Khoa học dữ liệu",
+      "Machine Learning",
+      "Phân tích dữ liệu",
+      "Xử lý dữ liệu lớn (Big Data)",
+      "Trực quan hóa dữ liệu",
+      "Khai phá dữ liệu"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Phân tích dữ liệu",
+        "mo_ta": "Thu thập, làm sạch và phân tích dữ liệu để rút ra insight phục vụ ra quyết định."
+      },
+      {
+        "ten_mon": "Machine Learning",
+        "mo_ta": "Xây dựng các mô hình dự đoán, phân loại và clustering từ dữ liệu."
+      },
+      {
+        "ten_mon": "Trực quan hóa dữ liệu",
+        "mo_ta": "Biểu diễn dữ liệu bằng biểu đồ, dashboard giúp dễ hiểu và dễ phân tích."
+      },
+      {
+        "ten_mon": "Big Data",
+        "mo_ta": "Xử lý và phân tích dữ liệu lớn với các công nghệ hiện đại."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "CNTT",
+    "per_year_estimate": "25 – 30 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa", "TuyenThang"],
+    "to_hop": ["A00", "A01", "D01", "D07"],
+    "diem_chuan": "20 – 23 (tham khảo các năm gần đây)",
+    "dieu_kien_dac_biet": [
+      "Có chứng chỉ IELTS từ 5.5 trở lên",
+      "Học sinh giỏi môn Toán hoặc Tin học",
+      "Có giải thưởng học sinh giỏi các cấp liên quan đến CNTT"
+    ]
+  },
+
+  "career": {
+    "positions": [
+      "Data Analyst",
+      "Data Scientist",
+      "Business Intelligence Engineer",
+      "Machine Learning Engineer",
+      "Chuyên viên phân tích dữ liệu"
+    ],
+    "workplace": [
+      "Công ty công nghệ",
+      "Ngân hàng và tổ chức tài chính",
+      "Doanh nghiệp thương mại điện tử",
+      "Startup công nghệ",
+      "Doanh nghiệp trong và ngoài nước"
+    ],
+    "salary": {
+      "junior": "10 – 15 triệu VNĐ / tháng",
+      "mid": "20 – 35 triệu VNĐ / tháng",
+      "senior": "40 – 70+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "CNTT",
+    "school_id": "CS",
+    "school_group": "Khoa học Máy tính",
+    "language": "vi",
+    "version": "2025"
+  }
+}

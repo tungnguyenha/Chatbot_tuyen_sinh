@@ -1,0 +1,23 @@
+{
+  "school_id": "ENG",
+  "school_name": "Trường Công nghệ",
+  "school_name_en": "School of Engineering and Technology",
+  "description": "Đào tạo các ngành kỹ thuật, công nghệ, xây dựng và thiết kế.",
+  "majors": [
+    "ENG_EE",
+    "ENG_EEE",
+    "ENG_MECHATRONICS",
+    "ENG_AUTOMATION",
+    "ENG_MANUFACTURING",
+    "ENG_AUTOMOTIVE",
+    "ENG_CIVIL",
+    "ENG_CIVIL_TECH",
+    "ENG_TRANSPORT_CIVIL",
+    "ENG_ARCH",
+    "ENG_GRAPHIC",
+    "ENG_FASHION"
+  ],
+  "metadata": {
+    "version": "2025"
+  }
+}

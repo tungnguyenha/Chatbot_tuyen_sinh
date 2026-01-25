@@ -1,0 +1,79 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7220210",
+  "major_name": "Ngôn ngữ Hàn Quốc",
+  "major_id": "LANG_KR",
+  "school_id": "LANG",
+  "school_name": "Trường Ngoại ngữ & Khoa học Xã hội Nhân văn",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo cử nhân tiếng Hàn có khả năng giao tiếp và làm việc trong môi trường Hàn Quốc.",
+    "van_de_thuc_te": "Đáp ứng nhu cầu nhân lực cho doanh nghiệp Hàn Quốc tại Việt Nam.",
+    "hoc_gi": "Sinh viên học tiếng Hàn, giao tiếp, dịch thuật và văn hóa Hàn Quốc."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Tin học",
+      "Kỹ năng mềm"
+    ],
+    "mon_co_so_nganh": [
+      "Ngữ âm tiếng Hàn",
+      "Ngữ pháp",
+      "Nghe – nói – đọc – viết",
+      "Văn hóa Hàn Quốc"
+    ],
+    "mon_chuyen_nganh": [
+      "Biên dịch Hàn – Việt",
+      "Phiên dịch Hàn – Việt",
+      "Tiếng Hàn doanh nghiệp"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Tiếng Hàn doanh nghiệp",
+        "mo_ta": "Sử dụng tiếng Hàn trong môi trường công ty."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "NGOAI_NGU_XHNV",
+    "per_year_estimate": "18 – 22 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["D01", "DD2"],
+    "diem_chuan": "17 – 20 (tham khảo)",
+    "dieu_kien_dac_biet": []
+  },
+
+  "career": {
+    "positions": [
+      "Phiên dịch tiếng Hàn",
+      "Biên dịch tiếng Hàn",
+      "Nhân viên văn phòng Hàn Quốc"
+    ],
+    "workplace": [
+      "Doanh nghiệp Hàn Quốc",
+      "Công ty FDI",
+      "Tổ chức quốc tế"
+    ],
+    "salary": {
+      "junior": "9 – 13 triệu VNĐ / tháng",
+      "mid": "15 – 30 triệu VNĐ / tháng",
+      "senior": "35 – 55+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "NGOAI_NGU_XHNV",
+    "school_id": "LANG",
+    "school_group": "Ngoại ngữ – Xã hội – Nhân văn",
+    "language": "vi",
+    "version": "2025"
+  }
+}

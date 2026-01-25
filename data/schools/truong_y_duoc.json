@@ -1,0 +1,17 @@
+{
+  "school_id": "MED",
+  "school_name": "Trường Y – Dược",
+  "school_name_en": "School of Medicine and Pharmacy",
+  "description": "Đào tạo nguồn nhân lực trong lĩnh vực y tế, chăm sóc sức khỏe và công nghệ sinh học.",
+  "majors": [
+    "MED_MD",
+    "MED_DENTAL",
+    "MED_PHARMACY",
+    "MED_NURSING",
+    "MED_BIOTECH",
+    "MED_BIOMED"
+  ],
+  "metadata": {
+    "version": "2025"
+  }
+}

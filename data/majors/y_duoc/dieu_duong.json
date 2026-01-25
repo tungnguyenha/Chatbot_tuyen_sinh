@@ -1,0 +1,86 @@
+{
+  "type": "major",
+
+  "major_code_ministry": "7720301",
+  "major_name": "Điều dưỡng",
+  "major_id": "MED_NURSING",
+  "school_id": "MED",
+  "school_name": "Trường Y – Dược",
+  "university": "Đại học Duy Tân",
+
+  "description": {
+    "muc_tieu": "Đào tạo cử nhân điều dưỡng có kiến thức và kỹ năng chăm sóc người bệnh toàn diện, chuyên nghiệp và nhân văn.",
+    "van_de_thuc_te": "Đáp ứng nhu cầu nhân lực điều dưỡng trong hệ thống y tế trong nước và quốc tế.",
+    "hoc_gi": "Sinh viên học điều dưỡng cơ bản, điều dưỡng lâm sàng, chăm sóc bệnh nhân và thực tập tại bệnh viện."
+  },
+
+  "curriculum": {
+    "mon_dai_cuong": [
+      "Sinh học",
+      "Hóa học",
+      "Tin học y học",
+      "Tiếng Anh chuyên ngành",
+      "Kỹ năng giao tiếp"
+    ],
+    "mon_co_so_nganh": [
+      "Giải phẫu – sinh lý",
+      "Vi sinh",
+      "Điều dưỡng cơ sở",
+      "Dinh dưỡng"
+    ],
+    "mon_chuyen_nganh": [
+      "Điều dưỡng nội khoa",
+      "Điều dưỡng ngoại khoa",
+      "Điều dưỡng nhi khoa",
+      "Điều dưỡng cộng đồng"
+    ],
+    "mon_tieu_bieu": [
+      {
+        "ten_mon": "Điều dưỡng nội khoa",
+        "mo_ta": "Chăm sóc bệnh nhân mắc các bệnh nội khoa."
+      }
+    ]
+  },
+
+  "tuition": {
+    "group_id": "Y_DUOC",
+    "per_year_estimate": "28 – 35 triệu VNĐ / năm"
+  },
+
+  "admission": {
+    "methods": ["THPT", "HocBa"],
+    "to_hop": ["B00"],
+    "diem_chuan": "19 – 22 (tham khảo)",
+    "dieu_kien_dac_biet": [
+      "Có sức khỏe tốt",
+      "Tinh thần trách nhiệm và yêu thích chăm sóc con người"
+    ]
+  },
+
+  "career": {
+    "positions": [
+      "Điều dưỡng viên",
+      "Điều dưỡng lâm sàng",
+      "Điều dưỡng trưởng"
+    ],
+    "workplace": [
+      "Bệnh viện",
+      "Cơ sở y tế",
+      "Viện dưỡng lão"
+    ],
+    "salary": {
+      "junior": "7 – 10 triệu VNĐ / tháng",
+      "mid": "12 – 20 triệu VNĐ / tháng",
+      "senior": "25 – 40+ triệu VNĐ / tháng"
+    }
+  },
+
+  "metadata": {
+    "type": "major",
+    "domain": "Y_DUOC",
+    "school_id": "MED",
+    "school_group": "Y – Dược",
+    "language": "vi",
+    "version": "2025"
+  }
+}
