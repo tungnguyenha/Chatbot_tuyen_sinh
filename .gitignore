@@ -35,4 +35,5 @@ model/
 # ===== test file =====
 test_reranker.py
 test_api.py
-src\test_retriever.py
+src/test_retriever.py
+data/manganh.txt

@@ -1,0 +1,167 @@
+Rất tốt 👍
+Mình hiểu yêu cầu của bạn là:
+
+👉 **Tạo “MÃ CHUYÊN NGÀNH / MÃ NGÀNH NỘI BỘ”**
+
+* Ánh xạ **đúng các ngành bạn đã cung cấp**
+* Dùng để:
+
+  * liên kết data
+  * metadata khi ingest vector DB
+  * filter / routing trong chatbot
+* **KHÔNG thay thế mã ngành Bộ GD&ĐT**, mà là **mã kỹ thuật nội bộ** (internal code)
+
+Dưới đây là **bộ mã chuẩn – dễ nhớ – scale tốt**.
+
+---
+
+# 🎯 NGUYÊN TẮC ĐẶT MÃ (QUAN TRỌNG)
+
+Mỗi ngành có **2 loại mã**:
+
+1. **`major_code_ministry`** → mã Bộ GD&ĐT (VD: `7480107`)
+2. **`major_id` (internal)** → mã bạn tự định nghĩa (dùng cho AI, vector DB)
+
+👉 Chatbot + Vector DB **nên dùng `major_id`**, không dùng mã Bộ (vì mã Bộ không có ngữ nghĩa)
+
+---
+
+# 🏫 1️⃣ TRƯỜNG KHOA HỌC MÁY TÍNH (CS)
+
+| Ngành              | Mã Bộ              | `major_id` |
+| ------------------ | ------------------ | ---------- |
+| Khoa học máy tính  | 7480101            | `CS_CS`    |
+| Kỹ thuật phần mềm  | 7480103            | `CS_SE`    |
+| Trí tuệ nhân tạo   | 7480107            | `CS_AI`    |
+| Khoa học dữ liệu   | 7480109 / 7480201* | `CS_DS`    |
+| An toàn thông tin  | 7480202            | `CS_IS`    |
+| Mạng máy tính & TT | 7480108            | `CS_NET`   |
+
+> (*tùy trường dùng mã nào, internal không đổi)
+
+---
+
+# 🏗️ 2️⃣ TRƯỜNG CÔNG NGHỆ / KỸ THUẬT (ENG)
+
+| Ngành                    | Mã Bộ   | `major_id`            |
+| ------------------------ | ------- | --------------------- |
+| Kỹ thuật điện            | 7520201 | `ENG_EE`              |
+| Kỹ thuật điện – điện tử  | 7520207 | `ENG_EEE`             |
+| Cơ điện tử               | 7520114 | `ENG_MECHATRONICS`    |
+| Điều khiển & Tự động hóa | 7520216 | `ENG_AUTOMATION`      |
+| Chế tạo máy              | 7520118 | `ENG_MANUFACTURING`   |
+| Công nghệ ô tô           | 7510205 | `ENG_AUTOMOTIVE`      |
+| Kỹ thuật xây dựng        | 7580201 | `ENG_CIVIL`           |
+| CNKT Công trình XD       | 7510103 | `ENG_CIVIL_TECH`      |
+| Xây dựng CT giao thông   | 7580205 | `ENG_TRANSPORT_CIVIL` |
+| Kiến trúc                | 7580101 | `ENG_ARCH`            |
+| Thiết kế đồ họa          | 7210403 | `ENG_GRAPHIC`         |
+| Thiết kế thời trang      | 7210404 | `ENG_FASHION`         |
+
+---
+
+# 🩺 3️⃣ TRƯỜNG Y – DƯỢC (MED)
+
+| Ngành              | Mã Bộ   | `major_id`     |
+| ------------------ | ------- | -------------- |
+| Y khoa             | 7720101 | `MED_MD`       |
+| Răng – Hàm – Mặt   | 7720501 | `MED_DENTAL`   |
+| Dược học           | 7720201 | `MED_PHARMACY` |
+| Điều dưỡng         | 7720301 | `MED_NURSING`  |
+| Công nghệ sinh học | 7420201 | `MED_BIOTECH`  |
+| Kỹ thuật y sinh    | 7520212 | `MED_BIOMED`   |
+
+---
+
+# 💼 4️⃣ TRƯỜNG KINH TẾ (ECON)
+
+| Ngành                 | Mã Bộ   | `major_id`        |
+| --------------------- | ------- | ----------------- |
+| Quản trị kinh doanh   | 7340101 | `ECON_BA`         |
+| Marketing             | 7340115 | `ECON_MARKETING`  |
+| Kinh doanh thương mại | 7340121 | `ECON_COMMERCE`   |
+| Thương mại điện tử    | 7340122 | `ECON_ECOMMERCE`  |
+| Tài chính – Ngân hàng | 7340201 | `ECON_FINANCE`    |
+| Kế toán               | 7340301 | `ECON_ACCOUNTING` |
+| Kiểm toán             | 7340302 | `ECON_AUDIT`      |
+| Quản trị nhân lực     | 7340404 | `ECON_HRM`        |
+| Kinh tế đầu tư        | 7310104 | `ECON_INVESTMENT` |
+
+---
+
+# ✈️ 5️⃣ TRƯỜNG DU LỊCH (TOUR)
+
+| Ngành                   | Mã Bộ    | `major_id`        |
+| ----------------------- | -------- | ----------------- |
+| Du lịch                 | 7810101  | `TOUR_TOURISM`    |
+| QL DV Du lịch & Lữ hành | 7810103  | `TOUR_TRAVEL`     |
+| Quản trị khách sạn      | 7810201  | `TOUR_HOTEL`      |
+| Quản trị nhà hàng       | 7810202  | `TOUR_RESTAURANT` |
+| Quản trị sự kiện        | 7340403* | `TOUR_EVENT`      |
+
+---
+
+# 🌍 6️⃣ NGOẠI NGỮ – KHXH&NV (LANG)
+
+| Ngành                       | Mã Bộ   | `major_id`        |
+| --------------------------- | ------- | ----------------- |
+| Ngôn ngữ Anh                | 7220201 | `LANG_EN`         |
+| Ngôn ngữ Trung Quốc         | 7220204 | `LANG_CN`         |
+| Ngôn ngữ Nhật               | 7220209 | `LANG_JP`         |
+| Ngôn ngữ Hàn Quốc           | 7220210 | `LANG_KR`         |
+| Văn học                     | 7229030 | `LANG_LITERATURE` |
+| Việt Nam học                | 7310630 | `LANG_VN_STUDIES` |
+| Quan hệ quốc tế             | 7310206 | `LANG_IR`         |
+| Quan hệ công chúng          | 7320108 | `LANG_PR`         |
+| Truyền thông đa phương tiện | 7320104 | `LANG_MULTIMEDIA` |
+| Luật                        | 7380101 | `LANG_LAW`        |
+| Luật kinh tế                | 7380107 | `LANG_ECON_LAW`   |
+
+---
+
+# 🧩 7️⃣ DẠNG JSON DÙNG CHO HỆ THỐNG (KHUYẾN NGHỊ)
+
+Ví dụ trong `tri_tue_nhan_tao.json`:
+
+```json
+{
+  "major_id": "CS_AI",
+  "major_code_ministry": "7480107",
+  "major_name": "Trí tuệ Nhân tạo",
+  "school_id": "CS",
+  "domain": "CNTT"
+}
+```
+
+👉 `major_id` là **KEY CHÍNH** cho:
+
+* metadata vector DB
+* routing chatbot
+* liên kết học phí / học bổng
+
+---
+
+# 🚀 LỢI ÍCH KHI DÙNG BỘ MÃ NÀY
+
+✔ Không phụ thuộc mã Bộ (có thể thay đổi)
+✔ Dễ đọc – dễ debug
+✔ Query vector DB rất sạch:
+
+```text
+type=major AND major_id=CS_AI
+```
+
+✔ Scale lên 100+ ngành không vỡ
+
+---
+
+# 👉 BƯỚC TIẾP THEO (MÌNH LÀM NGAY ĐƯỢC)
+
+Nếu bạn muốn, mình có thể:
+
+1. ✅ Sinh **file `major_index.json` chứa toàn bộ mapping**
+2. ✅ Update lại **tất cả file ngành** theo `major_id`
+3. ✅ Viết **script auto-gán metadata khi ingest**
+4. ✅ Viết **prompt system tận dụng major_id**
+
+👉 Bạn muốn mình **xuất mapping này thành file JSON** hay **CSV** để import thẳng vào hệ thống?
