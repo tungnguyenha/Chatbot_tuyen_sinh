@@ -36,4 +36,5 @@ model/
 test_reranker.py
 test_api.py
 src/test_retriever.py
-data/manganh.txt
+src/retriever_final.py
+data/mangang.txt
