@@ -31,3 +31,8 @@ Thumbs.db
 # ===== Project generated data =====
 university_vector_db/
 model/
+
+# ===== test file =====
+test_reranker.py
+test_api.py
+src\test_retriever.py

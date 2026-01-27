@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 from pathlib import Path
-
+import torch
 #load environment variables from .env file
 load_dotenv()
 
@@ -46,7 +46,16 @@ enable_chat_history = True # bật/tắt lịch sử trò chuyện
 max_chat_history_length = 10  # số lượng tin nhắn tối đa trong lịch sử trò chuyện
 enable_source_citation = True  # hiển thị nguồn trích dẫn
 
+#----------------------------------------------------
+# Chatbox settings
+#----------------------------------------------------
 
+RERANKER_MODEL = "BAAI/bge-reranker-base"
+RERANKER_DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+RERANKER_TOP_K = 5
+RERANKER_ENABLE = True
+RERANKER_MAX_LENGTH = 512
+RERANKER_BATCH_SIZE = 32
 #----------------------------------------------------
 # STREAMLIT SETTINGS
 PAGE_TITLE = f"🎓 Tư vấn Tuyển sinh - {UNIVERSITY_NAME}"

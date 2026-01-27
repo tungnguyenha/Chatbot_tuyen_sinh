@@ -7,8 +7,9 @@ from langchain_huggingface import HuggingFaceEmbeddings
 import sys
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 from src.utils import parse_score_query,extract_major_from_query, MAJOR_MAPPING
-from config import (VECTOR_DB_DIR, EMBEDDING_MODEL, EMBEDDING_DEVICE, RETRIEVAL_K, SIMILARITY_THRESHOLD)
-
+from config import (VECTOR_DB_DIR, EMBEDDING_MODEL, EMBEDDING_DEVICE, RETRIEVAL_K, SIMILARITY_THRESHOLD,
+                    RERANKER_MODEL,RERANKER_MAX_LENGTH,RERANKER_BATCH_SIZE,RERANKER_DEVICE,RERANKER_ENABLE, RERANKER_TOP_K)
+from sentence_transformers import CrossEncoder
 
 class University_Retrieve:
     def __init__(self, vector_db_path: str = None):
@@ -39,6 +40,23 @@ class University_Retrieve:
         else:
             self.structured_data = {}
             print("⚠️  No structured data found")
+        # load reranker model
+        if RERANKER_ENABLE:
+            try:
+                print("Loading reranker model...")
+                self.reranker = CrossEncoder(
+                    model_name= RERANKER_MODEL,
+                    max_length= RERANKER_MAX_LENGTH,
+                    device= RERANKER_DEVICE,
+                )
+                print("✅ Reranker model loaded!")
+            except Exception as e:
+                print(f"⚠️ Failed to load reranker: {e}")
+                print("   Continuing without reranking...")
+                self.reranker = None
+        else:
+            print("⚠️ Reranking disabled in config")
+            self.reranker = None
 
     # ============================================
     # BASIC RETRIEVAL
@@ -274,6 +292,9 @@ class University_Retrieve:
         else:
             results['semantic_results'] = self.search(query, k=k)
         
+        if results['semantic_results'] and RERANKER_ENABLE and self.reranker:
+            results['semantic_results'] = self.reranker_documents(query, results['semantic_results'], top_k= RERANKER_TOP_K)
+        
         results['context'] = self.build_context(results)
         return results
     
@@ -468,6 +489,59 @@ class University_Retrieve:
         extracted = '\n'.join(result)
         return extracted
     
+    def reranker_documents(self,
+                           query:str,
+                           documents: List[Document],
+                           top_k:Optional[int] = None,
+                           debug: bool = False) -> List[Document]:
+    # Rerank documents dựa trên độ liên quan với query sử dụng CrossEncoder
+        if not self.reranker:
+            if debug:
+                print("⚠️ Reranker not available, returning original docs")
+            return documents
+        
+        if not documents:
+            return []
+        
+        if len(documents)<= 1:
+            return documents
+        
+        top_k = top_k or RERANKER_TOP_K
+
+        try :
+            pairs = [[query,doc.page_content] for doc in documents]
+            reranker_score = self.reranker.predict(pairs)
+            doc_score_pairs = list(zip(documents, reranker_score))
+            doc_score_pairs.sort(key= lambda x:x[1], reverse= True)
+
+            if debug: 
+                print(f"\n{'='*70}")
+                print(f"🔍 RERANKING DETAILS")
+                print(f"{'='*70}")
+                print(f"Query: {query}")
+                print(f"Original docs: {len(documents)}")
+                print(f"Keeping top: {top_k}")
+                print(f"\nTop 5 scores after reranking:")
+                for i, (doc, score) in enumerate(doc_score_pairs[:5], 1):
+                    metadata = doc.metadata if hasattr(doc, 'metadata') else {}
+                    major = metadata.get('major_name', 'N/A')
+                    doc_type = metadata.get('type', 'N/A')
+                    preview = doc.page_content[:80].replace('\n', ' ')
+                    print(f"  [{i}] Score: {score:.4f} | Type: {doc_type} | Major: {major}")
+                    print(f"      Preview: {preview}...")
+                print(f"{'='*70}\n")
+
+            reranked_docs = [doc for doc, score in doc_score_pairs[:top_k]]
+            if not debug:
+                print(f"🔄 Reranked: {len(documents)} → {len(reranked_docs)} docs")
+    
+            return reranked_docs
+    
+        except Exception as e:
+            print(f"⚠️ Reranking error: {str(e)}")
+            print(f"   Falling back to original top {top_k} docs")
+            return documents[:top_k]
+
 if __name__ == "__main__":
     print("\n🧪 Testing Retriever (Semantic + Structured)...\n")
 
