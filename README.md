@@ -108,12 +108,10 @@ streamlit run app.py
 ## ⚠️ Hạn chế hiện tại
 
 - Dữ liệu được tổng hợp thủ công
-- Chưa có reranker (cross-encoder)
 - Chưa hỗ trợ multi-university
 
 ## 🚀 Hướng phát triển
 
-- Tích hợp reranking để cải thiện độ chính xác
 - Crawl dữ liệu tuyển sinh tự động
 - Hỗ trợ nhiều trường đại học
 - Tối ưu prompt cho Gemini
