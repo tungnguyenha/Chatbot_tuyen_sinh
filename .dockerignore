@@ -1,0 +1,40 @@
+# ===== API Keys / Secrets =====
+.env
+.env.local
+.streamlit/secrets.toml
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== Virtual Env =====
+venv/
+.venv/
+env/
+ENV/
+
+# ===== Logs =====
+*.log
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Project generated data =====
+university_vector_db/
+model/
+
+# ===== test file =====
+test_reranker.py
+test_api.py
+src/test_retriever.py
+src/retriever_final.py
+data/mangang.txt

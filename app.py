@@ -67,10 +67,10 @@ render_header(PAGE_ICON, UNIVERSITY_NAME)
 # ============================================
 render_sidebar(
     example_questions=[
-        "Ngành AI học những gì?",
-        "Điểm chuẩn năm 2024?",
-        "Xét tuyển bằng cách nào?",
-        "Học phí bao nhiêu?"
+        "Ngành Du lịch học những gì?",
+        "Điểm chuẩn ngành Trí tuệ nhân tạo năm 2024?",
+        "Xét tuyển ngành markerting bằng cách nào?",
+        "Học phí khoa học dữ liệu bao nhiêu?"
     ],
     hotline=ADMISSION_HOTLINE,
     email=ADMISSION_EMAIL,
