@@ -1,14 +1,19 @@
 import json
 from pathlib import Path
-from typing import List, Dict, Any, Optional, Tuple
+from typing import List, Dict, Optional, Tuple
 from langchain_core.documents import Document
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.output_parsers import JsonOutputParser
+from langchain_core.runnables import RunnablePassthrough
+from langchain_google_genai import ChatGoogleGenerativeAI
 import sys
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 from src.utils import parse_score_query,extract_major_from_query, MAJOR_MAPPING
 from config import (VECTOR_DB_DIR, EMBEDDING_MODEL, EMBEDDING_DEVICE, RETRIEVAL_K, SIMILARITY_THRESHOLD,
-                    RERANKER_MODEL,RERANKER_MAX_LENGTH,RERANKER_BATCH_SIZE,RERANKER_DEVICE,RERANKER_ENABLE, RERANKER_TOP_K)
+                    RERANKER_MODEL,RERANKER_MAX_LENGTH,RERANKER_DEVICE,RERANKER_ENABLE, RERANKER_TOP_K,
+                    GEMINI_API_KEY,GEMINI_MODEL,LLM_MAX_TOKENS,LLM_TEMPERATURE)
 from sentence_transformers import CrossEncoder
 
 class University_Retrieve:
@@ -57,6 +62,87 @@ class University_Retrieve:
         else:
             print("⚠️ Reranking disabled in config")
             self.reranker = None
+        # Load query LLM
+        try: 
+            self.llm_query = ChatGoogleGenerativeAI(model=GEMINI_MODEL,
+                                           temperature=LLM_TEMPERATURE,
+                                           max_output_tokens=LLM_MAX_TOKENS,
+                                           google_api_key=GEMINI_API_KEY
+                                        )
+            
+            # load prompt
+            self.detect_query_prompt = self._create_query_detect_prompt_template()
+            # setup chain
+            self.detect_query_chain = (
+                {"query": RunnablePassthrough()}
+                |self.detect_query_prompt
+                |self.llm_query
+                |JsonOutputParser()
+            )
+            print("✅ Query detection Gemini connected!")
+        except Exception as e:
+                print(f"⚠️ Failed to initialize Gemini: {e}")
+        
+    # ============================================
+    # Setup LLM để detect query
+    # ============================================
+    # setup template
+    def _create_query_detect_prompt_template(self)-> ChatPromptTemplate:
+        system_prompt = """
+        Bạn là một chuyên gia phân loại câu hỏi về tuyển sinh đại học.
+
+        Nhiệm vụ: Phân loại câu hỏi của người dùng vào MỘT trong các loại sau:
+
+        1. **cutoff_scores**: Câu hỏi về điểm chuẩn, điểm đầu vào của ngành
+        - Ví dụ: "Điểm chuẩn ngành AI năm 2024 là bao nhiêu?"
+        - Keywords: điểm chuẩn, điểm đầu vào, điểm thi, điểm trúng tuyển
+
+        2. **subject_combinations**: Câu hỏi về tổ hợp môn thi, môn xét tuyển
+        - Ví dụ: "Tổ hợp A00 gồm những môn gì?", "Ngành AI thi tổ hợp gì?"
+        - Keywords: tổ hợp môn, môn thi, A00, A01, B00, thi gì
+
+        3. **tuition**: Câu hỏi về học phí, chi phí học tập
+        - Ví dụ: "Học phí ngành Marketing là bao nhiêu?"
+        - Keywords: học phí, tiền học, chi phí, mức phí
+
+        4. **career**: Câu hỏi về nghề nghiệp, cơ hội việc làm sau khi tốt nghiệp
+        - Ví dụ: "Ra trường ngành Marketing làm gì?", "Ngành AI có cơ hội việc làm không?"
+        - Keywords: ra trường làm gì, nghề nghiệp, việc làm, cơ hội công việc, vị trí làm việc
+
+        5. **curriculum_major**: Câu hỏi về chương trình học, môn học của ngành
+        - Ví dụ: "Ngành AI học những môn gì?", "Chương trình học ngành Marketing"
+        - Keywords: học gì, học những môn, môn học, chương trình đào tạo, curriculum
+
+        6. **admission_methods**: Câu hỏi về phương thức xét tuyển, cách đăng ký
+        - Ví dụ: "Làm sao để xét tuyển vào ngành AI?", "Phương thức tuyển sinh"
+        - Keywords: phương thức xét tuyển, đăng ký, tuyển sinh, xét học bạ, xét điểm thi
+
+        7. **major_info**: Câu hỏi chung về thông tin ngành, giới thiệu ngành
+        - Ví dụ: "Ngành AI là gì?", "Cho tôi biết về ngành Marketing"
+        - Keywords: thông tin ngành, ngành gì, giới thiệu, tổng quan
+
+        8. **faq**: Các câu hỏi khác không thuộc 7 loại trên
+        - Ví dụ: "Trường có ký túc xá không?", "Thời gian đăng ký là khi nào?"
+
+        QUAN TRỌNG:
+            - Trả về JSON với format chính xác:
+            {{"query_type": "tên_loại", "confidence": 0.0, "reasoning": "lý do"}}
+            - confidence từ 0.0 đến 1.0
+            - Nếu không chắc chắn (confidence < 0.7), chọn "faq"
+            - Chỉ trả về JSON, KHÔNG thêm text khác
+        """
+
+        human_prompt = """
+                        Câu hỏi: {query}
+                        Phân loại câu hỏi này:
+                    """
+        template = ChatPromptTemplate.from_messages(
+            [
+                ("system",system_prompt),
+                ("human", human_prompt)
+            ]
+        )
+        return template
 
     # ============================================
     # BASIC RETRIEVAL
@@ -83,8 +169,7 @@ class University_Retrieve:
         except Exception as e:
             print(f"⚠️ Search error: {e}")
             return []
-    
-    
+       
     def search_with_score(
             self,
             query: str,
@@ -119,8 +204,16 @@ class University_Retrieve:
     # ============================================
     # QUERY ROUTING
     # ============================================
-    def detect_query_type(self, query: str) -> str:
-        # Phát hiện loại truy vấn
+    # Chọn loại detect 1. detect = keyword , 2. detect = llm
+    def detect_query_type(self,query: str )-> str:
+        keyword_type = self._detect_with_keywords(query)
+        if keyword_type != "others":
+            return keyword_type
+
+        return self._detect_query_with_LLM(query)
+    
+    # Phát hiện loại truy vấn
+    def _detect_with_keywords(self, query: str) -> str:
         query_lower = query.lower()
         if any(kw in query_lower for kw in ['điểm','diem','điểm chuẩn', 'diem chuan', 'điểm đầu vào']):
             return "cutoff_scores" 
@@ -136,8 +229,35 @@ class University_Retrieve:
             return "admission_methods"
         if any(kw in query_lower for kw in ['ngành', 'nganh', 'chuyên ngành', 'major']):
             return "major_infor"
-        return 'faq'
+        if any(kw in query_lower for kw in ['Khó','khó']):
+            return "faq"
+        return 'others'
 
+    # detect loại câu hỏi bằng llm
+    def _detect_query_with_LLM(self, query:str)->str:
+            try:
+                result = self.detect_query_chain.invoke(query)
+                query_type = result.get("query_type", "faq")
+                confidence = result.get("confidence", 0.0)
+                reasoning = result.get("reasoning", "")
+                
+                # # Log kết quả
+                # print(f"🤖 Gemini Detection: {query_type} (confidence: {confidence:.2f})")
+                # if reasoning:
+                #     print(f"   Reasoning: {reasoning}")
+
+                #fall back detect with keyword
+                if confidence < 0.5:
+                    print(f"⚠️  Low confidence, trying keyword-based detection...")
+                    fallback_type = self._detect_with_keywords(query)
+                    print(f"   Keyword detection suggests: {fallback_type}")
+                    return fallback_type
+                return query_type
+            except Exception as e:
+                print(f"⚠️ Gemini detection error: {e}")
+                print("   Falling back to keyword-based detection...")
+                return self._detect_with_keywords(query)
+    
     # ============================================
     # STRUCTURED DATA RETRIEVAL
     # ============================================
@@ -230,8 +350,7 @@ class University_Retrieve:
             'ENG': 'ENG'
         }
         return mapping.get(group_id) == school_id
-
-
+    
     # ============================================
     # HYBRID SEARCH
     # ============================================
@@ -292,6 +411,7 @@ class University_Retrieve:
         else:
             results['semantic_results'] = self.search(query, k=k)
         
+        #reranker
         if results['semantic_results'] and RERANKER_ENABLE and self.reranker:
             results['semantic_results'] = self.reranker_documents(query, results['semantic_results'], top_k= RERANKER_TOP_K)
         
@@ -549,13 +669,13 @@ if __name__ == "__main__":
         retriever = University_Retrieve()
 
         test_queries = [
-            # "ngành Trí tuệ nhân tạo học gì",
-            # "điểm chuẩn ngành Trí tuệ nhân tạo năm 2024",
+            # "ngành Trí tuệ nhân tạo hoc gì",
+            # "điểm chun ngành Trí tuệ nhân tạo năm 2024",
             # "Học phí Trí tuệ nhân tạo",
             # "Tổ hợp A00 gồm những môn nào?",
-            # "Ra trường ngành marketing làm gì?",
+            "Ra trường ngành marketing làm gì?",
             # "ngành Artificial Intelligence ra trường làm công việc gì ?",
-            # "ngành AI học gì",
+            "ngành AI học gì",
             "Tổ hợp môn của ngành du lịch là gì"
         ]
 
@@ -609,3 +729,30 @@ if __name__ == "__main__":
         print(f"❌ Error during test: {e}")
         import traceback
         traceback.print_exc()
+
+
+### test hàm detect query bằng llm
+    #     print("="*80)
+    #     print("GEMINI QUERY DETECTION TEST")
+    #     print("="*80)
+        
+    #     for query in test_queries:
+    #         print(f"\n📝 Query: {query}")
+            
+    #         # Detect với Gemini
+    #         llm_type = retriever._detect_query_with_LLM(query)
+            
+    #         # Detect với keyword để so sánh
+    #         keyword_type = retriever._detect_with_keywords(query)
+            
+    #         # So sánh
+    #         match = "✅" if llm_type == keyword_type else "❌"
+    #         print(f"{match} Gemini: {llm_type} | Keyword: {keyword_type}")
+        
+    #     print(f"\n{'='*80}")
+    #     print("✅ Test completed!")
+    
+    # except Exception as e:
+    #     print(f"❌ Error during test: {e}")
+    #     import traceback
+    #     traceback.print_exc()

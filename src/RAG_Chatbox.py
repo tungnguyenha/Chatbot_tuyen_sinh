@@ -13,6 +13,7 @@ from config import (GEMINI_MODEL, GEMINI_API_KEY, LLM_TEMPERATURE, LLM_MAX_TOKEN
                     ADMISSION_EMAIL, ADMISSION_HOTLINE, UNIVERSITY_WEBSITE )
 
 from src.retriever import University_Retrieve
+
 from src.utils import format_source
 
 class AdmissionChatbot:
@@ -27,7 +28,8 @@ class AdmissionChatbot:
         self.llm = ChatGoogleGenerativeAI(model=GEMINI_MODEL,
                                           temperature=LLM_TEMPERATURE,
                                           max_output_tokens=LLM_MAX_TOKENS,
-                                          google_api_key= api_key or GEMINI_API_KEY,
+                                          google_api_key= api_key or GEMINI_API_KEY
+                                          
                                           )
         print("✅ Gemini connected!")
         # Load prompt
@@ -245,9 +247,9 @@ def test_chatbot():
         return
     # Test queries
     test_queries = [
-        "Ngành du lịch học những môn gì?",
-        "Điểm chuẩn trí tuệ nhân tạo năm 2024",
-        "Học phí trí tuệ nhân tạo bao nhiêu?"
+        # "Ngành du lịch học những mon gì?",
+        # "Điểm chun trí tuệ nhân tạo năm 2024",
+        "Học phíe du lịch bao nhiêu?"
     ]
     
     for i, query in enumerate(test_queries, 1):
